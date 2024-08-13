@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e2f8269edf6213a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Negocios/Resumen.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Seguridad/Experiencia 1/Resumen.md",
+                "file": "Negocios/Resumen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Seguridad/Experiencia 1/Resumen.md",
+                "file": "Negocios/Resumen.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Seguridad/Experiencia 1/Resumen.md"
+                "file": "Negocios/Resumen.md"
               }
             }
           }
@@ -151,11 +164,15 @@
       "tldraw:Create new tldrawing": false
     }
   },
-  "active": "070f7b8dd5a4b56f",
+  "active": "e2f8269edf6213a6",
   "lastOpenFiles": [
-    "ML/Tasks.md",
+    "Negocios/Imagenes/Pasted image 20240813145137.png",
+    "Negocios/Imagenes",
+    "Negocios/Imagenes/Pasted image 20240813143728.png",
+    "Pasted image 20240813143435.png",
     "Seguridad/Experiencia 1/Resumen.md",
-    "Untitled.md",
+    "Negocios/Resumen.md",
+    "ML/Tasks.md",
     "Seguridad/Experiencia 1",
     "ML/Experiencia 1/Resumen.md",
     "Seguridad/Imagenes",
@@ -179,7 +196,6 @@
     "Negocios",
     "Ingles",
     "Emprendimiento",
-    "Gestion",
     "Web/Vue/Start a project.md",
     "Web/Vue/Vue-IndecisionApp.md",
     "Web/Vue/Introducción a Vue.md",
@@ -194,11 +210,8 @@
     "Web/Vue/Directives/Custom Directives.md",
     "OS/Linux/Arch/Wayland/Hyprland.md",
     "Index.md",
-    "Web/Ruby/Introducción a Ruby y Ruby on Rails.md",
     "Web/Vue/Images/Pasted image 20240730150110.png",
     "Web/React/Imagenes/1 w6bwaBeN-ZCEnPAr7sIbyw.webp",
-    "Pasted image 20240728170617.png",
-    "Pasted image 20240618182107.png",
     "Year/Semester/Plataformas/Untitled.canvas",
     "Untitled.canvas",
     "Networks/IPs/Untitled.canvas"
