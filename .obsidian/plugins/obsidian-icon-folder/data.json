@@ -189,6 +189,8 @@
   "ML/Experiencia 1/Resumen.md": "FiFile",
   "Seguridad/Experiencia 1": "CoFolder",
   "Seguridad/Experiencia 1/Resumen.md": "FiFile",
-  "Negocios/Resumen.md": "FiFile",
-  "Negocios/Imagenes": "FiImage"
+  "Negocios/Imagenes": "FiImage",
+  "Gestion/Experiencia 1": "CoFolder",
+  "Negocios/Experiencia 1": "CoFolder",
+  "Negocios/Experiencia 1/Resumen.md": "FiFile"
 }
