@@ -49,7 +49,7 @@ Por el contrario, la **Ciberseguridad** se enfoca principalmente en la informaci
 **Datos Personales:** Datos que te conciernen solo a ti: fotos, redes sociales, información familiar, cuentas bancarias, facturas, etc. Debemos asegurarnos que esta información solo llegue a quien nos interese.
 
 **Datos de la empresa:** Datos que administras en tu trabajo día a día: datos de los clientes, información financiera y tributaria, estructura organizacional, métricas, etc. La empresa generalmente asegura esta información mediante un NDA.
-
+- **NDA**: Acuerdo de confidencialidad cual te hacen firmar en una empresa de **ciberseguridad.**
 
 ### El eslabón mas débil
 Los incidentes de seguridad de la información y ciberseguridad son cada vez más frecuente. Esto debido a que en la gran mayoría de ocasiones el eslabón más débil es el usuario y por ello, nos daremos cuenta **que el usuario es quien les abre la puerta** a los ciberdelincuentes, 

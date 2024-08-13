@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/Tasks.md",
+                "file": "Seguridad/Experiencia 1/Resumen.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/Tasks.md",
+                "file": "Seguridad/Experiencia 1/Resumen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/Tasks.md",
+                "file": "Seguridad/Experiencia 1/Resumen.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Tasks.md"
+                "file": "Seguridad/Experiencia 1/Resumen.md"
               }
             }
           }
@@ -153,13 +153,13 @@
   },
   "active": "070f7b8dd5a4b56f",
   "lastOpenFiles": [
+    "ML/Tasks.md",
     "Seguridad/Experiencia 1/Resumen.md",
     "Untitled.md",
     "Seguridad/Experiencia 1",
     "ML/Experiencia 1/Resumen.md",
     "Seguridad/Imagenes",
     "Pasted image 20240812205150.md",
-    "ML/Tasks.md",
     "ML/Imagenes/Pasted image 20240812205150.png",
     "ML/Imagenes/Pasted image 20240812203057.png",
     "ML/Imagenes/Pasted image 20240812203221.png",
