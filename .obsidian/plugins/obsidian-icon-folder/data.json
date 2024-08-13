@@ -183,7 +183,10 @@
   "Ingles/Tasks.md": "FiFile",
   "Negocios/Tasks.md": "FiFile",
   "Seguridad/Tasks.md": "FiFile",
-  "ML/Experiencia1": "CoFolder",
-  "ML/Experiencia1/Resumen.md": "FiFile",
-  "ML/Imagenes": "FiImage"
+  "ML/Imagenes": "FiImage",
+  "Seguridad/Imagenes": "FiImage",
+  "ML/Experiencia 1": "CoFolder",
+  "ML/Experiencia 1/Resumen.md": "FiFile",
+  "Seguridad/Experiencia 1": "CoFolder",
+  "Seguridad/Experiencia 1/Resumen.md": "FiFile"
 }

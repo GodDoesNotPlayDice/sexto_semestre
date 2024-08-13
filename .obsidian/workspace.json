@@ -8,39 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "86019f53c20f797b",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "db28c05bfa7b66be",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Etica/Tasks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "07b73d2a32a4200a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Emprendimiento/Tasks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2aee71e0bb98058d",
+            "id": "070f7b8dd5a4b56f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -50,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "070f7b8dd5a4b56f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/Experiencia1/Resumen.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -130,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/Experiencia1/Resumen.md",
+                "file": "ML/Tasks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/Experiencia1/Resumen.md",
+                "file": "ML/Tasks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Experiencia1/Resumen.md"
+                "file": "ML/Tasks.md"
               }
             }
           }
@@ -198,8 +153,12 @@
   },
   "active": "070f7b8dd5a4b56f",
   "lastOpenFiles": [
+    "Seguridad/Experiencia 1/Resumen.md",
+    "Untitled.md",
+    "Seguridad/Experiencia 1",
+    "ML/Experiencia 1/Resumen.md",
+    "Seguridad/Imagenes",
     "Pasted image 20240812205150.md",
-    "ML/Experiencia1/Resumen.md",
     "ML/Tasks.md",
     "ML/Imagenes/Pasted image 20240812205150.png",
     "ML/Imagenes/Pasted image 20240812203057.png",
@@ -208,7 +167,7 @@
     "Pasted image 20240812201926.png",
     "ML/Imagenes",
     "ML/Imagenes/Pasted image 20240812201815.png",
-    "ML/Experiencia1",
+    "ML/Experiencia 1",
     "Seguridad/Tasks.md",
     "Negocios/Tasks.md",
     "Ingles/Tasks.md",
@@ -221,7 +180,6 @@
     "Ingles",
     "Emprendimiento",
     "Gestion",
-    "Etica",
     "Web/Vue/Start a project.md",
     "Web/Vue/Vue-IndecisionApp.md",
     "Web/Vue/Introducción a Vue.md",
@@ -232,14 +190,11 @@
     "Web/Vue/CreateApp/All methods.md",
     "Web/Vue/Components/Slots.md",
     "Web/Vue/Components/Components Registration.md",
-    "Web/Tailwind",
     "Web/Tailwind/Tailwind Install.md",
     "Web/Vue/Directives/Custom Directives.md",
     "OS/Linux/Arch/Wayland/Hyprland.md",
     "Index.md",
     "Web/Ruby/Introducción a Ruby y Ruby on Rails.md",
-    "Web/Ruby/Arrays.md",
-    "Web/Vue/Testing.md",
     "Web/Vue/Images/Pasted image 20240730150110.png",
     "Web/React/Imagenes/1 w6bwaBeN-ZCEnPAr7sIbyw.webp",
     "Pasted image 20240728170617.png",
