@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "FiImage",
       "CoFolder",
       "FiFile",
       "BoBxlTailwindCss",
-      "BoBxlTypescript",
-      "TiWorld"
+      "BoBxlTypescript"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [
@@ -182,5 +182,8 @@
   "ML/Tasks.md": "FiFile",
   "Ingles/Tasks.md": "FiFile",
   "Negocios/Tasks.md": "FiFile",
-  "Seguridad/Tasks.md": "FiFile"
+  "Seguridad/Tasks.md": "FiFile",
+  "ML/Experiencia1": "CoFolder",
+  "ML/Experiencia1/Resumen.md": "FiFile",
+  "ML/Imagenes": "FiImage"
 }
