@@ -13,7 +13,6 @@ Los **FACTORES** deben estar vinculados a los objetivos estratégicos de la orga
 ## Porque son importantes?
 Surge como **RESPUESTA A UNA NECESIDAD,** acorde con la visión de la organización, aunque esta puede desviarse en función del interés. El proyecto finaliza cuando se obtiene el resultado deseado, y se puede decir que colapsa cuando desaparece la necesidad inicial o se agotan los recursos disponibles.
 
-
 ## Dirección de Proyecto
 La **Dirección de Proyectos** es la **aplicación** de conocimientos, habilidades, herramientas y técnicas a las actividades de un proyecto para alcanzar los requerimientos de éste.
 
@@ -59,6 +58,8 @@ La ejecución de un proyecto debe responder a las siguientes interrogantes
 
 
 # Acta de constitución
+**Importante**: saber la importancia del acta.
+
 **ACTA DE CONSTITUCIÓN,** es poder contar con un documento que tenga la información base o general del proyecto, que brinde una idea del trabajo a desarrollar. Esta información es de alto nivel o información general, la cual se irá detallando en la etapa de planificación a través de los distintos procesos que se llevan a cabo en el proyecto.
 
 > Documento que autoriza formalmente un proyecto y documenta los requisitos iniciales de acuerdo con las demandas, necesidades y expectativas de los interesados, también se le conoce como **PROJECT CHARTER**
@@ -74,6 +75,16 @@ Las buenas prácticas de gestión de proyectos recomiendan que esa información 
 - Permite visualizar las diferentes iniciativas de la organización.
 
 
+## Quienes firman el acta de constitución?
+Los representante de cada parte.
+
+- **Patrocinador:** Es la persona que autoriza el proyecto.
+- **Director de proyecto:** Es la persona responsable de la ejecución del proyecto.
+- **Interesados:** Son las personas que tienen interés en el proyecto.
+- **Equipo de proyecto:** Son las personas que trabajan en el proyecto.
+- **Clientes:** Son las personas que recibirán el producto o servicio del proyecto.
+
+
 ## Importancia del actas de constitución
 La importancia de elaborar el **Acta de Constitución es que AYUDA** a tener un documento inicial que se puede considerar como la partida de nacimiento del proyecto, y a partir de la cual se entrará a la etapa de planificación con una base para que a partir de eso se detalle la información de cada área de conocimiento.
 
@@ -83,12 +94,13 @@ En este documento se indica a la persona responsable del proyecto, es decir se n
 ## Que debe incluir un acta de constitución?
 - **Justificación del Proyecto**: Es una descripción de la razón o motivo que está dando origen al desarrollo del proyecto, siempre asociado a cubrir o satisfacer una necesidad existente **(Concepto clave)**
 - **Objetivos del Proyecto**: Es una descripción de los objetivos que se quiere lograr con el desarrollo del proyecto. Puede ponerse los objetivos que se quieren alcanzar en diferentes variables del proyecto como alcance, cronograma, costos, calidad, entre otros. En este nivel la descripción de los objetivos es general. **(Concepto clave)**
-- **Los involucrados identificados**: : Es una lista de las personas o grupos de personas que están involucradas en el desarrollo del proyecto. Se debe identificar a los interesados internos y externos que están involucrados en el proyecto.
+
+- **Los involucrados identificados**: : Es una lista de las personas o grupos de personas que están involucradas en el desarrollo del proyecto. Se debe identificar a los **interesados** internos y externos que están involucrados en el proyecto.
 - **Riesgos de alto nivel**: Es una descripción de los riesgos que se pueden presentar en el desarrollo del proyecto. En este nivel se describen los riesgos de alto nivel que se pueden presentar en el desarrollo del proyecto.
 - **Costo estimado (ROM)**: Es una descripción del costo estimado que se tiene para el desarrollo del proyecto. En este nivel se describe el costo estimado que se tiene para el desarrollo del proyecto.
 - **Relación con las metas estratégicas de la organización**: : Es una descripción de cómo el proyecto se relaciona con las metas estratégicas de la organización. En este nivel se describe cómo el proyecto se relaciona con las metas estratégicas de la organización.
 - **Duración estimada**: : Es una descripción de la duración estimada que se tiene para el desarrollo del proyecto. En este nivel se describe la duración estimada que se tiene para el desarrollo del proyecto.
-- **Supuestos y restricciones**: Es una descripción de los supuestos y restricciones que se tienen para el desarrollo del proyecto. En este nivel se describen los supuestos y restricciones que se tienen para el desarrollo del proyecto.
+- **Supuestos y restricciones**: Es una descripción de los supuestos y restricciones que se tienen para el desarrollo del proyecto. En este nivel se describen los supuestos y restricciones que se tienen para el desarrollo del proyecto. (Alcance)
 
 
 ## Algunos conceptos clave
@@ -96,19 +108,33 @@ En este documento se indica a la persona responsable del proyecto, es decir se n
 
 **Requerimientos de alto nivel**: Es una descripción de los principales requerimientos del proyecto que permita conocer aquello con lo que se necesita contar. Se pueden describir los requerimientos que debe tener el proyecto. También se puede describir los requerimientos que debe tener el producto final que se entregará.
 
+### Dimensiones variables de un proyecto
+- **Alcance**
+- **Tiempo**
+- **Costo**
+- **Calidad**
+- **Recursos Humanos**
+- **Comunicaciones**
+
 ### En su ejecución debe responder.
 **Riesgos Iniciales**: Lista de los riesgos iniciales que se pueden identificar. La descripción de estos riesgos es de forma general sin entrar a mucho detalle.
 
 **Cronograma de Hitos principales**: Lista de los hitos principales o las fases más importantes del proyecto. Se puede colocar también las fecha o tiempos estimados de ejecución de cada una de ellas, las cuales permitirán tener una idea a nivel general del tiempo de duración del proyecto.
 
 **Presupuesto incial estimado**: Es el presupuesto estimado del proyecto el cual puede obtenerse tomando como referencia el cronograma de hitos principales. Es decir, por cada hito o fase del cronograma inicial se puede poner los montos estimados y la sumatoria de todos los montos da como resultado el presupuesto inicial estimado.
+- Hito : Costo
 
-**Lista Inicial de Interesados**: Es una lista inicial de los interesados identificados. En esta etapa de inicio puede identificarse a unidades, áreas o departamentos de la organización, en caso sean interesados internos; o también entidades o instituciones en caso sean interesados externos. En caso se tenga información específica sobre algún interesado como, por ejemplo, su nombre, departamento donde trabaja o alguna otra información, se puede colocar.
+**Lista Inicial de Interesados**: Es una lista inicial de los interesados identificados. En esta etapa de inicio puede identificarse a unidades, áreas o departamentos de la organización, en caso sean interesados internos; o también entidades o instituciones en caso sean interesados externos.  (Stakeholders internos y externos)
+En caso se tenga información específica sobre algún interesado como, por ejemplo, su nombre, departamento donde trabaja o alguna otra información, se puede colocar.
 
 
 **Personal y recursos iniciales**: Es una lista de los recursos humanos, materiales, equipos o insumos que se pueden identificar en primera instancia a ser utilizados. En caso de contar con alguna característica o información adicional de cada recurso, se puede colocar.
+- **Recursos**: Mano de trabajo.
+- **Materiales**: Donde se va a trabajar.
 
-**Criterios de aprobación del proyecto**: Es una lista o descripción de los criterios bajo los cuales se dará por aprobado el proyecto. Estos criterios se pueden entender como aquellas situaciones, condiciones, requerimientos o eventos que deben cumplirse para que el proyecto sea aceptado y aprobado.
+**Criterios de aprobación del proyecto**: Es una lista o descripción de los criterios bajo los cuales se dará por aprobado el proyecto.
+Estos criterios se pueden entender como aquellas situaciones, condiciones, requerimientos o eventos que deben cumplirse para que el proyecto sea aceptado y aprobado.
+
 
 **Director de proyecto y nivel de autoridad**: Nombre de la persona responsable del desarrollo del proyecto y el nivel de autoridad que tendrá. Por lo general, el nivel de autoridad es alto para que pueda tener el poder de negociar, gestionar y solicitar recursos.
 
@@ -116,18 +142,12 @@ En este documento se indica a la persona responsable del proyecto, es decir se n
 
 **Criterios de aprobación del proyecto**: Es una lista o descripción de los criterios bajo los cuales se dará por aprobado el proyecto. Estos criterios se pueden entender como aquellas situaciones, condiciones, requerimientos o eventos que deben cumplirse para que el proyecto sea aceptado y aprobado.
 
-
 ## Consideraciones del Sponsor
 La directiva toma decisiones sobre como **responder, que autoriza y se desarrolla.**
-### Caracteristicas
+### Características
 - Una Demanda del mercado.
 - Una Necesidad de negocio.
 - Una Petición de un cliente.
 - Un Avance Tecnológico.
 - Un requisito legal.
 - Una necesidad social.
-
-
-
-
-
