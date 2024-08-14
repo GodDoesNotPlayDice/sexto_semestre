@@ -167,3 +167,184 @@ El modelo contiene seis fases con flechas que indican las dependencias más impo
 
 ### Deployment
 **Despliegue:** Aquí el modelo ya ha sido construido y evaluado. Esta etapa lleva a producción el modelo desarrollado, mediante acciones específicas, el conocimiento adquirido mediante las etapas previas, pudiendo ser aplicado a diversos y nuevos conjuntos de datos o también dentro de un proceso del negocio. 
+
+# Algebra Lineal
+El álgebra lineal es una rama de las matemáticas utilizada en ciencia e ingeniería, centrada en el **estudio de vectores, matrices, espacios vectoriales y sus transformaciones lineales.** Aunque "lineal" se refiere a la línea en términos generales, en matemáticas tiene un significado más amplio, relacionado con la generalización de propiedades de la línea recta. Los vectores, conocidos comúnmente como "vectores geométricos", son objetos que pueden sumarse y multiplicarse por escalares, generando otros objetos del mismo tipo.
+
+
+## En Machine Learning
+Dentro de Machine Learning se manejan cantidades enormes de datos y es más fácil su manipulación convirtiéndolos en matrices.
+
+El álgebra lineal hace que las operaciones matriciales sean rápidas y fáciles, especialmente cuando se utiliza GPU (graphics processing unit). De hecho, las GPU se crearon pensando en las operaciones vectoriales y matriciales.
+
+> Pero no solamente los datos se pueden representar en matrices sino también las imágenes pueden representarse como matrices de píxeles, los videojuegos generan atractivas experiencias de juego utilizando enormes matrices en constante evolución. 
+> 
+> En lugar de procesar los píxeles uno a uno, las GPU manipulan matrices enteras de píxeles en paralelo, y para realizar todo esto se necesita aplicar álgebra lineal.
+
+
+## Conjunto de datos
+En  Machine Learning  los conjuntos de datos que se manejan suelen convertirse en forma de vectores o matrices, y las salidas también son **escalares, vectores, matrices o tensores.**
+
+### Escalares
+Son un único número o valor, a diferencia de la mayoría de los otros elementos del álgebra lineal que son conjuntos de valores como los vectores y matrices.
+> Generalmente, por convención a los escalares los escribimos en letra cursiva minúscula o usando el alfabeto griego.
+
+#### Caracteristicas
+Los principales conjuntos de **escalares** son:
+
+**Números Naturales (ℕ):** los números que se utilizan para contar los elementos de cualquier conjunto. (1, 2, 3, 4, …)
+
+**Números Enteros (ℤ):** el conjunto de los números enteros está dado por el conjunto de los naturales, sus negativos y el cero. (…, -2, -1, 0, 1, 2, …)
+
+**Números Reales (ℝ):** el conjunto de los reales incluye tanto a los racionales como a los irracionales.
+
+
+```python
+a = 2
+b = 4.8
+c = 7.435
+
+print(a) # 2
+print(b) # 4.8
+print(c) # 7.435
+
+print(a + b) # 6.8
+print(b - c) # -2.635
+print(b * a)  # 9.6
+print(c / b) # 1.54
+print(c // b)  # 1.0
+```
+
+### Vectores
+Son una matriz de números, ya sea en una fila o en una columna, y se identifican con un solo índice.
+
+Un vector de ”n” componentes se define como un conjunto ordenado de ”n” números escrito de forma horizontal si es un “vector fila”.
+
+$$
+\mathbf{V} = (x_1, x_2, \ldots, x_n)
+$$
+El vector de **columna se ve así**:
+
+$$
+\mathbf{V} = \begin{pmatrix}
+x_1 \\
+x_2 \\
+\vdots \\
+x_n
+\end{pmatrix}
+
+$$
+
+
+A los vectores se le denota por una letra minúscula en **negrita**.
+
+```python
+import numpy as np
+
+v = np.array([1, 2, 3, 4, 5])
+print(v) # [1 2 3 4 5]
+
+```
+
+
+### Matriz.
+Una matriz es un arreglo bi-dimensional de números. Cada elemento de la misma está identificado por dos índices, en lugar de uno como en los vectores. Usualmente, a una matriz la denotamos por una letra mayúscula en negrita.
+
+$$
+\mathbf{A} = \begin{pmatrix}
+a_{11} & a_{12} & \cdots & a_{1j} & \cdots & a_{1n} \\
+a_{21} & a_{22} & \cdots & a_{2j} & \cdots & a_{2n} \\
+\vdots & \vdots & \ddots & \vdots & \ddots & \vdots \\
+a_{i1} & a_{i2} & \cdots & a_{ij} & \cdots & a_{in} \\
+\vdots & \vdots & \ddots & \vdots & \ddots & \vdots \\
+a_{m1} & a_{m2} & \cdots & a_{mj} & \cdots & a_{mn}
+\end{pmatrix}
+$$
+
+
+```python
+import numpy as np
+
+A = np.Array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+print(A) # [[1 2 3]
+          #  [4 5 6]
+          #  [7 8 9]]
+```
+
+
+
+### Tensores
+Se puede tener cualquier número de dimensiones en un tensor, aunque se hace más caro computacionalmente para manejar (Es una matriz de matrices).
+
+existen diversos casos en los cuales se precisan más de dos ejes para almacenar valores. 
+En el caso general, **una matriz con un número regular de ejes se lo conoce como tensor.** 
+**Por ejemplo, cuando almacenamos los valores de los píxeles de una imagen a color necesitamos una matriz con tres ejes (uno para cada canal de color: R, G y B).**
+
+![[Pasted image 20240814185349.png]]
+
+```python
+import matplotlib.pyplot as plt
+
+np.random.seed(123) # Semilla con valores aleatorios
+A = np.random.randint(256, size=(10,10,10)) # 256 indica que se crean valores entre 0 y 255
+
+plt.imshow(A)
+```
+
+![[Pasted image 20240814185331.png]]
+
+
+## Operaciones
+
+### Vectores
+
+#### Adición.
+
+```python
+import numpy as np
+
+rango_1 = np.arange(10)
+rango_2 = rango_1 * 2
+
+suma = rango_1 + rango_2
+
+```
+
+Representación gráfica del concepto de la propiedad conmutativa de la suma de vectores en álgebra lineal.
+
+La imagen muestra una representación gráfica del concepto de la propiedad conmutativa de la suma de vectores en álgebra lineal. 
+
+En la imagen, se tienen dos vectores **rr y ss**, y se ilustra que sumar **rr a ss** es lo mismo que sumar **ss a rr,** es decir, **r+s=s+rr+s=s+r.**
+
+![[Pasted image 20240814190812.png]]
+
+
+#### Sustracción de vectores
+```python
+import numpy as np
+
+a = np.random.random_sample(5) # Genera un vector de 5 elementos aleatorios
+b = np.ones(5) # Devuelve una lista de 5 "1"
+
+resta = a - b
+```
+
+![[Pasted image 20240814191333.png]]
+La imagen ilustra la propiedad de que restar un vector ss de otro **vector rr** es equivalente a sumar **rr** con el vector opuesto de **ss, −s−s.** Esto se visualiza mediante la construcción geométrica que muestra la suma de **rr y −s−s.**
+
+
+#### Multiplicar escalar por vectores
+```python
+import numpy as np
+
+r = np.array([3,2]) # Vector
+e = 2 # Escalar
+
+
+mul = e * r # Multiplicación escalar por vector
+print(mul) # [6 4]
+```
+
+![[Pasted image 20240814191924.png]]
+
+
