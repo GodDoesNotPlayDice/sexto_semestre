@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "9ac411493fce7364",
+        "id": "cf23587edeea6bcd",
         "type": "tabs",
         "children": [
           {
-            "id": "f6fa5bcf69cb36ed",
+            "id": "eaa10c31238cae67",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Gestion/Experiencia 1/Resumen.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Gestion/Experiencia 1/Resumen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Gestion/Experiencia 1/Resumen.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Gestion/Experiencia 1/Resumen.md"
+              }
             }
           }
         ],
@@ -143,10 +151,14 @@
       "tldraw:Create new tldrawing": false
     }
   },
-  "active": "f6fa5bcf69cb36ed",
+  "active": "eaa10c31238cae67",
   "lastOpenFiles": [
-    "Gestion/Esquemas/Acta de constitución.md",
+    "Gestion/Experiencia 1/Caso/Farmacia.md",
     "Gestion/Experiencia 1/Resumen.md",
+    "Gestion/Experiencia 1/Caso/Imagenes",
+    "Gestion/Experiencia 1/Caso/Imagenes/Pasted image 20240814110824.png",
+    "Gestion/Experiencia 1/Caso",
+    "Gestion/Esquemas/Acta de constitución.md",
     "Gestion/Esquemas/Que es un proyecto.md",
     "tldraw",
     "Emprendimiento/Experiencia 1/Resumen.md",
@@ -165,9 +177,7 @@
     "Negocios/Imagenes/Pasted image 20240813143728.png",
     "Negocios/Imagenes",
     "Seguridad/Experiencia 1/Resumen.md",
-    "Seguridad/Experiencia 1",
     "ML/Experiencia 1/Resumen.md",
-    "Seguridad/Imagenes",
     "Pasted image 20240812205150.md",
     "ML/Imagenes/Pasted image 20240812205150.png",
     "ML/Imagenes/Pasted image 20240812203057.png",
@@ -187,10 +197,7 @@
     "Web/Vue/Composables/Composables.md",
     "Web/Vue/Directives/Built-in Directives.md",
     "Web/Vue/CreateApp/Create App.md",
-    "Web/Vue/CreateApp/All methods.md",
-    "Web/Vue/Components/Slots.md",
     "Web/Vue/Images/Pasted image 20240730150110.png",
-    "Web/React/Imagenes/1 w6bwaBeN-ZCEnPAr7sIbyw.webp",
     "Year/Semester/Plataformas/Untitled.canvas",
     "Untitled.canvas",
     "Networks/IPs/Untitled.canvas"

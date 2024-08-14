@@ -200,5 +200,8 @@
   "Emprendimiento/Experiencia 1/Resumen.md": "CoFolder",
   "Gestion/Esquemas": "CoFolder",
   "Gestion/Esquemas/Que es un proyecto.md": "LiPen",
-  "Gestion/Esquemas/Acta de constitución.md": "LiPen"
+  "Gestion/Esquemas/Acta de constitución.md": "LiPen",
+  "Gestion/Experiencia 1/Caso": "CoFolder",
+  "Gestion/Experiencia 1/Caso/Farmacia.md": "FiFile",
+  "Gestion/Experiencia 1/Caso/Imagenes": "FiImage"
 }
