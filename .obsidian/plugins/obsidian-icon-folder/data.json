@@ -192,5 +192,10 @@
   "Negocios/Imagenes": "FiImage",
   "Gestion/Experiencia 1": "CoFolder",
   "Negocios/Experiencia 1": "CoFolder",
-  "Negocios/Experiencia 1/Resumen.md": "FiFile"
+  "Negocios/Experiencia 1/Resumen.md": "FiFile",
+  "Gestion/Experiencia 1/Resumen.md": "FiFile",
+  "Gestion/Experiencia 2": "CoFolder",
+  "Gestion/Experiencia 2/Resumen.md": "FiFile",
+  "Emprendimiento/Experiencia 1": "CoFolder",
+  "Emprendimiento/Experiencia 1/Resumen.md": "CoFolder"
 }

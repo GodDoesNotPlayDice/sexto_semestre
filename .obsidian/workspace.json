@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "ea7ac06c1ade27c3",
+        "id": "bc576f8c2aab0da4",
         "type": "tabs",
         "children": [
           {
-            "id": "070f7b8dd5a4b56f",
+            "id": "86ee99e44e18bfdb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/Tasks.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/Tasks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/Tasks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "ML/Tasks.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -151,8 +143,17 @@
       "tldraw:Create new tldrawing": false
     }
   },
-  "active": "f40a5c963d9bea0e",
+  "active": "86ee99e44e18bfdb",
   "lastOpenFiles": [
+    "ML/Tasks.md",
+    "Gestion/Experiencia 1/Resumen.md",
+    "Emprendimiento/Tasks.md",
+    "Emprendimiento/Experiencia 1/Resumen.md",
+    "Emprendimiento/Experiencia 1",
+    "Gestion/Experiencia 2/Resumen.md",
+    "Gestion/Experiencia 2/Untitled",
+    "Gestion/Experiencia 2",
+    "Direccion.md",
     "Negocios/Experiencia 1",
     "Gestion/Experiencia 1",
     "Negocios/Experiencia 1/Resumen.md",
@@ -160,12 +161,10 @@
     "Negocios/Imagenes/Pasted image 20240813143728.png",
     "Negocios/Imagenes",
     "Seguridad/Experiencia 1/Resumen.md",
-    "Untitled.md",
     "Seguridad/Experiencia 1",
     "ML/Experiencia 1/Resumen.md",
     "Seguridad/Imagenes",
     "Pasted image 20240812205150.md",
-    "ML/Tasks.md",
     "ML/Imagenes/Pasted image 20240812205150.png",
     "ML/Imagenes/Pasted image 20240812203057.png",
     "ML/Imagenes/Pasted image 20240812203221.png",
@@ -178,12 +177,7 @@
     "Negocios/Tasks.md",
     "Ingles/Tasks.md",
     "Gestion/Tasks.md",
-    "Emprendimiento/Tasks.md",
     "Etica/Tasks.md",
-    "Seguridad",
-    "ML",
-    "Negocios",
-    "Ingles",
     "Web/Vue/Start a project.md",
     "Web/Vue/Vue-IndecisionApp.md",
     "Web/Vue/Introducción a Vue.md",
@@ -194,9 +188,6 @@
     "Web/Vue/CreateApp/All methods.md",
     "Web/Vue/Components/Slots.md",
     "Web/Vue/Components/Components Registration.md",
-    "Web/Tailwind/Tailwind Install.md",
-    "Web/Vue/Directives/Custom Directives.md",
-    "OS/Linux/Arch/Wayland/Hyprland.md",
     "Web/Vue/Images/Pasted image 20240730150110.png",
     "Web/React/Imagenes/1 w6bwaBeN-ZCEnPAr7sIbyw.webp",
     "Year/Semester/Plataformas/Untitled.canvas",
