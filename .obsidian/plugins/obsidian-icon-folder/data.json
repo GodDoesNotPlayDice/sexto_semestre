@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiPen",
       "FiImage",
       "CoFolder",
       "FiFile",
-      "BoBxlTailwindCss",
-      "BoBxlTypescript"
+      "BoBxlTailwindCss"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [
@@ -197,5 +197,8 @@
   "Gestion/Experiencia 2": "CoFolder",
   "Gestion/Experiencia 2/Resumen.md": "FiFile",
   "Emprendimiento/Experiencia 1": "CoFolder",
-  "Emprendimiento/Experiencia 1/Resumen.md": "CoFolder"
+  "Emprendimiento/Experiencia 1/Resumen.md": "CoFolder",
+  "Gestion/Esquemas": "CoFolder",
+  "Gestion/Esquemas/Que es un proyecto.md": "LiPen",
+  "Gestion/Esquemas/Acta de constitución.md": "LiPen"
 }
