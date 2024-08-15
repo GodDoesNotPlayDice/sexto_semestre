@@ -1,4 +1,5 @@
 
+
 # PPT1
 
 ## Dimensiones de la Seguridad
@@ -146,3 +147,219 @@ Multas económicas por mas de 12 Millones de pesos.
 
 # PPT2
 
+## Gestión de Activos
+Identificar y gestionar los riesgos a los cuales están expuestos los activos de información,
+para **preservar su confidencialidad, integridad y disponibilidad,** utilizando un proceso sistemático para lograr un adecuado tratamiento de los riesgos e implementación de controles efectivos. **(ISO 27005:2018 y la ISO 31000:2018**)
+
+### Que es un activo
+Cualquier elemento al cual se le asigna un valor y por tanto debe protegerse, o cual puede entenderse igualmente como aquello que requiere la organización para el cumplimiento de sus objetivos. 
+
+![[Pasted image 20240814233412.png]]
+### Valoración de los activos de información
+Una vez **identificados** los activos, se realizará la valoración de cada uno de ellos en términos de valor para el negocio según **la disponibilidad, confidencialidad e integridad**
+
+### Disponibilidad
+Los activos de una determinada organización tendrán mayor valor en la medida que si no están disponibles se impactará gravemente el negocio.
+> Igualmente, un activo que al no estar disponible no afecte de ningún modo el negocio, tendrá un menor valor.
+
+|                                                                                                        | **MINIMO (1)**                                               | **MEDIO (3)**                                                                     | **GRAVE (5)**                                                 | **CATASTRÓFICO (7)**                                           |
+| ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------ | --------------------------------------------------------------------------------- | ------------------------------------------------------------- | -------------------------------------------------------------- |
+| Las pérdidas **económicas** por indisponibilidad del activo son:                                       |                                                              |                                                                                   |                                                               |                                                                |
+| Los **servicios** prestados se ven afectados por la indisponibilidad del activo de la siguiente forma: | Interrupción leve o nula en suministro de servicios.         | Obliga al cliente a cambiar de proveedor de forma transitoria.                    | Pérdida de algunos clientes de forma definitiva.              | Pérdida de clientes clave.                                     |
+| La indisponibilidad del activo afecta la **operación** así:                                            | Interrupción leve o nula en suministro de servicios.         | Retrasos leves en funciones vitales.                                              | Retrasos graves en funciones vitales.                         | Interrupción inmediata de funciones vitales.                   |
+| La indisponibilidad del activo afecta la **imagen** en el sentido que:                                 | No afecta la confianza en los productos o servicios.         | Pérdida de confianza en un servicio específico o en una parte de la organización. | Pérdida de confianza de parte de los clientes.                | Pérdida de confianza del mercado y daños a la imagen de marca. |
+| La indisponibilidad del activo afecta el **cumplimiento** de obligaciones en el sentido que:           | Produce una falta leve en el cumplimiento de algún contrato. | Produce una falta en el cumplimiento de algún contrato que obliga a renegociar.   | Produce una falta grave en el cumplimiento de algún contrato. | Deja a la organización al margen de la ley.                    |
+
+**Tabla de valoración
+
+| **VALORACIÓN** | **VALOR** |
+| --- | --- |
+| Mínimo | 1 |
+| Medio | 3 |
+| Grave | 5 |
+| Catastrófico | 7 |
+
+
+### Confidencialidad
+Los activos de **información reciben una valoración alta cuando su nivel de confidencialidad** es mayor, teniendo en cuenta que la divulgación no autorizada de la misma puede afectar en alguna medida los intereses, imagen y operación de la compañía.
+
+
+**Tabla de valoración**
+
+| **CLASIFICACIÓN** | **VALOR** |
+| --- | --- |
+| Pública | 5 |
+| Uso Interno | 10 |
+| Confidencial | 15 |
+| Reservada | 20 |
+
+### Integridad
+Los activos **son valorados con mayor valor cuando su alteración puede generar daños** graves a la organización.
+
+| **CRITERIO** | **VALOR** |
+| --- | --- |
+| Información que afecta mucho la operación | 20 |
+| Información que afecta moderadamente el negocio | 15 |
+| Información que puede tener algunos errores o cambios sin afectar su sentido principal | 10 |
+| Información o activos que pueden tener errores sin tener impactos al negocio | 5 |
+
+### Calculo final del activo
+Para calcular el valor del activo se realiza la sumatoria de todos los factores evaluados y se establecerá el valor de activo teniendo en cuenta lo siguiente
+
+| **VALORACIÓN DE ACTIVO** | **SUMATORIA DE FACTORES CONSIDERADOS** |
+| --- | --- |
+| MB: muy bajo | De 14 a 24 |
+| B: bajo | De 25 a 35 |
+| M: medio | De 36 a 46 |
+| A: alto | De 47 a 57 |
+| MA: muy alto | De 58 a 68 |
+
+### Identificación de amenazas posibles
+Las amenazas son resultados de actos deliberados que pueden afectar nuestros activos o los activos de información, sin embargo, existen eventos naturales o accidentales que deben ser considerados por su capacidad de generar incidentes de seguridad.
+
+| **CAUSA** | **EVENTO O AMENAZA** |
+| --- | --- |
+| Eventos naturales | Terremotos o huracanes |
+| Eventos externos | Pérdida de proveedores, problemas de transporte, sobre carga |
+| Condiciones internas | Problemas de transporte |
+| Actos deliberados | Fallas de hardware, fallas de software, fallas de la red |
+| Actos accidentales | Destrucción de información, incendios |
+| Humano | Epidemias, indisponibilidad de personal |
+
+#### Identificación de vulnerabilidades de los activos
+Debe **identificarse la forma como cada una de las amenazas podría materializarse**, es decir, que vulnerabilidades permiten que las amenazas se **conviertan en situaciones de riesgo reales.**
+
+**Tipos de vulnerabilidades**
+- Ausencia de políticas
+- Configuraciones no seguras
+- Empleado descontento
+- Empleado deshonesto (sobornado o víctima de chantaje)
+- Errores de configuración.
+- Falta de actualizaciones
+- Uso de servicios inseguros
+- Uso de protocolos inseguros
+
+## Análisis de los riesgos sobre los activos
+Establecer la probabilidad de ocurrencia de los riesgos y el impacto de sus consecuencias, calificándolos y evaluándolos, a fin de determinar **la capacidad de la organización para su aceptación o manejo.**
+
+### Estimar impacto sobre los activos
+El impacto es la medida de daño causado por un incidente en el supuesto de que ocurra, afectando así, el valor de los activos, está perdida de valor la denominamos degradación del activo.
+
+| **VALORACIÓN DEL ACTIVO Y SU AFECTACIÓN** | (5%) | (25%) | (50%) | (75%) | (100%) |
+| ----------------------------------------- | ---- | ----- | ----- | ----- | ------ |
+| MA: Muy alto                              | A    | A     | A     | A     | MA     |
+| A: alto                                   | M    | M     | A     | A     | A      |
+| M: medio                                  | B    | M     | M     | A     | A      |
+| B: bajo                                   | MB   | MB    | MB    | M     | M      |
+| MB: muy bajo                              | MB   | MB    | MB    | B     | M      |
+### Estimar probabilidad de ocurrencia
+La probabilidad de ocurrencia es la medida de la posibilidad de que un evento o amenaza se materialice, afectando los activos de la organización.
+
+La probabilidad de ocurrencia se calcula con base en la siguiente tabla:
+
+**Cualitativa es**: probabilidad de ocurrencia.
+
+| **VALOR** | **OCURRENCIA** | **FRECUENCIA** |
+| --- | --- | --- |
+| Es probable que se materialice la amenaza a diario | 100 | Muy frecuente |
+| Es probable que se materialice la amenaza semestralmente | 10 | Frecuente |
+| Es probable que se materialice la amenaza anualmente | 1 | Normal |
+| Es probable que se materialice la amenaza cada varios años | 1/10 | Poco frecuente |
+
+**Cuantitativa**: A partir de los datos históricos que la organización haya acumulado en el tiempo. 
+
+La frecuencia se considera como numero de ocurrencias de la amenaza en un año.
+
+| **FRECUENCIA** | **PROBABILIDAD** |
+| --- | --- |
+| Más de 100 al año | Muy frecuente |
+| Entre 10 y 20 veces al año | Frecuente |
+| Entre 1 y 5 al año | Normal |
+| Menos de 1/10 al año | Poco frecuente |
+
+### Estimar riesgos
+Conociendo el impacto de las amenazas sobre los activos es posible determinar el nivel de riesgo, teniendo en cuenta la frecuencia de ocurrencia de los incidentes.
+
+
+| **Impacto** | **Poco frecuente** | **Normal** | **Frecuente** | **Muy frecuente** |
+| --- | --- | --- | --- | --- |
+| **MB: muy bajo** | Zona de riesgo importante | Zona de riesgo importante | Zona de riesgo importante | Zona de riesgo inaceptable |
+| **B: bajo** | Zona de riesgo moderado | Zona de riesgo moderado | Zona de riesgo importante | Zona de riesgo importante |
+| **M: medio** | Zona tolerable de riesgo | Zona de riesgo moderado | Zona de riesgo importante | Zona de riesgo importante |
+| **A: alto** | Zona aceptable del riesgo | Zona tolerable de riesgo | Zona de riesgo moderado | Zona de riesgo moderado |
+| **MA: muy alto** | Zona aceptable del riesgo | Zona aceptable del riesgo | Zona tolerable de riesgo | Zona tolerable de riesgo |
+
+
+## Controles
+Los controles existentes son las medidas con que se cuentan para reducir la exposición a los riesgos. (Procedimientos, mecanismos, controles tecnológicos, etc.)
+
+
+Para identificar los controles existente puede utilizarse como referencia el anexo A del estándar **ISO/IEC 27001/2013.**
+
+### Evaluar los controles existentes
+Una vez identificados los controles existentes es necesario evaluar su efectividad frente a los riesgos que se pretenden mitigar.
+
+**Criterios para valora los controles existentes**
+
+| **EVALUACIÓN DEL CONTROL** | **NULO 0%** | **DEFICIENTE 25%** | **REGULAR 50%** | **BUENO 75%** | **EXCELENTE 100%** |
+| --- | --- | --- | --- | --- | --- |
+| El control está formalmente establecido. | 0% | 25% | 50% | 75% | 100% |
+| El control está perfectamente desplegado, configurado y mantenido. | 0% | 25% | 50% | 75% | 100% |
+| Existen procedimientos claros de uso del control y en caso de incidencias. | 0% | 25% | 50% | 75% | 100% |
+| Los usuarios están formados y concienciados sobre la aplicación del control. | 0% | 25% | 50% | 75% | 100% |
+| El control es funcional desde el punto de vista teórico y operacional. | 0% | 25% | 50% | 75% | 100% |
+
+**Efectividad** = Promedio de las valoraciones realizadas.
+
+| **SUMA** | **EFECTIVIDAD DEL CONTROL** |
+| --- | --- |
+| Mayor de 89% | EXCELENTE |
+| De 65% y 89% | BUENA |
+| De 40% y 64% | REGULAR |
+| De 15% y 39% | DEFICIENTE |
+| Menor de 15% | NULA |
+## Valorización de riesgos
+Determinar **el nivel o grado de exposición de la organización a los impactos del riesgo**, estimando las prioridades para su tratamiento.
+
+### Estimar riesgo
+El riesgo se establece considerando los **controles existentes**, orientados a prevenir que el incidente se presente.
+
+### Controles orientados a prevención de incidentes
+Se aprecia como a **medida que la efectividad del control aumenta**, la frecuencia de ocurrencia de incidentes disminuye.
+
+Si los **controles tienen niveles adecuados de efectividad la degradación de los activos o la frecuencia de los incidentes debe ser menor** a los valores hallados inicialmente.
+![[Pasted image 20240815000049.png]]
+
+
+### Priorizar los riesgos sobre los activos
+El riesgo nos muestra el grado de exposición frente a las amenazas evaluadas, es posible **distinguir entre los riesgos aceptables, tolerables, moderados, importantes o inaceptables**, y establecer la prioridad **de las acciones requeridas para su tratamiento.** 
+
+Las acciones que se deben ejecutar se harán con base en la siguiente tabla:
+
+| **RIESGO** | **PRIORIDAD** | **TIEMPO DE EJECUCIÓN DE ACCIONES** |
+| --- | --- | --- |
+| Inaceptable | Muy Alta | Inmediata |
+| Importante | Alta | De 0 a 4 meses |
+| Moderado | Media | De 4 a 7 meses |
+| Tolerable | Baja | De 7 a 12 meses |
+| Aceptable | Muy baja | De 12 a 16 meses |
+
+
+## Gestión de riesgos en los activos
+**Estructurar los criterios para la toma de decisiones respecto al tratamiento de los riesgos**, en esta etapa se establece las guías de acción necesarias para coordinar y administrar los eventos que **pueden comprometer la confidencialidad, integridad y disponibilidad** de los **activos**.
+
+
+### Toma de decisiones
+Si el riesgo se ubica en la **Zona de Riesgo Aceptable**, permite a la **Organización aceptarlo**, es decir, el riesgo se **encuentra en un nivel que puede asumirse sin necesidad de tomar otras medidas de control.**
+
+Si el riesgo se ubica en la **Zona de Riesgo Inaceptable**, es aconsejable **eliminar la actividad que genera el riesgo** en la medida que sea posible.
+
+Si el riesgo se sitúa **en cualquiera de las otras zonas** (riesgo tolerable, moderado o importante) se deben tomar medidas para **llevar los Riesgos a la Zona Aceptable**, con la implementación de los respectivos controles.
+
+### Selección de controles
+Para seleccionar los controles frente a los riesgos establecidos, deberá realizarse un análisis **costo-beneficio** para evitar implementación de controles con costos superiores al costo de los riesgos reales.
+
+### Plan de tratamiento de riesgos
+Una vez seleccionado los controles que **serán implementados para mitigación de riesgos** es necesario elaborar un plan de acción que garantice un efectivo despliegue de los mismos.
+
+La elaboración del plan de tratamiento de riesgos será responsabilidad del Oficial de Seguridad y la respectiva aprobación de los mismos del Comité de Seguridad.
