@@ -299,6 +299,7 @@ plt.imshow(A)
 ### Vectores
 
 #### Adición.
+Esto es cuando se suman dos vectores, se suman cada componente del vector uno con el vector dos.
 
 ```python
 import numpy as np
@@ -320,6 +321,8 @@ En la imagen, se tienen dos vectores **rr y ss**, y se ilustra que sumar **rr a 
 
 
 #### Sustracción de vectores
+Esto es cuando se resta un vector de otro vector, se resta cada componente del vector de otro.
+
 ```python
 import numpy as np
 
@@ -334,6 +337,8 @@ La imagen ilustra la propiedad de que restar un vector ss de otro **vector rr** 
 
 
 #### Multiplicar escalar por vectores
+Esto es cuando se multiplica un número por un vector, se multiplica cada componente del vector por ese número.
+
 ```python
 import numpy as np
 
@@ -348,3 +353,182 @@ print(mul) # [6 4]
 ![[Pasted image 20240814191924.png]]
 
 
+### Matriz
+#### Multiplicar escalar con Matriz
+Cuando un Escalar es multiplicado con una Matriz, esta se realiza con todos los números que están en la Matriz.
+
+```python
+import numpy as np
+
+m = np.array([[4, 1, 7], [5, 9, 12]]) # Matriz
+e = 3
+mul = e * m
+print(mul) # [[12  3 21]
+           #  [15 27 36]]
+```
+
+$$
+3 \begin{pmatrix} 4 & 1 & 7 \\ 5 & 9 & 12 \end{pmatrix} = \begin{pmatrix} 3 \times 4 & 3 \times 1 & 3 \times 7 \\ 3 \times 5 & 3 \times 9 & 3 \times 12 \end{pmatrix} = \begin{pmatrix} 12 & 3 & 21 \\ 15 & 27 & 36 \end{pmatrix} \
+$$
+
+#### Producto punto o dot
+El producto punto es la suma de los productos de los elementos correspondientes de dos vectores.
+
+```python
+import numpy as np
+
+ma = np.array([1, 2], [3,4])
+mb = np.array([5, 6], [7, 8])
+
+mul = np.dot(ma, mb)
+print(mul) # [[19 22]
+           #  [43 50]]
+```
+
+$$
+\begin{pmatrix} a & b \end{pmatrix} \cdot \begin{pmatrix} x \\ y \end{pmatrix} = [ax + by]
+$$
+$$
+\begin{pmatrix} a & b \\ c & d \end{pmatrix} \cdot \begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} ax + by \\ cx + dy \end{pmatrix}
+$$
+$$
+\begin{pmatrix} a & b \\ c & d \end{pmatrix} \cdot \begin{pmatrix} w & x \\ y & z \end{pmatrix} = \begin{pmatrix} aw + by & ax + bz \\ cw + dy & cx + dz \end{pmatrix}
+$$
+
+#### Producto Hadamard
+El producto de **Hadamard** es el producto de dos matrices del mismo tamaño, donde cada elemento de la matriz resultante es el producto de los elementos correspondientes de las matrices originales.
+
+```python
+import numpy as np
+
+a = np.array([[1, 2], [3, 4]])
+b = np.array([[5, 6], [7, 8]])
+
+mul = np.multiply(a, b)
+
+print(mul) # [[ 5 12]
+           #  [21 32]]
+```
+
+$$
+\begin{pmatrix} 3 & 5 & 7 \\ 4 & 9 & 8 \end{pmatrix} \circ \begin{pmatrix} 1 & 6 & 3 \\ 0 & 2 & 9 \end{pmatrix} = \begin{pmatrix} 3 \times 1 & 5 \times 6 & 7 \times 3 \\ 4 \times 0 & 9 \times 2 & 8 \times 9 \end{pmatrix} \
+$$
+
+#### Matriz de Identidad
+Una matriz identidad, representado por I, tiene toda la diagonal principal definida por 1, y los demás valores rellenadas con 0.
+
+Una matriz identidad es siempre una matriz cuadrada.
+
+```python
+import numpy as np
+
+m_identidad = np.identity(5)
+array([[1., 0., 0., 0., 0.],
+       [0., 1., 0., 0., 0.],
+       [0., 0., 1., 0., 0.],
+       [0., 0., 0., 1., 0.],
+       [0., 0., 0., 0., 1.]])
+```
+
+$$
+\begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}_{2 \times 2} \quad \begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{pmatrix}_{3 \times 3} \
+$$
+#### Matriz inversa
+La matriz inversa, es aquella que al multiplicarse por sí misma, es igual a la matriz identidad y puede expresarse como
+$$
+AA^{-1} = A^{-1}A = I
+$$
+Estas matrices deben ser cuadradas y no todas las matrices tienen inversa.
+
+```python
+import numpy as np
+
+A = np.array(([1,3,3], [1,4,3], [1,3,4]))
+A_inv = np.linalg.inv(A)
+
+print(A_inv) # [[ 7. -3. -3.]
+             #  [-1.  1.  0.]
+             #  [-1.  0.  1.]]
+```
+
+$$
+\begin{pmatrix} a & b \\ c & d \end{pmatrix}^{-1} = \frac{1}{ad - bc} \begin{pmatrix} d & -b \\ -c & a \end{pmatrix} \
+$$
+#### Traspuesta de una matriz
+Una transpuesta de una matriz, es una nueva matriz donde prácticamente las filas son las columnas de la matriz original.
+
+```python
+import numpy as np
+A = np.array([[1, 2], [3, 4], [5, 6, 7]])
+A_t = A.T
+print(A_t) # [[1 3 5]
+           #  [2 4 6]]
+```
+
+$$
+\begin{pmatrix} 3 & 3 \\ 5 & -3 \\ 1 & 0 \\ 0 & -2 \\ 5 & -2 \end{pmatrix}^{T} = \begin{pmatrix} 3 & 5 & 1 & 0 & 5 \\ 3 & -3 & 0 & -2 & -2 \end{pmatrix} \
+$$
+
+## Eigenvalores y Eigenvectores
+
+Los **eigenvalores** y **eigenvectores** son conceptos clave en álgebra lineal que se utilizan en muchas áreas de las matemáticas y la ciencia, como la física, la informática, y la economía.
+
+1. **Eigenvectores**: Son vectores especiales que, cuando se multiplican por una matriz, no cambian de dirección. Solo pueden alargarse o acortarse, pero siempre apuntan en la misma dirección.
+2. **Eigenvalores**: Son los números que indican cuánto se alarga o se acorta un eigenvector cuando se multiplica por la matriz. 
+
+### Propiedades claves
+- **Vectores inmutables**: Los eigenvectores solo existen para matrices cuadradas (matrices que tienen el mismo número de filas y columnas) y no todas las matrices tienen eigenvectores. Si una matriz cuadrada tiene eigenvectores, tendrá tantos eigenvectores como el número de filas o columnas (por ejemplo, una matriz 3x3 tendrá 3 eigenvectores).
+    
+- **Multiplicación**: Si escalas (haces más grande o más pequeño) un eigenvector antes de multiplicarlo por la matriz, el resultado sigue siendo un múltiplo del mismo eigenvector. Es decir, cambiar la longitud del eigenvector no afecta su dirección, solo la cantidad por la que se escala.
+    
+- **Perpendicularidad**: En muchos casos, los eigenvectores de una matriz son perpendiculares (ortogonales) entre sí, lo que significa que forman ángulos rectos entre ellos.
+$$
+\begin{pmatrix} 2 & 3 \\ 2 & 1 \end{pmatrix} \times \begin{pmatrix} 3 \\ 2 \end{pmatrix} = \begin{pmatrix} 12 \\ 8 \end{pmatrix} = 4 \times \begin{pmatrix} 3 \\ 2 \end{pmatrix}
+$$
+
+### Neutralización
+Dada la propiedad de que **multiplicar un eigenvector solo cambia su longitud pero no su naturaleza de eigenvector**, es frecuente **escalarlos de tal forma que su longitud sea 1**.
+
+A estos eigenvectors se les llama **eigenvectors normalizados.**
+
+#### Ejemplo de Estandarización de un Eigenvector
+
+Supongamos que tienes un **eigenvector** 
+$$ v=(32)\mathbf{v} = \begin{pmatrix} 3 \\ 2 \end{pmatrix}$$
+
+**Paso 1**: Calcular la longitud del eigenvector
+
+La longitud de **v** se calcula usando la fórmula de la raíz cuadrada de la suma de los cuadrados de sus componentes:
+$$
+\text{Longitud} = \sqrt{3^2 + 2^2} = \sqrt{9 + 4} = \sqrt{13}
+$$
+
+
+**Paso 2**: Estandarizar el eigenvector
+Para hacer que el eigenvector tenga una longitud de 1 (lo que se llama estandarizar), divides cada componente del vector original por su longitud:
+
+$$
+\mathbf{v}_{\text{estandarizado}} = \begin{pmatrix} \frac{3}{\sqrt{13}} \\ \frac{2}{\sqrt{13}} \end{pmatrix}
+$$
+
+##### Interpretación
+El eigenvector estandarizado tiene la **misma dirección que el eigenvector original**, pero ahora **su longitud es 1.** Esto es útil porque facilita las comparaciones entre eigenvectores y es una práctica común en muchas aplicaciones matemáticas y científicas.
+
+En resumen, l**a estandarización hace que todos los eigenvectores tengan la misma "longitud" sin cambiar su dirección**
+
+
+### Eigenvalues
+Cuando se multiplica una matriz por alguno de sus eigenvectors se obtiene un múltiplo del vector original, es decir, el resultado es ese mismo vector multiplicado por un número. 
+
+Al valor por el que se multiplica el **eigenvector** resultante se le conoce como **eigenvalue**. 
+A todo **eigenvector** le corresponde un **eigenvalue** y **viceversa**.
+
+$$
+\begin{pmatrix} 2 & 3 \\ 2 & 1 \end{pmatrix} \times \begin{pmatrix} 3 \\ 2 \end{pmatrix} = \begin{pmatrix} 12 \\ 8 \end{pmatrix} = 4 \times \begin{pmatrix} 3 \\ 2 \end{pmatrix}
+
+$$
+
+**4**: eigenvalue
+**2  3**: eigenvector
+
+ 
