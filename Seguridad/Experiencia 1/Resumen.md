@@ -78,6 +78,7 @@ Un **Malware** es un código o software malicioso que tiene el propósito de afe
 **Trojanos**: Son programas que aparentan ser una cosa pero son de hecho malware.
 
 **Backdoor**: Son puertas traseras donde el hacker pueda mantener el acceso al sistema sin que el usuario pueda notarlo.
+- Es posible detectarlo analizando el trafico de red.
 
 **Gusanos**: Puede replicarse a sí mismo en los equipos o a través de redes de computadores sin que te des cuenta de que el equipo está infectado.
 
@@ -89,13 +90,13 @@ Un **Malware** es un código o software malicioso que tiene el propósito de afe
 
 **Crypter**: Tipo de software que puede encriptar y manipular malware, para que sea más difícil de detectar mediante programas de seguridad.
 
-**Virus**: Software que tiene por objetivo alterar el funcionamiento normal de cualquier tipo de dispositivo informático.
+**Virus**: Software que tiene por objetivo alterar el funcionamiento normal de cualquier tipo de dispositivo informático. (Forma coloquial de referirse a cualquier malware)
 
 **Macro Virus**: Muchas aplicaciones permiten que algunos scripts sean agregados en los documentos, así que el script será ejecutado automáticamente cuando el documento sea abierto **(Word,Excel,PDF,etc).**
 
 **Stealth Virus:** Es un virus que esconde las modificaciones. También intenta engañar al antivirus interceptando las peticiones que hace al sistema operativo y dándole información falsa.
 
-**Polymorphic Virus:** Produce copias variadas de si mismo. Un virus de este tipo puede tener diferentes paths que no tengan nada que ver unos con los otros lo cual lo hace muy difícil de detectar.
+**Polymorphic Virus:** Produce copias variadas de si mismo. Un virus de este tipo puede tener diferentes paths que no tengan nada que ver unos con los otros lo cual lo hace muy difícil de detectar. 
 
 **Self-garbling Virus:** Pueden llegar a cambiar su propio código internamente para engañar y romper las muestras de la base de datos del antivirus.
 
@@ -121,7 +122,7 @@ Un **Malware** es un código o software malicioso que tiene el propósito de afe
 ## Casos y Consecuencias
 
 ### Caso 1
-**Cartolas Banco de Chile (2012)**:  El martes 3 de julio del año 2012, 52.770 cuenta corrientistas del Banco de Chile recibieron en sus correos electrónicos cartolas con la información de últimos movimientos,   pero de otro cliente. 
+**Cartolas Banco de Chile (2012)**:  El martes 3 de julio del año 2012, 52.770 cuenta corrientistas del Banco de Chile recibieron en sus correos electrónicos cartolas con la información de últimos movimientos,   pero de otro cliente. **(Ataca a la confidencialidad)**
 
 **Consecuencias**:
 Daño reputacional,  Multas del Sernac y de la SBIF (Actual CMF)
