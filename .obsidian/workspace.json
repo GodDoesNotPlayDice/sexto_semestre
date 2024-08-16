@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "94e2dbd6fe925710",
+        "id": "769922f711161ca0",
         "type": "tabs",
         "children": [
           {
-            "id": "60f2af23619fb384",
+            "id": "03b0f34243954ab0",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -151,9 +151,10 @@
       "tldraw:Create new tldrawing": false
     }
   },
-  "active": "60f2af23619fb384",
+  "active": "03b0f34243954ab0",
   "lastOpenFiles": [
     "ML/Experiencia 1/Resumen.md",
+    "Gestion/Experiencia 2/Resumen.md",
     "Seguridad/Experiencia 1/Resumen.md",
     "Seguridad/Imagenes/Pasted image 20240815000049.png",
     "Pasted image 20240814235536.png",
@@ -173,7 +174,6 @@
     "Gestion/Esquemas/Que es un proyecto.md",
     "tldraw",
     "Emprendimiento/Experiencia 1/Resumen.md",
-    "Gestion/Experiencia 2/Resumen.md",
     "Gestion/Esquemas",
     "ML/Tasks.md",
     "Emprendimiento/Tasks.md",
