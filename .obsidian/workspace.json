@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Etica/Caso.md",
+                "file": "Gestion/Experiencia 1/Caso/Farmacia.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Etica/Caso.md",
+                "file": "Gestion/Experiencia 1/Caso/Farmacia.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Etica/Caso.md",
+                "file": "Gestion/Experiencia 1/Caso/Farmacia.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Etica/Caso.md"
+                "file": "Gestion/Experiencia 1/Caso/Farmacia.md"
               }
             }
           }
@@ -153,8 +153,10 @@
   },
   "active": "670fa770d3aa0a2e",
   "lastOpenFiles": [
-    "Negocios/Experiencia 1/Lectura 1.md",
+    "Gestion/Experiencia 1/Resumen.md",
+    "Gestion/Experiencia 1/Caso/Farmacia.md",
     "Etica/Caso.md",
+    "Negocios/Experiencia 1/Lectura 1.md",
     "Negocios/Experiencia 1/Resumen.md",
     "Negocios/Imagenes/Pasted image 20240817114613.png",
     "Negocios/Imagenes/Pasted image 20240817114217.png",
@@ -164,7 +166,6 @@
     "Seguridad/Experiencia 1/Resumen.md",
     "Negocios/Tasks.md",
     "Gestion/Experiencia 2/Resumen.md",
-    "Gestion/Experiencia 1/Resumen.md",
     "Seguridad/Imagenes/Pasted image 20240815000049.png",
     "Pasted image 20240814235536.png",
     "Pasted image 20240814234846.png",
@@ -172,7 +173,6 @@
     "Seguridad/Imagenes/Pasted image 20240814233412.png",
     "Pasted image 20240814233013.png",
     "Pasted image 20240814225236.png",
-    "Gestion/Experiencia 1/Caso/Farmacia.md",
     "Gestion/Experiencia 1/Caso/Imagenes",
     "Gestion/Experiencia 1/Caso",
     "Gestion/Esquemas/Acta de constitución.md",
