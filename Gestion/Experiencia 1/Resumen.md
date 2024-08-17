@@ -151,3 +151,17 @@ La directiva toma decisiones sobre como **responder, que autoriza y se desarroll
 - Un Avance Tecnológico.
 - Un requisito legal.
 - Una necesidad social.
+
+## Propósito y justificación del proyecto
+El propósito del proyecto en un acta de constitución **describe qué se quiere lograr con el proyecto** y **por qué es importante.** Es una declaración breve que **explica el objetivo principal y el valor que el proyecto aportará a la organización o a los interesados.** La justificación del proyecto se enfoca en por qué se **necesita este proyecto, mostrando la problemática actual o la oportunidad que se busca aprovechar**, respaldando la necesidad del proyecto.
+
+
+## Descripción del proyecto y entregables
+La **descripción del proyecto** explica brevemente el propósito y los objetivos principales. Describe qué se va a hacer y por qué es importante. Los **entregables** son los productos o resultados específicos que el proyecto debe producir, como informes, software, productos físicos, entre otros.
+
+**Ejemplo resumido:**
+- **Descripción del proyecto:** Desarrollar una aplicación móvil para mejorar la gestión de inventarios en la tienda CasaRoyal.
+- **Entregables:**
+    1. Aplicación móvil funcional.
+    2. Documentación técnica.
+    3. Informe final del proyecto.
