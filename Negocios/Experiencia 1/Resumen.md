@@ -52,3 +52,4 @@ La inteligencia de negocio es un conjunto de metodologías, aplicaciones y tecno
 > “BI puede tener un impacto directo y positivo sobre el rendimiento de una empresa, mejorando significativamente su capacidad a cumplir sus objetivos a través de la mejora de la toma de las decisiones en todos los niveles del negocio, desde la estrategia corporativa hasta los procesos operacionales". - Gartner.
 
 ![[Pasted image 20240813145137.png]]
+``
