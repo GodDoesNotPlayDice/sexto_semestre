@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiGlasses",
       "LiPen",
       "FiImage",
       "CoFolder",
-      "FiFile",
-      "BoBxlTailwindCss"
+      "FiFile"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [
@@ -203,5 +203,6 @@
   "Gestion/Esquemas/Acta de constitución.md": "LiPen",
   "Gestion/Experiencia 1/Caso": "CoFolder",
   "Gestion/Experiencia 1/Caso/Farmacia.md": "FiFile",
-  "Gestion/Experiencia 1/Caso/Imagenes": "FiImage"
+  "Gestion/Experiencia 1/Caso/Imagenes": "FiImage",
+  "Negocios/Experiencia 1/Lectura 1.md": "LiGlasses"
 }
