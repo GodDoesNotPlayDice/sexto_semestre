@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Negocios/Experiencia 1/Lectura 1.md",
+                "file": "Etica/Caso.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Negocios/Experiencia 1/Lectura 1.md",
+                "file": "Etica/Caso.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Negocios/Experiencia 1/Lectura 1.md",
+                "file": "Etica/Caso.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Negocios/Experiencia 1/Lectura 1.md"
+                "file": "Etica/Caso.md"
               }
             }
           }
@@ -153,8 +153,9 @@
   },
   "active": "670fa770d3aa0a2e",
   "lastOpenFiles": [
-    "Negocios/Experiencia 1/Resumen.md",
     "Negocios/Experiencia 1/Lectura 1.md",
+    "Etica/Caso.md",
+    "Negocios/Experiencia 1/Resumen.md",
     "Negocios/Imagenes/Pasted image 20240817114613.png",
     "Negocios/Imagenes/Pasted image 20240817114217.png",
     "Negocios/Imagenes/Pasted image 20240817112801.png",
