@@ -52,4 +52,23 @@ La inteligencia de negocio es un conjunto de metodologías, aplicaciones y tecno
 > “BI puede tener un impacto directo y positivo sobre el rendimiento de una empresa, mejorando significativamente su capacidad a cumplir sus objetivos a través de la mejora de la toma de las decisiones en todos los niveles del negocio, desde la estrategia corporativa hasta los procesos operacionales". - Gartner.
 
 ![[Pasted image 20240813145137.png]]
-``
+## Que es un data warehouse
+Un data warehouse es un sistema de almacenamiento de datos orientado a temas, que integra, consolida y depura datos de una o varias fuentes diferentes para su análisis y generación de informes y están almacenadas en un repositorio central de la empresa.
+
+### Fuentes
+**BDR  (Base de datos relacional)**: Tienen una estructura de datos que permite relacionar la información de diferentes tablas. Como por ejemplo (Excel, Access, SQL Server, Oracle, MySQL, PostgreSQL, etc.)
+
+**ERP TL (Extracción, Transformación y Carga)**:  Son procesos que permiten extraer datos de diferentes fuentes, transformarlos y cargarlos en un data warehouse.
+
+**CRM (Customer Relationship Management)** : Son sistemas que permiten gestionar la relación con los clientes, como por ejemplo, ventas, marketing, atención al cliente, etc.
+
+**Sistema transaccionales**:  Son sistemas que permiten realizar operaciones de negocio, como por ejemplo, ventas, compras, inventario, etc.
+
+Son pasadas por un proceso de ETL (Extracción, Transformación y Carga) para ser almacenadas en un data warehouse.
+
+### Modelo dimensional (DW, DM)
+Es un modelo de datos que se utiliza en data warehouse y se compone de tablas de hechos y tablas de dimensiones.
+**Características**:
+- Panel de control
+- OLAP
+- Mininería de datos
