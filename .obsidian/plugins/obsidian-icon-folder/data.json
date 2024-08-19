@@ -192,5 +192,16 @@
   "Negocios/Imagenes": "FiImage",
   "Negocios/Experiencia 1": "CoFolder",
   "Negocios/Experiencia 1/Lectura 1.md": "LiGlasses",
-  "Negocios/Experiencia 1/Resumen.md": "FiFile"
+  "Negocios/Experiencia 1/Resumen.md": "FiFile",
+  "Etica/Resumen.md": "FiFile",
+  "Etica/Caso.md": "FiFile",
+  "Gestion/Esquemas": "CoFolder",
+  "Gestion/Experiencia 1": "CoFolder",
+  "Gestion/Experiencia 1/Caso": "CoFolder",
+  "Gestion/Experiencia 1/Caso/Imagenes": "FiImage",
+  "Gestion/Experiencia 1/Caso/Farmacia.md": "FiFile",
+  "Gestion/Experiencia 1/Resumen.md": "FiFile",
+  "Gestion/Experiencia 2": "CoFolder",
+  "Gestion/Experiencia 2/Resumen.md": "FiFile",
+  "Gestion/Experiencia 1/Imagenes": "FiImage"
 }
