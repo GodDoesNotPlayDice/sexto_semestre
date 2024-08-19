@@ -47,6 +47,24 @@ Cuentan con 5 locales en la región metropolitana repartidos de la siguiente for
 5. **Ruta de escalamiento y limitaciones de autoridad:**
 	- **Descripción del nivel de autoridad:** Cualquier decisión que exceda la autoridad del Gerente de Proyecto, especialmente en temas financieros o estratégicos, debe ser escalada al comité directivo de la empresa
 
+### Que son los niveles de autoridad
+Los niveles de autoridad descritos se refieren a la distribución del poder de decisión y responsabilidad en diferentes áreas dentro de un proyecto o una organización. Cada nivel define quién tiene la capacidad de tomar decisiones en áreas específicas, y en qué casos se requiere la intervención o aprobación de niveles superiores. A continuación, se detallan los niveles de autoridad mencionados:
+
+1. **Decisiones de personal (Staffing):**
+    
+    - **Nivel de autoridad:** El **Gerente de Proyecto** tiene la autoridad principal para seleccionar y asignar miembros del equipo, aunque esta autoridad está compartida y colaborada con el **Gerente de Recursos Humanos**.
+2. **Gestión de presupuesto y de sus variaciones:**
+    
+    - **Nivel de autoridad:** El **Gerente de Finanzas** tiene el control y la responsabilidad de monitorear el presupuesto del proyecto. Sin embargo, las decisiones importantes relacionadas con el presupuesto deben ser aprobadas por el **comité directivo**.
+3. **Decisiones técnicas:**
+    
+    - **Nivel de autoridad:** El **Gerente de TI** (Benjamín Castillo) tiene la autoridad completa sobre las decisiones técnicas, especialmente en lo relacionado con la infraestructura tecnológica.
+4. **Resolución de conflictos:**
+    
+    - **Nivel de autoridad:** El **Gerente de Proyecto** es responsable de mediar y resolver conflictos dentro del equipo. Si el conflicto no se puede resolver a este nivel, se escala a la **Gerente General**.
+5. **Ruta de escalamiento y limitaciones de autoridad:**
+    
+    - **Nivel de autoridad:** Cualquier decisión que supere la autoridad del Gerente de Proyecto, especialmente en aspectos financieros o estratégicos, debe ser escalada al **comité directivo**.
 
 ## Fecha de aprobaciones
 En el documento "Caso Farmacia Simple SPA", no se especifican fechas exactas para las aprobaciones de los patrocinadores individuales. Sin embargo, se menciona que el proyecto tiene un Kick-Off en septiembre de 2022. Esta podría ser una fecha de referencia para las aprobaciones iniciales, pero no se detalla una fecha exacta para cada aprobación en el texto.
@@ -54,3 +72,6 @@ En el documento "Caso Farmacia Simple SPA", no se especifican fechas exactas par
 Si necesitas que usemos una fecha aproximada, podríamos utilizar septiembre de 2022 como la fecha general para las aprobaciones, dado que es el inicio formal del proyecto. Sin embargo, si necesitas fechas más específicas, sería necesario establecerlas en función del plan del proyecto o pedir más detalles al equipo encargado del proyecto en un contexto real.
 
 
+## Preguntas importantes sobre los stakeholders.
+Identificar cuales stakeholders son importantes
+Cuales aporta y cual no aporta.

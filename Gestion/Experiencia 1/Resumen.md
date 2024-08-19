@@ -165,3 +165,76 @@ La **descripción del proyecto** explica brevemente el propósito y los objetivo
     1. Aplicación móvil funcional.
     2. Documentación técnica.
     3. Informe final del proyecto.
+
+
+# Stakeholders
+**PMBOOK** define a los **STAKEHOLDERS** como personas, grupos u organizaciones que están involucrados activamente en el proyecto o cuyos intereses pueden ser afectados positiva o negativamente como resultado de la ejecución del proyecto o por su terminación exitosa
+> La gestión de STAKEHOLDERS incluye a todos los que están interesados en el resultado del proyecto, como los miembros del equipo, los patrocinadores y los usuarios finales.
+
+
+**EL PROJECT MANAGER:** profesional que ocupa de aplicación del buen saber, habilidad, herramientas, técnicas y del liderazgo para maximizar éxito y la satisfacción del cliente.
+**RESPONSABLE DEL PROYECTO:** profesional que se dedica a dirigir proyectos con eficacia, es el máximo responsable de todo el ciclo de vida del proyecto, hasta la entrega del resultado.
+**EQUIPO DE PROYECTO:** personal que bajo la supervisión realiza todas las tareas del proyecto.
+**PATROCINADOR:** patrocina el proyecto.
+**CLIENTE:** beneficiario del producto o servicio.
+
+
+## GESTIÓN DE LOS STAKEHOLDERS
+Proyectos tiene lugar en los grupos de procesos de inicio, planificación, ejecución, monitoreo y control. Concretamente, en esos grupos se enmarcan los siguientes procesos, de acuerdo a la metodología planteada por el Project Management Institute (PMI)
+
+1) **IDENTIFICAR A LOS INTERESADOS**: Es el proceso de identificar periódicamente a los interesados del proyecto, así como de analizar y documentar información relevante relativa a sus intereses, participación, interdependencias, influencia y posible impacto en el éxito del proyecto.
+2) **PLANIFICAR EL INVOLUCRAMIENTO DE LOS INTERESADOS**: Es el proceso de desarrollar enfoques para involucrar a los interesados del proyecto, con base en sus necesidades, expectativas, intereses y el posible impacto en el proyecto.
+3) **GESTIONAR EL INVOLUCRAMIENTO DE LOS INTERESADOS**: Es el proceso de comunicarse y trabajar con los interesados para satisfacer sus necesidades y expectativas, abordar los incidentes y fomentar el compromiso y el involucramiento adecuado de los intereses.
+4) **MONITOREAR EL INVOLUCRAMIENTO DE LOS INTERESADOS**: Es el proceso de monitorear las relaciones de los interesados del proyecto y adaptar las estrategias para involucrar a los interesados a través de la modificación de las estrategias y los planes de involucramiento.
+
+
+### IDENTIFICACIÓN DE LOS INTERESADOS
+La identificación de los interesados es un proceso continuo que se lleva a cabo a lo largo de todo el ciclo de vida del proyecto. Es fundamental para el éxito del proyecto, ya que permite identificar a todas las partes interesadas que pueden influir en el proyecto o verse afectadas por él. Algunas de las actividades clave en la identificación de los interesados son:
+> Controlar el compromiso, es supervisar las relaciones con los interesados y ajustar las estrategias para involucrar a los interesados a través de la modificación de las estrategias y planes de involucramiento.
+
+1) Identificar a todas las personas u organizaciones afectadas por el proyecto.
+2) Documentar información relevante a sus intereses, participación e impacto en el éxito del proyecto.
+3) Los Interesados pueden tener diferentes jerarquías dentro de la organización o ser externos.
+4) La clave es la identificación temprana.
+5) Interesados claves: mayor tiempo de gestión.
+6) Estrategia para abordar a cada uno de ellos.
+
+![[Pasted image 20240819153557.png]]
+
+Ejemplo los **cargos** mas **importantes** o que deben estar interesados, otras personas son los **clientes finales** y **distribuidores**.
+
+| Nombre           | Cargo                 | Departamento / División           |
+|------------------|-----------------------|-----------------------------------|
+| Mariela Garcia    | Gerente General       | Dirección General                 |
+| Gabriel Monroy    | Gerente Comercial     | Comercial                         |
+| Leslie Mendoza    | Gerente de Sucursales | Sucursales                        |
+| Benjamin Castillo | Gerente de TI         | Tecnología de la Información      |
+| Carlos Mattus     | Jefe de Comunicaciones | Comunicaciones                   |
+
+#### ¿CUANDO SE DEBE IDENTIFICAR A LOS INTERESADOS EN EL PROYECTO?
+Durante todo el Ciclo de vida del Proyecto. Los interesados pueden aparecer, desaparecer, cambiar su influencia, etc.
+
+Los interesados del proyecto son identificados al inicio del proyecto y cuando se hace el acta de constitución del proyecto. Al inicio del proyecto, cuando hacemos el acta de constitución del proyecto, tenemos generalmente entre 5 y 7 interesados principales.
+
+Una vez identificados los interesados pasamos a planificar como los gestionamos. En este proceso de Dirección de Proyectos del **PMBOK** hacemos un plan de gestión de los interesados detallado.
+Una vez aprobado, debemos comprobar que se cumple **mediante dos procesos**, el **proceso de gestionar la participación de los interesados y el proceso de controlar el compromiso de los interesados.**
+
+#### Estrategia de gestión de los interesados
+La estrategia de gestión de los interesados es un plan que describe cómo se identificarán, analizarán y gestionarán los interesados del proyecto. La estrategia de gestión de los interesados debe incluir.
+![[Pasted image 20240819153228.png]]
+
+#### Proceso de mapeo de los stakeholder
+El mapeo de los stakeholders es una técnica que permite visualizar la relación entre los diferentes stakeholders y el proyecto. Se puede utilizar para identificar a los stakeholders clave, evaluar su nivel de influencia y poder, y determinar la mejor manera de gestionar su participación en el proyecto.
+
+![[Pasted image 20240819153433.png]]
+
+#### Matriz de los stakeholders
+Indica y define los grupos de interés para el proyecto que pueden ser entre otros **(beneficiarios, clientes directos o indirectos, los que implementan el proyecto - equipo, los que toman decisiones que afectan al proyecto - inversores, clientes, socios, gerentes, proveedores)**
+
+Además, definirá como se gestionará la comunicación con ellos.
+
+![[Pasted image 20240819154056.png]]
+
+**Ejemplo**
+
+![[Pasted image 20240819154141.png]]
