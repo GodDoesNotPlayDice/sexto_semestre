@@ -133,11 +133,12 @@ El modelo contiene seis fases con flechas que indican las dependencias más impo
 **Comprensión del problema o negocio:** Esta es la etapa más importante, ya que, si no se comprende correctamente el negocio, o problema, no servirá pasar a las siguientes etapas.
 #### Actividades
 **Identificación del problema:** Aborda el entendimiento y delimitación de la problemática, así como la identificación de los requisitos, restricciones, supuestos y beneficios del proyecto.
-**Determinación de objetivos:** Establece los posibles resultados a obtener al proponer la solución.
-**Evaluación de la situación actual:** Describe el estado actual antes de ser implementada la solución propuesta, con el fin de tener un objeto de comparación que permita medir el grado de éxito del proyecto.
+**Determinación de objetivos:** Establece los posibles resultados a obtener al proponer la solución. (El cliente tiene que ser claro)
+**Evaluación de la situación actual:** Describe el estado actual antes de ser implementada la solución propuesta, con el fin de tener un objeto de comparación que permita medir el grado de éxito del proyecto. (Se saca lo que se cobra).
 
 ### Data Understanding
 **Comprensión de los datos:** Comprende la recolección inicial de datos, con el objetivo de establecer un primer acercamiento con el problema, conociendo a los datos, identificando su calidad y estableciendo las primeras relaciones que permitan definir correlaciones entre variables.
+
 
 #### Actividades
 **Recolección de datos:** Consiste en obtener los datos a utilizar en el proyecto a partir de algunas fuentes de datos, e identificando las técnicas utilizadas para su recolección.
@@ -146,6 +147,16 @@ El modelo contiene seis fases con flechas que indican las dependencias más impo
 
 ### Data Preparation
 **Preparación de datos:** Esta es la etapa que demanda más tiempo en el proyecto, aquí se seleccionan los datos que serán transformados de acuerdo con los resultados de la etapa anterior a fin de ser utilizados en la etapa de modelado. 
+
+**Dos grandes etapas**: Limpieza de datos y transformación de datos.
+
+**Scaling**: el escalamiento se hace cuando uno tiene variables de magnitudes muy distintas, y el algoritmo tiene todas las variables iguales sin preferencia, entonce si hay dos variables una muy grande que otra el modelo se come una variable, se hace después de la estadística descriptiva.
+> En resumen hace que todas las variables midan lo mismo y ninguna variable se coma a otra.
+
+En esta fase se realiza estadística descriptiva, se eliminan valores nulos, se eliminan duplicados, se eliminan variables que no aportan al modelo, se transforman variables categóricas a numéricas, se normalizan las variables, se eliminan outliers, se eliminan variables correlacionadas, se eliminan variables que no aportan al modelo.
+
+Hay veces que uno tiene supuestos que no son correctos, por ejemplo, uno puede tener una variable que es la edad y uno puede tener un valor de 0, entonces uno tiene que hacer un análisis de los datos para ver si es correcto o no.
+
 
 #### Actividades
 **Limpieza de datos:** Para este fin se aplican diferentes técnicas, por ejemplo, normalización de datos, tratamiento de valores nulos, tratamiento de duplicados e imputación de datos.
@@ -216,7 +227,8 @@ print(c // b)  # 1.0
 ```
 
 ### Vectores
-Son una matriz de números, ya sea en una fila o en una columna, y se identifican con un solo índice.
+Son una matriz de números, ya sea en una fila o en una columna, y se identifican con un solo índice, si existen palabras o booleanos que se deben encodear en vectores.
+
 
 Un vector de ”n” componentes se define como un conjunto ordenado de ”n” números escrito de forma horizontal si es un “vector fila”.
 
