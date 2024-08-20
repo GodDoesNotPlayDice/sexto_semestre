@@ -52,8 +52,18 @@ La inteligencia de negocio es un conjunto de metodologías, aplicaciones y tecno
 > “BI puede tener un impacto directo y positivo sobre el rendimiento de una empresa, mejorando significativamente su capacidad a cumplir sus objetivos a través de la mejora de la toma de las decisiones en todos los niveles del negocio, desde la estrategia corporativa hasta los procesos operacionales". - Gartner.
 
 ![[Pasted image 20240813145137.png]]
-## Que es un data warehouse
+#  DataWherehouse
+
 Un data warehouse es un sistema de almacenamiento de datos orientado a temas, que integra, consolida y depura datos de una o varias fuentes diferentes para su análisis y generación de informes y están almacenadas en un repositorio central de la empresa.
+
+### Arquitectura
+1. **Diversas** fuentes de datos, que generalmente contienen los datos transaccionales u operacionales de la organización.
+2. **Procesos** de Extracción, Transformación y Carga de Datos (**ETL**) 
+3. Data Warehouse o almacén de datos
+4. Capa de explotación, la cual puede ser representada como reportes, minería de datos o herramientas **OLAP** (Procesamiento Analítico en Línea).
+
+
+![[Pasted image 20240819201621.png]]
 
 ### Fuentes
 **BDR  (Base de datos relacional)**: Tienen una estructura de datos que permite relacionar la información de diferentes tablas. Como por ejemplo (Excel, Access, SQL Server, Oracle, MySQL, PostgreSQL, etc.)
@@ -64,6 +74,7 @@ Un data warehouse es un sistema de almacenamiento de datos orientado a temas, qu
 
 **Sistema transaccionales**:  Son sistemas que permiten realizar operaciones de negocio, como por ejemplo, ventas, compras, inventario, etc.
 
+### Proceso ETL
 Son pasadas por un proceso de ETL (Extracción, Transformación y Carga) para ser almacenadas en un data warehouse.
 
 ### Modelo dimensional (DW, DM)
@@ -72,3 +83,82 @@ Es un modelo de datos que se utiliza en data warehouse y se compone de tablas de
 - Panel de control
 - OLAP
 - Mininería de datos
+
+## Arquitectura de un DWH en Big Data.
+En esta arquitectura se incorpora al ecosistema un repositorio de Big Data, para capturar datos **semiestructurados** o no **estructurados**.
+![[Pasted image 20240819202131.png]]
+
+
+
+## Estrategia para desarrollar un DWH
+### Enfoque de Data Warehouse Corporativo
+- **Top-down**
+- **Metodología de Bill Inmon (Padre del DWH)**
+
+![[Pasted image 20240819203251.png]]
+
+### Enfoque de Data Mart
+- **Bottom-up**
+- **Metodología de Ralph Kimball (Padre del BI)**
+![[Pasted image 20240819203342.png]]
+
+
+## Moldeamiento Dimensional
+Es una técnica de diseño de bases de datos que se utiliza en data warehouse y se compone de tablas de hechos y tablas de dimensiones.
+- **Elegir el proceso de negocio**
+	- Proceso de Venta
+	- Proceso de Compras
+	- Proceso de Selección de Personal
+- **Establecer el nivel de granularidad**
+	- Definir el nivel de detalle que se desea almacenar los datos del proceso.Elegir las dimensiones
+	- Depende de los requerimientos del negocio y los datos que existe en los sistemas que soportan el proceso
+	- La sugerencia es comenzar a diseñar el DW al mayor nivel de detalle posible
+	- Se puede luego realizar Sumarizaciones (Agregaciones) al nivel deseado
+- **Elegir las dimensiones**
+	- Surgen naturalmente de las sesiones de análisis y facilitadas por la elección del nivel de granularidad y de la matriz de procesos/dimensiones.
+	- **Ejemplo**:
+		- **Tiempo**: ¿cuándo se produce la actividad?
+		- **Producto**: ¿cuál es el objeto de la actividad?
+		- **Almacén**: ¿dónde se produce la actividad?
+		- **Cliente**: ¿quién es el destinatario de la actividad?
+- **Identificar medidas y las tablas de hechos**
+	- Decidir la información a almacenar sobre el proceso.
+	- **Hechos**: información (sobre la actividad) que se desea almacenar en cada registro de la tabla de hechos y que será objeto del análisis.
+	- **Ejemplo:** cantidades, sumas, maximos...
+		- Métricas Directas:
+			- Unidades Vendidas
+			- Monto Vendido
+			- Monto Pago
+			- Puntos
+			- Vuelto
+		- Métricas del Contexto
+			- Costo Venta
+			- Margen Venta
+
+
+## Diseño Físico
+
+### Esquema Estrella
+Es un esquema de diseño de bases de datos que se utiliza en data warehouse y se compone de una tabla de hechos y varias tablas de dimensiones.
+**Caracteristicas**:
+- El centro del modelo es la tabla de hechos (Fact Table).
+- Alrededor de la tabla de hechos se organizan las tablas de Dimensiones (Dimension Table)
+- La tabla de hechos de arma en base a las Primary Key de cada tabla de dimensión y con atributos numéricos (medidas), que corresponden a los valores medibles sobre el proceso que se está modelando.
+- Se sugiere que cada dimensión tenga como Primary Key un clave subrogada, para independizarla de cambios del negocio o para generar distintas versiones de la información (Slowly Changing Dimension)
+- Las Dimensiones se utilizan para filtrar o agrupar las medidas
+
+![[Pasted image 20240819204246.png]]
+
+### Esquema Copo de Nieve
+Es un esquema de diseño de bases de datos que se utiliza en data warehouse y se compone de una tabla de hechos y varias tablas de dimensiones.
+**Caracteristicas**:
+- Es una extensión del modelo Estrella.
+- Cada dimensión se normaliza, por lo que cada nivel (atributo) se lleva a una tabla (Lookup Table)
+
+![[Pasted image 20240819204327.png]]
+
+| Estrella          | Copo de Nieve     |
+|-------------------|-------------------|
+| Mayor espacio     | Menos espacio     |
+| Menos Join        | Más flexible      |
+| Menos flexible    |                   |
