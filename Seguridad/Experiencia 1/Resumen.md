@@ -150,7 +150,7 @@ Multas económicas por mas de 12 Millones de pesos.
 
 ## Gestión de Activos
 Identificar y gestionar los riesgos a los cuales están expuestos los activos de información,
-para **preservar su confidencialidad, integridad y disponibilidad,** utilizando un proceso sistemático para lograr un adecuado tratamiento de los riesgos e implementación de controles efectivos. **(ISO 27005:2018 y la ISO 31000:2018**)
+para **preservar su confidencialidad, integridad y disponibilidad,** utilizando un proceso sistemático para lograr un adecuado tratamiento de los riesgos e implementación de controles efectivos. **(ISO 27005:2018 y la ISO 31000:2018)**
 
 ### Que es un activo
 Cualquier elemento al cual se le asigna un valor y por tanto debe protegerse, o cual puede entenderse igualmente como aquello que requiere la organización para el cumplimiento de sus objetivos. 
@@ -241,7 +241,7 @@ Debe **identificarse la forma como cada una de las amenazas podría materializar
 - Uso de protocolos inseguros
 
 ## Análisis de los riesgos sobre los activos
-Establecer la probabilidad de ocurrencia de los riesgos y el impacto de sus consecuencias, calificándolos y evaluándolos, a fin de determinar **la capacidad de la organización para su aceptación o manejo.**
+**Propósito**: Establecer la probabilidad de ocurrencia de los riesgos y el impacto de sus consecuencias, calificándolos y evaluándolos, a fin de determinar **la capacidad de la organización para su aceptación o manejo.**
 
 ### Estimar impacto sobre los activos
 El impacto es la medida de daño causado por un incidente en el supuesto de que ocurra, afectando así, el valor de los activos, está perdida de valor la denominamos degradación del activo.
@@ -282,13 +282,13 @@ La frecuencia se considera como numero de ocurrencias de la amenaza en un año.
 Conociendo el impacto de las amenazas sobre los activos es posible determinar el nivel de riesgo, teniendo en cuenta la frecuencia de ocurrencia de los incidentes.
 
 
-| **Impacto** | **Poco frecuente** | **Normal** | **Frecuente** | **Muy frecuente** |
-| --- | --- | --- | --- | --- |
-| **MB: muy bajo** | Zona de riesgo importante | Zona de riesgo importante | Zona de riesgo importante | Zona de riesgo inaceptable |
-| **B: bajo** | Zona de riesgo moderado | Zona de riesgo moderado | Zona de riesgo importante | Zona de riesgo importante |
-| **M: medio** | Zona tolerable de riesgo | Zona de riesgo moderado | Zona de riesgo importante | Zona de riesgo importante |
-| **A: alto** | Zona aceptable del riesgo | Zona tolerable de riesgo | Zona de riesgo moderado | Zona de riesgo moderado |
-| **MA: muy alto** | Zona aceptable del riesgo | Zona aceptable del riesgo | Zona tolerable de riesgo | Zona tolerable de riesgo |
+| **Impacto**      | **Poco frecuente**        | **Normal**                | **Frecuente**             | **Muy frecuente**          |
+| ---------------- | ------------------------- | ------------------------- | ------------------------- | -------------------------- |
+| **MA: muy alto** | Zona de riesgo importante | Zona de riesgo importante | Zona de riesgo importante | Zona de riesgo inaceptable |
+| **A: Alto**      | Zona de riesgo moderado   | Zona de riesgo moderado   | Zona de riesgo importante | Zona de riesgo importante  |
+| **M: medio**     | Zona tolerable de riesgo  | Zona de riesgo moderado   | Zona de riesgo importante | Zona de riesgo importante  |
+| **B: Bajo**      | Zona aceptable del riesgo | Zona tolerable de riesgo  | Zona de riesgo moderado   | Zona de riesgo moderado    |
+| **MB: muy bajo** | Zona aceptable del riesgo | Zona aceptable del riesgo | Zona tolerable de riesgo  | Zona tolerable de riesgo   |
 
 
 ## Controles
