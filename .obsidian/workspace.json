@@ -8,14 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "48aa8432ac048aeb",
+            "id": "f9651045b351fdfc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "tldraw-view",
               "state": {
-                "file": "Seguridad/Experiencia 1/Resumen.md",
-                "mode": "source",
-                "source": false
+                "file": "Negocios/Experiencia 1/Actividad-Estrella-DW.md"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Seguridad/Experiencia 1/Resumen.md",
+                "file": "Negocios/Experiencia 1/Actividad-Estrella-DW.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Seguridad/Experiencia 1/Resumen.md",
+                "file": "Negocios/Experiencia 1/Actividad-Estrella-DW.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Seguridad/Experiencia 1/Resumen.md"
+                "file": "Negocios/Experiencia 1/Actividad-Estrella-DW.md"
               }
             }
           }
@@ -151,11 +149,20 @@
       "tldraw:Create new tldrawing": false
     }
   },
-  "active": "48aa8432ac048aeb",
+  "active": "f40a5c963d9bea0e",
   "lastOpenFiles": [
-    "ML/Experiencia 1/Resumen.md",
-    "Seguridad/Experiencia 1/Resumen.md",
+    "Excalidraw/Drawing 2024-08-20 15.06.05.excalidraw.md",
+    "Negocios/Experiencia 1/Actividad-Estrella-DW.md",
+    "tldraw",
+    "Negocios/Tasks.md",
+    "Excalidraw",
     "Negocios/Experiencia 1/Resumen.md",
+    "Negocios/Experiencia 1/Modelo-Dimensional.md",
+    "Negocios/Experiencia 1/Kimball.md",
+    "Negocios/Experiencia 1/DW-obtener-informacion.md",
+    "Negocios/Experiencia 1/Lectura 1.md",
+    "Seguridad/Experiencia 1/Resumen.md",
+    "ML/Experiencia 1/Resumen.md",
     "Negocios/Imagenes/Pasted image 20240819204327.png",
     "Negocios/Imagenes/Pasted image 20240819204246.png",
     "Negocios/Imagenes/Pasted image 20240819203342.png",
@@ -174,7 +181,6 @@
     "Etica/Caso.md",
     "Negocios/Resumen.md",
     "Seguridad/Imagenes",
-    "Negocios/Experiencia 1/Lectura 1.md",
     "Negocios/Experiencia 1",
     "Gestion/Experiencia 2",
     "Gestion/Experiencia 1/Caso/Imagenes",
@@ -184,20 +190,13 @@
     "Gestion/Esquemas/Acta de constitución.md",
     "Gestion/Esquemas",
     "Emprendimiento/Experiencia 1/Resumen.md",
-    "Emprendimiento/Experiencia 1",
-    "Negocios/Imagenes",
     "ML/Tasks.md",
     "Pasted image 20240812205150.md",
     "Seguridad/Tasks.md",
-    "Negocios/Tasks.md",
     "Ingles/Tasks.md",
     "Gestion/Tasks.md",
     "Emprendimiento/Tasks.md",
     "Etica/Tasks.md",
-    "Web/Vue/Start a project.md",
-    "Web/Vue/Vue-IndecisionApp.md",
-    "Web/Vue/Introducción a Vue.md",
-    "Web/Vue/Components/Components.md",
     "Year/Semester/Plataformas/Untitled.canvas",
     "Untitled.canvas",
     "Networks/IPs/Untitled.canvas"

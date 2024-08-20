@@ -23,6 +23,9 @@ Un ejemplo de datos seria esta tabla.
 | 2019-07-21 | AACFD22 | Valparaíso   | 12000 |
 | 2019-07-21 | AACFD23 | Valparaíso   | 16000 |
 
+Si los datos no son tratados no sirven para generar información ni mucho menos conocimiento.
+
+
 # Piramide del conocimiento
 
 Representa una jerarquía de cómo los datos se transforman en comprensión compartida a través de diferentes niveles de procesamiento mental:
@@ -40,6 +43,8 @@ Representa una jerarquía de cómo los datos se transforman en comprensión comp
 
 # Que es la Inteligencia de negocio
 La inteligencia de negocio es un conjunto de metodologías, aplicaciones y tecnologías que permiten reunir, depurar y transformar datos de los sistemas transaccionales e información desestructurada en información estructurada, para producir información y conocimientos que optimicen la toma de decisiones de negocio en una organización.
+
+En resumen la inteligencia de negocio es el conjunto de herramientas para poder obtener información desde los datos.
 
 > “Business intelligence (BI) es un termino que agrupa aplicaciones, infraestructura y herramientas y las mejores practicas que permiten el acceso y análisis de la información pero mejorar y optimizar la toma de decisiones y gestión del desempeño.” -  Gartner.
 
@@ -103,7 +108,7 @@ En esta arquitectura se incorpora al ecosistema un repositorio de Big Data, para
 ![[Pasted image 20240819203342.png]]
 
 
-## Moldeamiento Dimensional
+## Moldeamiento Dimensional Kimball
 Es una técnica de diseño de bases de datos que se utiliza en data warehouse y se compone de tablas de hechos y tablas de dimensiones.
 - **Elegir el proceso de negocio**
 	- Proceso de Venta
@@ -115,7 +120,7 @@ Es una técnica de diseño de bases de datos que se utiliza en data warehouse y 
 	- La sugerencia es comenzar a diseñar el DW al mayor nivel de detalle posible
 	- Se puede luego realizar Sumarizaciones (Agregaciones) al nivel deseado
 - **Elegir las dimensiones**
-	- Surgen naturalmente de las sesiones de análisis y facilitadas por la elección del nivel de granularidad y de la matriz de procesos/dimensiones.
+	- Surgen naturalmente de las sesiones de análisis y facilitadas por la elección del nivel de granularidad y de la matriz de procesos/dimensiones, todo lo que nos permite analizar el proceso.
 	- **Ejemplo**:
 		- **Tiempo**: ¿cuándo se produce la actividad?
 		- **Producto**: ¿cuál es el objeto de la actividad?
@@ -137,6 +142,7 @@ Es una técnica de diseño de bases de datos que se utiliza en data warehouse y 
 
 
 ## Diseño Físico
+Minimo son dos dimensiones.
 
 ### Esquema Estrella
 Es un esquema de diseño de bases de datos que se utiliza en data warehouse y se compone de una tabla de hechos y varias tablas de dimensiones.
@@ -148,6 +154,32 @@ Es un esquema de diseño de bases de datos que se utiliza en data warehouse y se
 - Las Dimensiones se utilizan para filtrar o agrupar las medidas
 
 ![[Pasted image 20240819204246.png]]
+
+
+#### **Centro del Análisis métricas:**
+
+- **Tabla de Hechos:** En el modelo estrella, las métricas o medidas cuantitativas (como ventas, ingresos, cantidad vendida) se almacenan en la tabla de hechos, que está en el centro del modelo. Las tablas de dimensiones rodean la tabla de hechos y proporcionan contexto para interpretar estas métricas.
+2. **Toma de Decisiones Basada en Datos:**
+
+- Las métricas proporcionan los datos cuantitativos necesarios para la toma de decisiones informada. Por ejemplo, una métrica de ingresos por ventas permite a los gerentes evaluar el rendimiento financiero y tomar decisiones sobre estrategias de precios, marketing y ventas.
+3. **Rendimiento y Comparación:**
+
+- Las métricas permiten comparar el rendimiento a lo largo del tiempo, entre diferentes regiones, productos o cualquier otra dimensión. Esto ayuda a identificar patrones, tendencias y áreas que requieren atención o mejora.
+
+4. **Facilita el Análisis Multidimensional:**
+
+- Al estar integradas en un modelo estrella, las métricas pueden ser analizadas desde múltiples perspectivas (dimensiones), como tiempo, ubicación, producto, cliente, etc. Esto permite a los usuarios de negocio entender el rendimiento en diferentes contextos y niveles de detalle.
+
+5. **Optimización y Mejora Continua:**
+
+- Las métricas proporcionan indicadores clave que permiten a las empresas medir el éxito de sus operaciones y estrategias. Al monitorear y analizar estas métricas, las organizaciones pueden identificar oportunidades para optimizar procesos y mejorar el desempeño general.
+
+6. **Simplicidad y Eficiencia:**
+
+- En el modelo estrella, las métricas están organizadas de manera que las consultas sean rápidas y eficientes, lo que facilita el acceso a la información clave sin necesidad de realizar operaciones complejas en la base de datos.
+
+
+
 
 ### Esquema Copo de Nieve
 Es un esquema de diseño de bases de datos que se utiliza en data warehouse y se compone de una tabla de hechos y varias tablas de dimensiones.
