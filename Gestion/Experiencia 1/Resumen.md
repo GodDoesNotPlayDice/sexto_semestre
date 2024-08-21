@@ -1,4 +1,3 @@
-# Que es un proyecto?
 
 ## Como nacen los proyectos?
 Los proyectos nacen como respuesta a **FACTORES** (necesidades): 
@@ -73,9 +72,10 @@ Las buenas prácticas de gestión de proyectos recomiendan que esa información 
 - Marca el inicio formal de un proyecto.
 - Define la persona responsable del proyecto.
 - Permite visualizar las diferentes iniciativas de la organización.
+	- Podemos visualizar los proyectos.
 
 
-## Quienes firman el acta de constitución?
+## Quienes firman el acta de constitución?2
 Los representante de cada parte.
 
 - **Patrocinador:** Es la persona que autoriza el proyecto.

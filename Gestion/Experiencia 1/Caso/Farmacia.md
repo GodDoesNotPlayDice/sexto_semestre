@@ -75,3 +75,40 @@ Si necesitas que usemos una fecha aproximada, podríamos utilizar septiembre de 
 ## Preguntas importantes sobre los stakeholders.
 Identificar cuales stakeholders son importantes
 Cuales aporta y cual no aporta.
+
+
+# Matriz Registro de interesados
+
+![[Pasted image 20240821112100.png]]
+
+| Nombre            | Puesto                      |
+| ----------------- | --------------------------- |
+| Mariela García    | Gerente General             |
+| Isabel Pardo      | Gerente de RRHH             |
+| Benjamín Castillo | Gerente de TI               |
+| Guillermo Llanos  | Gerente de Finanzas         |
+| Gabriel Monroy    | Gerente Comercial           |
+| Leslie Mendoza    | Gerente de Sucursales       |
+| Carlos Matus      | Jefe de Comunicaciones      |
+| Víctor Carrasco   | Jefe Local Conchalí         |
+| Diego Gatica      | Jefe Local Renca            |
+| Marcela Gutiérrez | Jefe Local Santiago Centro  |
+| Fernanda Opazo    | Jefe Local Independencia    |
+| Juan Illanes      | Jefe Local Estación Central |
+
+**Organización**: Farmacia Simple SPA
+**Ubicación**: Santiago, Chile
+
+## Rol en el proyecto
+
+**Mariela García (Gerente General) - Aprobador (A)**:
+- **Justificación**: Como Gerente General, Mariela García tiene la autoridad final sobre la aprobación de decisiones clave en el proyecto. Según el texto: "**El sponsor del proyecto es la gerenta General Mariela García**"​, lo que implica que su rol es esencial en la aprobación y supervisión del proyecto.
+
+**Isabel Pardo (Gerente de RRHH) - Informado (I)**:
+- **Justificación**: El rol de Isabel Pardo es principalmente informativo, ya que su función es asegurar que el equipo adecuado esté disponible y motivado, pero no toma decisiones clave. En el caso no se menciona directamente su participación activa en la toma de decisiones del proyecto, lo que sugiere que su rol es más bien de apoyo.
+
+**Benjamín Castillo (Gerente de TI) - Responsable (R)**:
+- **Justificación**: Benjamín Castillo es el encargado de liderar la implementación técnica del proyecto, lo cual se evidencia en el texto: "**Gerente de Proyecto lidera el Gerente TI, Benjamín Castillo**"​, Esto indica que él es el principal responsable de la ejecución del proyecto.
+
+**Guillermo Llanos (Gerente de Finanzas) - Consultado (C)**:
+- **Justificación**: Guillermo Llanos tiene un papel importante en el monitoreo financiero, pero no en la ejecución directa. Su rol es de apoyo, consultado para asegurar la viabilidad financiera del proyecto: "Dirigir, coordinar y ejecutar la preparación del presupuesto operacional y financiero"
