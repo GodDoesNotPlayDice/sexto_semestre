@@ -207,5 +207,8 @@
   "Negocios/Experiencia 1/DW-obtener-informacion.md": "LiPen",
   "Negocios/Experiencia 1/Kimball.md": "LiPen",
   "Negocios/Experiencia 1/Modelo-Dimensional.md": "LiPen",
-  "Negocios/Experiencia 1/Actividad-Estrella-DW.md": "LiPen"
+  "Negocios/Experiencia 1/Actividad-Estrella-DW.md": "LiPen",
+  "Emprendimiento/Experiencia 1/Resumen.md": "FiFile",
+  "Emprendimiento/Experiencia 1": "CoFolder",
+  "Gestion/Experiencia 2/Imagenes": "FiImage"
 }
