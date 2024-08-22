@@ -11,25 +11,26 @@
             "id": "f9651045b351fdfc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "tldraw-view",
               "state": {
-                "file": "Gestion/Experiencia 1/Caso/Farmacia.md",
-                "mode": "source",
-                "source": false
+                "file": "Negocios/Experiencia 1/Actividad 2/Actividad-Estrella-DW.md"
               }
             }
           },
           {
-            "id": "0d93b4ce4114d9ed",
+            "id": "ed42774a11b48539",
             "type": "leaf",
             "state": {
-              "type": "tldraw-view",
+              "type": "markdown",
               "state": {
-                "file": "Gestion/Experiencia 1/Ciclo del proyecto.md"
+                "file": "Negocios/Experiencia 1/Resumen.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -95,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Gestion/Experiencia 1/Caso/Farmacia.md",
+                "file": "Negocios/Experiencia 1/Resumen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Gestion/Experiencia 1/Caso/Farmacia.md",
+                "file": "Negocios/Experiencia 1/Resumen.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Gestion/Experiencia 1/Caso/Farmacia.md"
+                "file": "Negocios/Experiencia 1/Resumen.md"
               }
             }
           }
@@ -161,25 +162,32 @@
       "tldraw:Create new tldrawing": false
     }
   },
-  "active": "f40a5c963d9bea0e",
+  "active": "ed42774a11b48539",
   "lastOpenFiles": [
-    "Gestion/Experiencia 1/Caso/Imagenes/Pasted image 20240821112100.png",
-    "Gestion/Experiencia 1/Resumen.md",
-    "Gestion/Experiencia 1/Ciclo del proyecto.md",
+    "Negocios/Experiencia 1/Actividad 2/Actividad-Estrella-DW.md",
+    "Negocios/Experiencia 1/Actividad 2/Tldraw 2024-08-21 10.09PM.md",
+    "Negocios/Experiencia 1/Actividad 2/Actividad.md",
     "tldraw",
-    "Negocios/Experiencia 1/Actividad-Estrella-DW.md",
+    "Negocios/Experiencia 1/Resumen.md",
+    "Untitled.md",
+    "Negocios/Experiencia 1/DW-obtener-informacion.md",
+    "Negocios/Experiencia 1/Modelo-Dimensional.md",
+    "Negocios/Experiencia 1/Kimball.md",
+    "Negocios/Experiencia 1/Actividad 2",
+    "Negocios/Experiencia 1/Actividad 1",
+    "Gestion/Experiencia 2/Resumen.md",
+    "Gestion/Experiencia 1/Ciclo del proyecto.md",
+    "Gestion/Experiencia 1/Caso/Imagenes/Pasted image 20240821112100.png",
     "Gestion/Experiencia 2/Imagenes/Pasted image 20240820201939.png",
-    "Gestion/Experiencia 2/Imagenes/Pasted image 20240820194322.png",
     "Gestion/Experiencia 2/Imagenes",
+    "Gestion/Experiencia 2/Imagenes/Pasted image 20240820194322.png",
+    "Gestion/Experiencia 1/Resumen.md",
+    "Emprendimiento/Experiencia 1/Resumen.md",
+    "Seguridad/Experiencia 1/Resumen.md",
     "Excalidraw/Drawing 2024-08-20 15.06.05.excalidraw.md",
     "Negocios/Tasks.md",
     "Excalidraw",
-    "Negocios/Experiencia 1/Resumen.md",
-    "Negocios/Experiencia 1/Modelo-Dimensional.md",
-    "Negocios/Experiencia 1/Kimball.md",
-    "Negocios/Experiencia 1/DW-obtener-informacion.md",
-    "Negocios/Experiencia 1/Lectura 1.md",
-    "Seguridad/Experiencia 1/Resumen.md",
+    "Negocios/Experiencia 1/Actividad 1/Lectura 1.md",
     "ML/Experiencia 1/Resumen.md",
     "Negocios/Imagenes/Pasted image 20240819204327.png",
     "Negocios/Imagenes/Pasted image 20240819204246.png",
@@ -189,9 +197,7 @@
     "Negocios/Imagenes/Pasted image 20240819202131.png",
     "Negocios/Imagenes/Pasted image 20240819201621.png",
     "Gestion/Experiencia 1/Caso/Farmacia.md",
-    "Gestion/Experiencia 1/Imagenes/Pasted image 20240819153228.png",
     "Gestion/Experiencia 1/Imagenes",
-    "Gestion/Experiencia 2/Resumen.md",
     "Etica/Resumen.md",
     "Etica/Caso.md",
     "Negocios/Resumen.md",
@@ -199,16 +205,11 @@
     "Negocios/Experiencia 1",
     "Gestion/Experiencia 2",
     "Gestion/Experiencia 1/Caso/Imagenes",
-    "Gestion/Experiencia 1/Caso",
-    "Gestion/Experiencia 1",
     "Gestion/Esquemas/Que es un proyecto.md",
     "Gestion/Esquemas/Acta de constitución.md",
-    "Emprendimiento/Experiencia 1/Resumen.md",
     "ML/Tasks.md",
     "Pasted image 20240812205150.md",
     "Seguridad/Tasks.md",
-    "Ingles/Tasks.md",
-    "Gestion/Tasks.md",
     "Year/Semester/Plataformas/Untitled.canvas",
     "Untitled.canvas",
     "Networks/IPs/Untitled.canvas"

@@ -191,7 +191,6 @@
   "Seguridad/Experiencia 1/Resumen.md": "FiFile",
   "Negocios/Imagenes": "FiImage",
   "Negocios/Experiencia 1": "CoFolder",
-  "Negocios/Experiencia 1/Lectura 1.md": "LiGlasses",
   "Negocios/Experiencia 1/Resumen.md": "FiFile",
   "Etica/Resumen.md": "FiFile",
   "Etica/Caso.md": "FiFile",
@@ -205,8 +204,13 @@
   "Gestion/Experiencia 2/Resumen.md": "FiFile",
   "Gestion/Experiencia 1/Imagenes": "FiImage",
   "Negocios/Experiencia 1/DW-obtener-informacion.md": "LiPen",
-  "Negocios/Experiencia 1/Kimball.md": "LiPen",
   "Negocios/Experiencia 1/Modelo-Dimensional.md": "LiPen",
-  "Negocios/Experiencia 1/Actividad-Estrella-DW.md": "LiPen",
-  "Gestion/Experiencia 1/Ciclo del proyecto.md": "LiPen"
+  "Emprendimiento/Experiencia 1/Resumen.md": "FiFile",
+  "Emprendimiento/Experiencia 1": "CoFolder",
+  "Gestion/Experiencia 2/Imagenes": "FiImage",
+  "Negocios/Experiencia 1/Actividad 1": "CoFolder",
+  "Negocios/Experiencia 1/Actividad 2": "CoFolder",
+  "Negocios/Experiencia 1/Actividad 2/Actividad-Estrella-DW.md": "LiPen",
+  "Negocios/Experiencia 1/Actividad 1/Lectura 1.md": "LiGlasses",
+  "Negocios/Experiencia 1/Actividad 2/Actividad.md": "FiFile"
 }
