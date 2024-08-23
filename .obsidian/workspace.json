@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "a0ec7ddaf915b4a3",
+        "id": "c4f61775d8383080",
         "type": "tabs",
         "children": [
           {
-            "id": "6040ebb04d421e46",
+            "id": "b12741a508811a8a",
             "type": "leaf",
             "state": {
-              "type": "tldraw-view",
+              "type": "markdown",
               "state": {
-                "file": "ML/Experiencia 1/MinMaxScaler y Salida de datos.md"
+                "file": "Seguridad/Experiencia 1/Resumen.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/Experiencia 1/MinMaxScaler y Salida de datos.md",
+                "file": "Seguridad/Experiencia 1/Resumen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/Experiencia 1/MinMaxScaler y Salida de datos.md",
+                "file": "Seguridad/Experiencia 1/Resumen.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Experiencia 1/MinMaxScaler y Salida de datos.md"
+                "file": "Seguridad/Experiencia 1/Resumen.md"
               }
             }
           }
@@ -149,10 +151,10 @@
       "tldraw:Create new tldrawing": false
     }
   },
-  "active": "6040ebb04d421e46",
+  "active": "b12741a508811a8a",
   "lastOpenFiles": [
-    "ML/Experiencia 1/Resumen.md",
     "ML/Experiencia 1/MinMaxScaler y Salida de datos.md",
+    "ML/Experiencia 1/Resumen.md",
     "tldraw",
     "Seguridad/Experiencia 1/Resumen.md",
     "ML/Imagenes/Pasted image 20240822203057.png",

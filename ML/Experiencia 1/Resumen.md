@@ -511,6 +511,11 @@ Dada la propiedad de que **multiplicar un eigenvector solo cambia su longitud pe
 A estos eigenvectors se les llama **eigenvectors normalizados.**
 
 **Dato**: Escalar los datos sirven para que las variables mas grandes no se coman las mas pequeñas.
+
+$$
+\text{X}_{\text{scaled}} = \frac{\text{X} - \text{X}_{\text{min}}}{\text{X}_{\text{max}} - \text{X}_{\text{min}}}
+
+$$
 #### Ejemplo de Estandarización de un Eigenvector
 
 Supongamos que tienes un **eigenvector** 
