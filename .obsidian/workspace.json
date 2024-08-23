@@ -4,18 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c5531500e881f73a",
+        "id": "a0ec7ddaf915b4a3",
         "type": "tabs",
         "children": [
           {
-            "id": "83b608040802f3ce",
+            "id": "6040ebb04d421e46",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "tldraw-view",
               "state": {
-                "file": "Seguridad/Experiencia 1/Resumen.md",
-                "mode": "source",
-                "source": false
+                "file": "ML/Experiencia 1/MinMaxScaler y Salida de datos.md"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Seguridad/Experiencia 1/Resumen.md",
+                "file": "ML/Experiencia 1/MinMaxScaler y Salida de datos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Seguridad/Experiencia 1/Resumen.md",
+                "file": "ML/Experiencia 1/MinMaxScaler y Salida de datos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Seguridad/Experiencia 1/Resumen.md"
+                "file": "ML/Experiencia 1/MinMaxScaler y Salida de datos.md"
               }
             }
           }
@@ -151,9 +149,12 @@
       "tldraw:Create new tldrawing": false
     }
   },
-  "active": "83b608040802f3ce",
+  "active": "6040ebb04d421e46",
   "lastOpenFiles": [
     "ML/Experiencia 1/Resumen.md",
+    "ML/Experiencia 1/MinMaxScaler y Salida de datos.md",
+    "tldraw",
+    "Seguridad/Experiencia 1/Resumen.md",
     "ML/Imagenes/Pasted image 20240822203057.png",
     "ML/Imagenes/Pasted image 20240822202104.png",
     "ML/Imagenes/Pasted image 20240822201025.png",
@@ -169,7 +170,6 @@
     "Negocios/Experiencia 1/Actividad 2/Actividad.md",
     "Negocios/Experiencia 1/Actividad 2/Actividad-Estrella-DW.md",
     "Negocios/Experiencia 1/Actividad 2/Tldraw 2024-08-21 10.09PM.md",
-    "tldraw",
     "Negocios/Experiencia 1/DW-obtener-informacion.md",
     "Negocios/Experiencia 1/Modelo-Dimensional.md",
     "Negocios/Experiencia 1/Kimball.md",
@@ -180,7 +180,6 @@
     "Gestion/Experiencia 2/Imagenes",
     "Gestion/Experiencia 1/Resumen.md",
     "Emprendimiento/Experiencia 1/Resumen.md",
-    "Seguridad/Experiencia 1/Resumen.md",
     "Excalidraw/Drawing 2024-08-20 15.06.05.excalidraw.md",
     "Negocios/Tasks.md",
     "Excalidraw",

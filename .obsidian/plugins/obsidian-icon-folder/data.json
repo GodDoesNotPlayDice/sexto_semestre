@@ -212,5 +212,7 @@
   "Negocios/Experiencia 1/Actividad 2": "CoFolder",
   "Negocios/Experiencia 1/Actividad 2/Actividad-Estrella-DW.md": "LiPen",
   "Negocios/Experiencia 1/Actividad 1/Lectura 1.md": "LiGlasses",
-  "Negocios/Experiencia 1/Actividad 2/Actividad.md": "FiFile"
+  "Negocios/Experiencia 1/Actividad 2/Actividad.md": "FiFile",
+  "Gestion/Experiencia 1/Ciclo del proyecto.md": "FiFile",
+  "ML/Experiencia 1/MinMaxScaler y Salida de datos.md": "LiPen"
 }

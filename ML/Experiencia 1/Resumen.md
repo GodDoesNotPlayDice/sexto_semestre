@@ -306,6 +306,10 @@ plt.imshow(A)
 ![[Pasted image 20240814185331.png]]
 
 
+**Dato**: cuando habla de hiper se refiere a la forma de la matriz.
+
+
+
 ## Operaciones
 
 ### Vectores
@@ -383,7 +387,7 @@ $$
 3 \begin{pmatrix} 4 & 1 & 7 \\ 5 & 9 & 12 \end{pmatrix} = \begin{pmatrix} 3 \times 4 & 3 \times 1 & 3 \times 7 \\ 3 \times 5 & 3 \times 9 & 3 \times 12 \end{pmatrix} = \begin{pmatrix} 12 & 3 & 21 \\ 15 & 27 & 36 \end{pmatrix} \
 $$
 
-#### Producto punto o dot
+#### Producto punto o dot (producto cruz)
 El producto punto es la suma de los productos de los elementos correspondientes de dos vectores.
 
 ```python
@@ -407,7 +411,7 @@ $$
 \begin{pmatrix} a & b \\ c & d \end{pmatrix} \cdot \begin{pmatrix} w & x \\ y & z \end{pmatrix} = \begin{pmatrix} aw + by & ax + bz \\ cw + dy & cx + dz \end{pmatrix}
 $$
 
-#### Producto Hadamard
+#### Producto Hadamard (punto)
 El producto de **Hadamard** es el producto de dos matrices del mismo tamaño, donde cada elemento de la matriz resultante es el producto de los elementos correspondientes de las matrices originales.
 
 ```python
@@ -425,6 +429,9 @@ print(mul) # [[ 5 12]
 $$
 \begin{pmatrix} 3 & 5 & 7 \\ 4 & 9 & 8 \end{pmatrix} \circ \begin{pmatrix} 1 & 6 & 3 \\ 0 & 2 & 9 \end{pmatrix} = \begin{pmatrix} 3 \times 1 & 5 \times 6 & 7 \times 3 \\ 4 \times 0 & 9 \times 2 & 8 \times 9 \end{pmatrix} \
 $$
+
+**Dato**: A las maquinas les paso un vector que puede ser `1xn` y el resultado de clasificación es `1x1`
+
 
 #### Matriz de Identidad
 Una matriz identidad, representado por I, tiene toda la diagonal principal definida por 1, y los demás valores rellenadas con 0.
@@ -503,6 +510,7 @@ Dada la propiedad de que **multiplicar un eigenvector solo cambia su longitud pe
 
 A estos eigenvectors se les llama **eigenvectors normalizados.**
 
+**Dato**: Escalar los datos sirven para que las variables mas grandes no se coman las mas pequeñas.
 #### Ejemplo de Estandarización de un Eigenvector
 
 Supongamos que tienes un **eigenvector** 
@@ -771,6 +779,8 @@ Tener una **probabilidad de cero** significa que algo nunca va a suceder; una pr
 ### Correlación
 El análisis exploratorio implica **examinar la correlación entre los predictores y entre los predictores y una variable objetivo.** 
 
+La correlación sirve para eliminar variables que están altamente correlacionadas entre sí, ya que no aportan información adicional al modelo y son redundantes.
+
 
 Dos variables, X e Y, están **correlacionadas positivamente** cuando, al aumentar los valores de X, también aumentan los valores de Y, y cuando X disminuye, Y también disminuye. Por ejemplo, si a más horas de estudio (X) corresponde un mayor puntaje en un examen (Y), hay una correlación positiva.
 
@@ -788,3 +798,16 @@ El coeficiente de correlación siempre se encuentra entre +1 (correlación posit
 A partir de una tabla de correlaciones, se puede trazar un mapa de calor para mostrar visualmente la relación entre múltiples variables. 
 
 ![[Pasted image 20240822203057.png]]
+
+**Variables dependiente y Independiente**: La variable dependiente es aquella que se mide o se observa en un experimento, y la variable independiente es la que se manipula, las variables independientes ayudan  a predecir o explicar la variable dependiente.
+
+```python
+import numpy as np
+
+a = np.array([1, 2, 3, 4, 5])
+b = np.array([5, 4, 3, 2, 1])
+
+correlacion = np.corrcoef(a, b)
+```
+
+**Dato:** La causalidad es el resultado de una causa.
