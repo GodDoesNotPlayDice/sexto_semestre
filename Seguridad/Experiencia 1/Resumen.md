@@ -364,3 +364,267 @@ Para seleccionar los controles frente a los riesgos establecidos, deberá realiz
 Una vez seleccionado los controles que **serán implementados para mitigación de riesgos** es necesario elaborar un plan de acción que garantice un efectivo despliegue de los mismos.
 
 La elaboración del plan de tratamiento de riesgos será responsabilidad del Oficial de Seguridad y la respectiva aprobación de los mismos del Comité de Seguridad.
+
+
+# PPT3
+
+## Controles de acceso
+Todo sistema de seguridad informática contiene un **conjunto de partes que deben funcionar de manera correcta**, para así evitar problemas en la operación diaria.
+
+En relación al largo plazo se debe mantener en un rango aceptable las posibles amenazas que podrían poner en **riesgo el funcionamiento  y patrimonio de una empresa.**
+
+Principales uso del control de Acceso:
+- Ingreso a Data Center
+- Acceso a aplicaciones de negocio
+- Transacciones financieras
+- Identificación de personas
+
+Se debe controlar el acceso a diferentes puntos dentro de una empresa, como pueden ser:
+- Documentos de todo tipo.
+- Bases de datos.
+- Cuentas de servicios en la nube.
+- Correo electrónico.
+
+> Existen diferentes mecanismos, como pueden ser contraseñas, dispositivos u otros medios que las personas llevan encima, como tarjetas; o sistemas biométricos (huellas o retina), o la combinación de dos o más medios, lo que se llama “autenticación en N pasos”
+
+**ISO 27001** definió un Dominio de Control de Acceso cuyo objetivo es garantizar que el acceso a los sistemas de información sea realizado sólo por usuarios autorizados.
+
+Algunos de los tópicos más importantes de la normativa son:
+- Requisitos de negocio
+- Gestión de usuario
+- Control de acceso a la red **(NAC)**
+- Control de acceso al Sistema Operativo
+- Control de acceso a las aplicaciones
+- Informática móvil y teletrabajo
+
+Tipos de control de acceso existentes en la actualidad:
+
+- **Disuasivos**: intenta evitar un incidente
+- **Preventivos**: intenta prevenir un incidente
+- **Correctivos**: corrige el componente una vez ocurrido un incidente
+- **Recuperativos**: recupera el control luego de ocurrido un incidente
+- **Detectivos**: ayuda a detectar un incidente
+- **Compensatorios**: provee una alternativa ante un incidente
+- **Directivos**: tiene fines regulatorios
+
+> La principal función del control de acceso es responder:
+	 ¿Quién?
+	 ¿Qué? 
+	¿Donde?
+
+Tipos de autenticación para control de acceso:
+
+- **Basado en algo que uno posee:** la autenticación de produce a través de algún dispositivo que porta el usuario, el modelo se seguridad se basa en solo el lo posee.
+- **Basado en algo que uno sabe:** la autenticación se produce al reproducir un concepto que solo el usuario conoce.
+- **Basado en algo que uno es:** la autenticación se produce a través de algún mecanismo inherente al usuario.
+
+> Métodos de autenticación robustos o de doble factor:
+	Se le denomina aquel sistema de autenticación que combinan dos mecanismos distintos.
+
+Algunas definiciones relacionadas con **ISO27001**:
+
+- **Control de acceso:** Medios para asegurar que el acceso a los activos está autorizado y restringido en función de los requisitos de negocio y de seguridad.
+- **Objetivo de control:** Declaración que describe lo que se quiere lograr como resultado de la implementación de controles.
+- **Auditoría:** Proceso sistemático, independiente y documentado para obtener evidencias y evaluarlas de manera objetiva con el fin de determinar el grado de cumplimiento.
+- **Mejora continua:** Actividad recurrente para mejorar el desempeño.
+- **Alcance de auditoría:** Extensión y límites de una auditoría.
+- **Conformidad**: Cumplimiento de un requisito
+- **Competencia**: Capacidad para aplicar conocimientos y habilidades con el fin de lograr los resultados previstos.
+- **Acción correctiva:** Actividad para eliminar la causa de una no conformidad.
+- **Evento**: Ocurrencia o cambio de un conjunto particular de circunstancias.
+- **Incidente de SI:** Evento o serie de eventos de la SI, inesperados o no deseados, que tienen una probabilidad significativa de comprometer las operaciones del negocio y de amenazar la SI.
+
+## Objetivos de control de acceso
+Las medidas de control de accesos de la norma **ISO 27001** están orientadas a controlar y monitorizar los accesos a los medios de información de acuerdo a las políticas definidas por la organización.
+
+### Objetivo 1
+Requisitos de negocio para el control de acceso.
+
+Para este objetivo de limitar el acceso a la información únicamente personas autorizadas, tiene los siguientes controles.
+
+**Controles**:
+- Política de control de acceso
+- Acceso a las redes y a los servicios de red
+
+#### Controles
+
+##### Política de control de acceso
+- Requisitos para definir las reglas de control de acceso a la información, o sea los derechos y restricciones de acceso a la información
+- El requisito exacto de este punto, especifica la necesidad de establecer, documentar y revisar la política de control de acceso periódicamente, lo que significa que una política documentada es obligatoria.
+- Los propietarios de los activos son los que deben determinar estas normas o políticas de control de acceso de acuerdo con la política de seguridad de la información y el análisis de riesgos
+
+##### Acceso a las redes y a los servicios de red
+Un proceso de control de acceso robusto pasa por los siguientes puntos realizados según la secuencia de:
+
+- **Identificación**: métodos para proporcionar un sujeto con una identidad reconocible (por ejemplo, ID usuario o cuenta de usuario, IVA, número de seguro social, pasaporte, etc.).
+
+- **Autenticación**: métodos para garantizar que un sujeto sea quien dice ser (por ejemplo, contraseña, token, huella digital, etc.). 
+
+- **Autorización**: métodos para controlar qué acciones puede realizar un sujeto en un objeto (entidad a la que se accede) (por ejemplo, lista de permisos de materia y lista de permisos de objetos).
+
+**Métodos de autenticacion**:
+Con respecto a los métodos de autenticación, los siguientes conceptos (o factores) se pueden usar, por separado o en combinación.
+
+- **Algo que sabe un sujeto**: por ejemplo, contraseñas y PIN. Este es el menos costoso de implementar y el menos seguro.
+- **Algo que tiene un sujeto:** por ejemplo, tarjetas inteligentes, fichas, llaves, etc. Caro, pero seguro.
+- **Algo que un sujeto es:** por ejemplo, patrones de voz, retina, huella digital, etc. Este es el más costoso de implementar, y el más seguro.
+
+> Por lo tanto, cuando hablamos de autenticación de dos factores, nos referimos a utilizar dos de estos tres conceptos para garantizar que el sujeto sea quien dice ser.
+
+
+### Objetivo 2
+Gestión del acceso de usuarios, controles para garantizar que solamente los usuarios autorizados acceden a los sistemas y servicios, un control es 
+
+Asegurar el acceso de usuarios autorizados y prevenir el acceso no autorizado a los sistemas y servicios de información.
+
+**Controles**:
+- Registro de usuarios y cancelación del registro
+- Gestión de acceso a los usuarios
+- Gestión de derechos de acceso privilegiados
+- Gestión de la información de autenticación secreta de los usuarios
+- Revisión de derechos de acceso de usuario
+- Remoción o ajuste de los derechos de acceso
+
+#### Controles
+
+##### Registro de usuarios y cancelación del registro
+Se trata de un control para el alta y baja de los usuarios, este control exige establecer un proceso de altas y bajas que permite los derechos de acceso teniendo en cuenta:
+
+- Un registro de IDs o cuentas de usuario donde se vincula o identifica al usuario
+- Los IDs deben desactivarse automáticamente o de forma inmediata cuando el usuario abandona la organización
+- Eliminación periódica de usuarios redundantes
+- Los IDs redundantes nunca pueden ser asignados a otros usuarios
+- El proceso de cancelación debería tener en cuenta:
+- La revocación del ID del usuario
+- La revocación de los permisos del ID de usuario
+
+
+##### Gestión de acceso a los usuarios y gestión de derechos de acceso privilegiados
+Se debe establecer un proceso formal para asignar y revocar los accesos a sistemas y servicios que:
+- Incluya la aprobación del propietario del servicio o sistema.
+- Verifique si el acceso cumple con las políticas de acceso definidas.
+- Se garantice que el acceso no se da hasta finalizar el proceso de autorización.
+- Se mantiene un registro de los accesos concedidos.
+- Se eliminan los accesos de usuarios que han abandonado la organización.
+- Se modifican los accesos de usuarios que han cambiado de función o puesto de trabajo si proceda.
+- Se revisan periódicamente los derechos de acceso.
+
+
+##### Gestión de la información de autenticación secreta de los usuarios
+Control para garantizar que se mantiene la confidencialidad de la información secreta de acceso (p. ejemplo contraseñas), Gestionar la información de autenticación supone controlar:
+
+- Incluir cláusulas en contratos y condiciones de puesto de trabajo sobre el mantenimiento del secreto de las contraseñas o información de autenticación
+- Obligación de cambiar contraseñas iniciales después de su primer uso
+- Identificar al usuario antes de entregar las contraseñas y obtener acuse de recibo
+- Uso de contraseñas seguras, no compartidas
+- Uso de medios seguros de comunicación (Correos cifrados etc.)
+- Cambiar contraseñas a personal externo después de que han realizado sus trabajos (instalaciones de software etc.)
+
+>  donde hablamos de contraseñas como medios comúnmente utilizados para la autenticación, pero donde pone contraseñas podemos referirnos también a otros medios de autenticación como claves criptográficas, tarjetas inteligentes etc.
+
+
+##### Revisión de derechos de acceso de usuario
+Control para establecer una revisión periódica de los permisos de accesos de los usuarios.
+
+- Revisar derechos de acceso a la terminación de empleo o cambios en la organización (cambios de empleo o promociones)
+- Limitar en el tiempo los derechos de acceso con privilegios especiales.
+- Revisar las cuentas con privilegios especiales periódicamente y registrar los cambios que se realicen.
+
+##### Remoción o ajuste de los derechos de acceso
+Control para garantizar que se modifican los derechos de acceso al:
+
+- Finalizar el empleo
+- Cambiar de puesto de trabajo dentro de la organización
+
+### Objetivo 3
+**Responsabilidades** del **usuario**
+
+El objetivo de **este control es que los usuarios sean responsables** de mantener a salvo sus contraseñas o información de autenticación, para ello se establece el siguiente control
+
+Hacer a los usuarios responsables de salvaguardar su información de autenticación.
+- Uso de la información de autenticación secreta
+
+#### Controles
+
+##### Uso de la información de autenticación secreta
+Cada organización debe establecer normas para la utilización de contraseñas basándose en:
+- Asegurar que las contraseñas no se divulguen
+- Evitar el uso de registros de contraseñas (papel, archivos etc.)
+- Políticas para cambiar las contraseñas ante amenazas
+- Políticas para la calidad de las contraseñas
+- Evitar el almacenamiento de contraseñas
+- Forzar cambios de contraseñas iniciales
+- Evitar compartir contraseñas para distintos usos
+
+
+### Objetivo 4
+Responsabilidades del usuario, Se trata de prevenir accesos no autorizados a sistemas y aplicaciones
+
+Impedir el acceso no autorizado a los sistemas y las aplicaciones.
+- Restricción de acceso a la información
+- Procedimientos de conexión (log-on) seguros
+- Sistema de gestión de contraseñas
+- Uso de programas de utilidad privilegiados
+- Control de acceso al código de programas fuente
+
+
+#### Controles
+
+##### Restricción de acceso a la información
+Las funciones de una aplicación o sistema deben considerar las restricciones de control de acceso determinadas por la política de control definido.
+
+- Determine que datos son accesibles determinando que datos pueden estar disponibles para cada ID de usuario.
+- Restringa de forma selectiva derechos de lectura / escritura / eliminación / ejecución etc.
+- Limite el tipo de información de salida
+	- Por ejemplo: Utilice gráficos que eviten el acceso a todo un archivo o carpeta
+- Considere accesos físicos o lógicos adicionales para sistemas o información altamente clasificados.
+
+##### Procedimientos de conexión (log-on) seguros
+El inicio de sesión seguro debe ser capaz de corroborar la identidad del usuario.
+
+- Cuando la clasificación de la información lo requiera por política, se debe considerar la autenticación sólida por encima y más allá de la simple identificación de usuario y contraseña. (Controles adicionales físicos o lógicos)
+
+- El procedimiento de inicio de sesión no debe mostrar los identificadores del sistema o de la aplicación hasta que el inicio de sesión haya tenido éxito.
+
+- Los sistemas deberían mostrar advertencias evitando proporcionar mensajes de ayuda que podrían dar pistas a los usuarios no deseados.
+
+- Los formularios de acceso deben validarse solo cuando se han completado evitando mensajes de error con información y tener algún sistema para proteger múltiples intentos de acceso mediante "fuerza bruta“
+
+- Después del inicio de sesión con éxito, debería mostrarse un mensaje de intentos fallidos que le permiten al usuario detectar cualquier inicio de sesión inusual.
+
+- Las contraseñas no se deben transmitir en un formato no encriptado por razones obvias. De lo contrario le estamos dando facilidades extra a los hackers.
+
+- Las sesiones inactivas deben ser dependientes del tiempo, cerradas después de un cierto tiempo o un cierto tiempo inactivo, lo que mejor se adapte a la política de la compañía
+
+- También debe considerar si es aplicable limitar las horas del día para el acceso a las aplicaciones; no hay tantos empleados que trabajen fuera de horas, ¿debería la política de acceso reflejar este aspecto? 
+
+- Tenga en cuenta que, aunque sea electrónicamente, las aplicaciones son como su puerta de entrada. 
+
+- La información almacenada en las aplicaciones y el impacto en su pérdida o corrupción deberían guiarlo en cuanto a qué tan fuerte es esa puerta.
+
+##### Sistema de gestión de contraseñas
+A modo de refuerzo de lo dicho hasta ahora sobre las contraseñas, los sistemas de administración deben aplicar contraseñas de calidad, rechazar contraseñas débiles, requerir confirmación y, si se emiten con ID, forzar el cambio de las contraseñas en el primer inicio de sesión.
+
+También se deben establecer cambios de contraseñas de forma periódica, además de registrar todas las contraseñas y rechazar contraseñas similares utilizadas anteriormente. 
+
+El almacenamiento de contraseñas debe mantenerse separado de los sistemas en los que se encuentran las aplicaciones.
+
+
+##### Uso de programas de utilidad privilegiados
+Aquellos programas con capacidades de anulación del sistema o sus controles deben ser restringidos y supervisados de manera especial.
+
+Los programas con funciones privilegiadas deberían requerir autenticación por separado y estar segregados de las aplicaciones del sistema. Todas las actividades deben registrarse. 
+
+Se debe considerar nuevamente la segregación de funciones cuando sea posible.
+
+
+##### Control de acceso al código de programas fuente
+El código fuente debe estar protegido con acceso restringido mediante el uso de librerías fuente. 
+
+El código fuente no debería protegerse con aplicaciones de red.
+
+Por otro lado se establecen controles para mantener registros de la salida y de auditoría de los cambios realizados en el código. 
+
+La mayoría de las herramientas de desarrollador tienen esta función.
+
+El desarrollo debe estar sujeto a un entorno “beta” de prueba antes del lanzamiento y la migración a la red o aplicación en operación.
