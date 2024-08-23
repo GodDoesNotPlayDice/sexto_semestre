@@ -29,6 +29,7 @@ En el modelamiento **Kimball**, la granularidad se refiere al nivel de detalle d
 ### ¿Por qué es importante?
 La granularidad determina qué preguntas puedes responder con tus datos. Si la granularidad es alta, puedes hacer preguntas muy específicas, como "¿Cuántos libros vendimos a las 10:00 AM el 1 de agosto?". Si la granularidad es baja, podrías hacer preguntas más generales, como "¿Cuánto vendimos en todo el día el 1 de agosto?".
 
+Definir que puedo relacionar con las Dimensiones seleccionadas.
 
 - **Alta Granularidad (Muy Detallada):**
     - Cada fila de la tabla representa la venta de **un solo producto** en una **única transacción**.
@@ -43,8 +44,24 @@ Las **dimensiones** son tablas que contienen información descriptiva sobre los 
 
 Las dimensiones **están relacionadas con la tabla de hechos porque proporcionan el contexto necesario para entender y analizar los datos cuantitativos** (como los ingresos) en detalle. Sin estas relaciones, no podrías desglosar y explorar los datos de manera efectiva.
 
+### Dimensiones encontradas.
+**D_PRODUCTO**
+**D_CANAL**
+**D_VENDEDOR**
+**D_TIEMPO**
+**D_CLIENTE**
+**D_UBICACIÓN**: es un combinado de tablas, se usan las descripciones porque es mas rápido que el codigo id.
+- `region nvarchar(255)`
+- `provincia nvarchar(255)`
+- `ciudad_comuna nvarchar(255)`
+- `nombre_sucursal(255)`
 
 ## 4.  Identificar medidas o métricas y la tabla hechos.
 **Métricas Directas**: Estas son las métricas que se obtienen directamente de la tabla de hechos sin necesidad de cálculos adicionales complejos. Representan los valores que estás midiendo directamente.
 
 **Métricas de Contexto**: Son métricas que se calculan a partir de las métricas directas y que proporcionan un contexto adicional sobre los datos. Por ejemplo, el promedio de ventas diarias, la suma de ventas por mes, etc.
+
+
+**En general**: las métricas se pueden definir por se cuantificables y calculadas a posterior, además las métricas van dentro de la tabla **hechos**, eso si una excepción puede ser la fecha.
+
+**Métricas encontradas**: Cantidad, Total, Precio unitario, Costo unitario, Total neto, Impuesto, Total documento

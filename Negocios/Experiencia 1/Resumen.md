@@ -194,3 +194,11 @@ Es un esquema de diseño de bases de datos que se utiliza en data warehouse y se
 | Mayor espacio     | Menos espacio     |
 | Menos Join        | Más flexible      |
 | Menos flexible    |                   |
+
+# SQL Server 2019
+
+1) Conectar con el usuario windows
+2) Crear una base de datos, crear tablas, etc
+3) Guardar backup → BD → Tasks → Backup ⇒
+	1) `C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\Backup`
+
