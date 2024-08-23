@@ -543,4 +543,248 @@ $$
 **4**: eigenvalue
 **2  3**: eigenvector
 
- 
+
+# Estadística Descriptiva
+Refiere al análisis, el resumen y la presentación de los resultados relacionados con un conjunto de datos derivados de una muestra o de toda la población. 
+
+El **objetivo** de la estadística descriptiva es describir los datos observados de forma sintética y significativa para poder analizarlos mejor. Es recoger observaciones sobre sujetos con una determinada propiedad y traducir estas observaciones en números que proporcionen información sobre dicha propiedad.
+
+Las estadísticas descriptivas ofrecen un resumen conciso de los datos. Puedes resumir los datos en forma numérica o gráfica. 
+
+A diferencia de **estadística inferencial** utiliza una muestra aleatoria de datos de una población para describirla y hacer inferencias (deducción) sobre ella. Las estadísticas inferenciales son pertinentes cuando es difícil o imposible examinar a todos los miembros de una población entera. 
+
+La estadística descriptiva comprende tres categorías principales: **distribución de frecuencias, medidas de tendencia central y medidas de variabilidad.**
+
+## Estructura de datos
+Los datos provienen de muchas fuentes: mediciones de sensores, eventos, texto, imágenes y videos.
+
+Gran parte de estos datos no están estructurados: las imágenes son una colección de píxeles, y cada píxel contiene **información de color RGB (rojo, verde, azul)**. Los textos son secuencias de palabras y caracteres **que no son palabras**. Los flujos de “clics” son **secuencias de acciones** realizadas por un usuario que interactúa con una aplicación o una página web. De hecho, un gran desafío de la ciencia de datos es convertir este torrente de datos sin procesar en información procesable. 
+
+Los datos sin estructura deben procesarse y manipularse en una forma estructurada. 
+
+Una de las formas más comunes de datos estructurados es una tabla con filas y columnas, ya que los datos pueden surgir de una base de datos relacional o recopilarse para un estudio.
+
+Hay dos tipos de datos estructurados : **numéricos y categóricos.**
+
+
+![[Pasted image 20240822182919.png]]
+
+### El motivo
+Para efectos del análisis de datos y **el modelado predictivo, identificar los tipos de datos es clave para ayudar a determinar el tipo de visualización, las transformaciones a realizar, la interpretación de la información o modelo matemático a aplicar.**
+
+Python, utiliza estos tipos de datos **para mejorar el rendimiento computacional.**
+
+Saber que los datos son categóricos puede actuar como una señal que le dice al software cómo **deben comportarse los procedimientos estadísticos, como producir un gráfico o ajustar un modelo.**
+
+### Clasificación de datos
+Con **datos categóricos nominales** es posible calcular **frecuencias y moda**. No tiene sentido calcular promedios, desviación estándar, cuartiles, etc. **Generalmente se grafican con gráficos de tortas y gráficos de barras.**
+
+Con **datos categóricos ordinales,** al poder transformarlas en números, es posible aplicar estadísticos más completos. A lo que se suma que podemos realizar la operación inversa: transformar números en variables categóricas. Esto se llama Intervalos de Clase (tablas de frecuencia).
+
+Con **datos numéricos continuos**  son datos que adoptan un número ilimitado de valores diferentes porque sus valores no son fijos. Se pueden aplicar casi todos los estadísticos. Se representan gráficamente con histogramas y tendencias. Algunos ejemplos: altura, el peso, la temperatura, etc.
+
+Con **datos numéricos discretos**, son aquellos que sólo pueden tomar valores determinados. Se trata de datos que se pueden contar y que tienen un número limitado de valores. Suelen presentarse en forma de números. Ejemplos son número de nuevos clientes, número de artículos en un stock, número de alumnos. Se pueden representar por gráficos de barras 
+
+
+## Tipos estadísticos
+
+### Estimaciones de localización
+La **media** es una medida que representa el **"valor típico"** de una variable, mostrando dónde se concentran la mayoría de los datos. Se calcula sumando todos los valores y dividiendo el resultado entre el número total de valores en la muestra.
+$$
+\bar{x} = \frac{1}{n} \sum_{i=1}^{n} x_i
+$$
+```python
+import numpy as np
+
+a = np.array([1, 2, 3, 4, 5])
+media = np.mean(a)
+```
+
+Una variación de la media es una **media recortada**, que se calcula dejando fuera un número fijo de valores ordenados en cada extremo y luego tomando un promedio de los valores restantes.
+
+Este tipo de media, elimina la influencia de los valores extremos, que podrían ser posibles outliers.
+$$
+\bar{x} = \frac{\sum_{i=p+1}^{n-p} x_{(i)}}{n - 2p}
+$$
+
+```python
+from scipy import stats
+
+a = np.array([1, 2, 3, 4, 5])
+media_recortada = stats.trim_mean(a, 0.2)
+```
+
+Otro tipo de media es una **media ponderada**, que se calcula multiplicando cada valor de datos por un peso especificado por el usuario y dividiendo su suma por la suma de los pesos.
+
+Hay **dos razones** para usar este tipo de media:
+- Algunos **valores son intrínsecamente más variables que otros**, y las observaciones altamente variables reciben un peso más bajo. 
+	- Por ejemplo, para un sensor con falla, podemos ponderar **sus datos en forma menor.**
+- Los datos recogidos no representan por igual a los diferentes colectivos que nos interesa medir.
+$$
+\bar{x}_w = \frac{\sum_{i=1}^{n} w_i x_i}{\sum_{i=1}^{n} w_i}
+$$
+La **mediana** es el número del medio en una lista ordenada de datos. Si hay un número par de valores de datos, el valor medio es uno que no está realmente en el conjunto de datos, sino el promedio de los dos valores que dividen los datos ordenados en mitades superior e inferior. 
+
+**La mediana se conoce como una estimación robusta de la ubicación, ya que no está influenciada por valores atípicos (outliers) que podrían sesgar los resultados.**
+
+![[Pasted image 20240822194545.png]]
+
+
+```python
+import numpy as np
+
+a = np.array([1, 2, 3, 4, 5])
+mediana = np.median(a) # 3
+```
+
+### Estimaciones de variabilidad
+La ubicación es solo una dimensión al resumir una característica. 
+
+Una segunda dimensión, la variabilidad, también conocida como **dispersión, mide si los valores de los datos están muy agrupados o dispersos.** 
+
+![[Pasted image 20240822194748.png]]
+
+La **variabilidad** de los datos se mide observando las diferencias (o desviaciones) entre los datos y un valor central, como la media o la mediana. Por ejemplo, si tienes los datos {1, 4, 4}, la media es 3. Las desviaciones de la media serían: 1 – 3 = -2, 4 – 3 = 1, y 4 – 3 = 1.
+
+Estas desviaciones muestran qué tan dispersos están los datos respecto a la media. Sin embargo, si sumamos estas desviaciones, obtendríamos cero, lo que no nos dice nada útil. Para evitar esto, se toman los valores absolutos de las desviaciones (es decir, sin signos negativos) y se promedian. En este caso, las desviaciones absolutas son {2, 1, 1} y su promedio es 1,33. Esto se llama **desviación absoluta media** y es una manera sencilla de entender cuánta variación hay en los datos.
+
+$$
+\text{Mean absolute deviation} = \frac{\sum_{i=1}^{n} \left| x_i - \bar{x} \right|}{n}
+$$
+```python
+import numpy as np
+
+a = np.array([1, 2, 3, 4, 5])
+desviacion_absoluta_media = np.mean(np.abs(a - np.mean(a)))
+```
+
+Las estimaciones de variabilidad más conocidas son la **varianza y la desviación estándar**, que se basan en desviaciones al cuadrado. 
+
+La **varianza** es un promedio de las desviaciones al cuadrado
+La **desviación** estándar es la raíz cuadrada de la varianza.
+
+La **desviación estándar** es mucho más fácil de interpretar que la **varianza** ya que está en la misma escala que los datos originales.
+
+**Ni la varianza, ni la desviación estándar, ni la desviación absoluta media son robustas frente a valores atípicos y extremos.** La varianza y la desviación estándar son especialmente **sensibles a los valores atípicos**, ya que se basan en las desviaciones al cuadrado.
+
+$$
+\text{Variance} = s^2 = \frac{\sum_{i=1}^{n} (x_i - \bar{x})^2}{n - 1}
+$$
+$$
+\text{Standard deviation} = s = \sqrt{\text{Variance}}
+$$
+  
+  ```python
+  import numpy as np
+
+a = np.array([1, 2, 3, 4, 5])
+varianza = np.var(a) # 2.5
+desviacion_estandar = np.std(a) # 1.58
+```
+
+### Estimaciones basadas en percentiles
+Un enfoque diferente para estimar la dispersión se basa en observar la **dispersión de los datos ordenados.** 
+
+Un enfoque para medir la dispersión en los datos es mirar cómo se distribuyen cuando están ordenados. Una medida simple es el rango, **que es la diferencia entre el valor más alto y el más bajo.** Sin embargo, **el rango puede ser engañoso si hay valores extremos (atípicos) en los datos.**
+
+Para evitar este problema, podemos calcular **el rango después de eliminar los valores más altos y más bajos.** Esto se basa en la diferencia entre **percentiles**, que son puntos que dividen los datos ordenados en partes iguales. Por ejemplo, la **mediana** es el percentil 50, es decir, el punto medio de los datos.
+
+En conjuntos de datos muy grandes, calcular percentiles exactos puede ser complicado y costoso en términos de tiempo y recursos, porque implica ordenar todos los datos.
+
+![[Pasted image 20240822200009.png]]
+
+```python
+import numpy as np
+
+a = np.array([1, 2, 3, 4, 5])
+percentil_25 = np.percentile(a, 25) # 2
+percentil_75 = np.percentile(a, 75) # 4
+```
+
+### Estimaciones basadas en percentiles - `boxplot`
+Se basan en percentiles y brindan una forma rápida de visualizar la distribución de datos. 
+
+La figura muestra un diagrama de caja de la población por estado, podemos ver de inmediato que la población estatal promedio es de aproximadamente 5 millones, la mitad de los estados se encuentran entre aproximadamente 2 millones y aproximadamente 7 millones, y hay algunos valores atípicos (outliers) de población altos. 
+
+![[Pasted image 20240822200227.png]]
+
+La parte **superior** e inferior de la caja son los percentiles 75 y 25, respectivamente. 
+
+La **mediana** se **muestra** con la línea horizontal en el recuadro. 
+
+Las **líneas discontinuas**, denominadas bigotes, se extienden desde la parte superior e inferior del cuadro para indicar el rango de la mayor parte de los datos.
+
+Los **valores atípicos** se muestran como puntos individuales.
+
+```python
+import matplotlib.pyplot as plt
+
+a = np.array([1, 2, 3, 4, 5])
+plt.boxplot(a)
+```
+
+
+### Tablas de frecuencia e histogramas
+Una **tabla de frecuencia** de una variable, divide el rango de la variable en segmentos igualmente espaciados y nos dice cuántos valores caen dentro de cada segmento.
+
+**Un histograma es una forma de visualizar una tabla de frecuencia**, con barras en el eje x y el conteo de datos en el eje y. 
+
+En general, los histogramas se trazan de manera que:
+- Las barras vacías se incluyen en el gráfico.
+- Las barras tienen el mismo ancho.
+- El número de barras dependen del usuario.
+- Las barras son contiguas: no se muestra ningún espacio vacío entre las barras, a menos que haya una barra vacía.
+
+![[Pasted image 20240822200831.png]]
+
+```python
+import matplotlib.pyplot as plt
+
+a = np.array([1, 2, 3, 4, 5])
+plt.hist(a)
+```
+
+### Datos binarios y categóricos
+La **moda** es el valor (o valor que más se repite) que aparece con mayor frecuencia en los datos. 
+- La moda es una estadística de resumen simple para datos categóricos y, por lo general, no se usa para datos numéricos.
+
+![[Pasted image 20240822201025.png]]
+
+```python
+import cipy.stats as stats
+
+a = np.array([1, 2, 3, 4, 5, 5])
+moda = stats.mode(a) # 5
+```
+
+
+Algunas veces los datos **categóricos podemos expresarlos matemáticamente a través del concepto de “ocurrencia futura”** o probabilidad.
+
+La **probabilidad** de que suceda un evento es la proporción de veces que ocurrirá si la situación pudiera repetirse una y otra vez, innumerables veces.
+
+Las probabilidades se expresan como fracciones `(1/6, 1/2, 8/9)` o como decimales `(0.167, 0.500, 0.889)` que están entre cero y uno. 
+
+Tener una **probabilidad de cero** significa que algo nunca va a suceder; una probabilidad de uno indica que algo va a suceder siempre.
+
+![[Pasted image 20240822202104.png]]
+
+### Correlación
+El análisis exploratorio implica **examinar la correlación entre los predictores y entre los predictores y una variable objetivo.** 
+
+
+Dos variables, X e Y, están **correlacionadas positivamente** cuando, al aumentar los valores de X, también aumentan los valores de Y, y cuando X disminuye, Y también disminuye. Por ejemplo, si a más horas de estudio (X) corresponde un mayor puntaje en un examen (Y), hay una correlación positiva.
+
+Por otro lado, están **correlacionadas negativamente** cuando, al aumentar los valores de X, los valores de Y disminuyen, y viceversa. Por ejemplo, si a más horas de ver televisión (X) corresponde un menor puntaje en un examen (Y), hay una correlación negativa.
+
+El **coeficiente de correlación**, que da una estimación de la correlación entre dos variables que siempre se encuentran en la misma escala. Para calcular el coeficiente de correlación de Pearson, multiplicamos las desviaciones de la media de la variable 1 por las de la variable 2 y dividimos por el producto de las desviaciones estándar.
+
+$$
+r = \frac{\sum_{i=1}^{n} (x_i - \bar{x})(y_i - \bar{y})}{(n - 1)s_x s_y}
+$$
+El coeficiente de correlación siempre se encuentra entre +1 (correlación positiva perfecta) y –1 (correlación negativa perfecta); 0 indica que no hay correlación. 
+
+**Las variables pueden tener una asociación que no sea lineal, en cuyo caso el coeficiente de correlación puede no ser una métrica útil.**
+
+A partir de una tabla de correlaciones, se puede trazar un mapa de calor para mostrar visualmente la relación entre múltiples variables. 
+
+![[Pasted image 20240822203057.png]]
