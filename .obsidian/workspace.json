@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Seguridad/Experiencia 1/Resumen.md",
+                "file": "Etica/Resumen.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Seguridad/Experiencia 1/Resumen.md",
+                "file": "Etica/Resumen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Seguridad/Experiencia 1/Resumen.md",
+                "file": "Etica/Resumen.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Seguridad/Experiencia 1/Resumen.md"
+                "file": "Etica/Resumen.md"
               }
             }
           }
@@ -153,10 +153,13 @@
   },
   "active": "b12741a508811a8a",
   "lastOpenFiles": [
+    "Etica/Caso.md",
+    "Etica/Resumen.md",
+    "Etica/Tasks.md",
+    "Seguridad/Experiencia 1/Resumen.md",
     "ML/Experiencia 1/MinMaxScaler y Salida de datos.md",
     "ML/Experiencia 1/Resumen.md",
     "tldraw",
-    "Seguridad/Experiencia 1/Resumen.md",
     "ML/Imagenes/Pasted image 20240822203057.png",
     "ML/Imagenes/Pasted image 20240822202104.png",
     "ML/Imagenes/Pasted image 20240822201025.png",
@@ -188,8 +191,6 @@
     "Negocios/Experiencia 1/Actividad 1/Lectura 1.md",
     "Gestion/Experiencia 1/Caso/Farmacia.md",
     "Gestion/Experiencia 1/Imagenes",
-    "Etica/Resumen.md",
-    "Etica/Caso.md",
     "Negocios/Resumen.md",
     "Seguridad/Imagenes",
     "Negocios/Experiencia 1",
@@ -198,7 +199,6 @@
     "Gestion/Esquemas/Que es un proyecto.md",
     "Gestion/Esquemas/Acta de constitución.md",
     "ML/Tasks.md",
-    "Pasted image 20240812205150.md",
     "Year/Semester/Plataformas/Untitled.canvas",
     "Untitled.canvas",
     "Networks/IPs/Untitled.canvas"
