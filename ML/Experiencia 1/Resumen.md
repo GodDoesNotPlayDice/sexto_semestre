@@ -816,3 +816,280 @@ correlacion = np.corrcoef(a, b)
 ```
 
 **Dato:** La causalidad es el resultado de una causa.
+
+
+# Tratamiento de datos
+En cualquier proyecto de Machine Learning o Ciencia de datos nos tenemos que enfrentar a una situación ineludible: **los datos no son ideales y, generalmente, faltan muchos de ellos.**
+
+Existen varias formas **de detectar y eliminar los valores atípicos, pero los métodos que hemos visto son ampliamente utilizados y fáciles de entender.**
+
+**Si un valor atípico debe eliminarse o no dependerá  de cada problema en el que esté trabajando.**
+
+Para saber **cuál técnica podremos utilizar para el tratamiento de los datos faltantes, primero debemos determinar el mecanismo detrás de esa pérdida de datos.** Y estos mecanismos se dividen en tres:
+
+## (MCAR: Missing Completely at Random)
+Ocurre cuando la probabilidad de que una variable **tenga valor faltante es independiente de la misma variable y de cualquier otra influencia externa**. Lo que significa que los valores faltantes no dependen de los datos.
+
+
+## (MNAR: Missing Not at Random)
+Ocurre cuando la probabilidad de que una variable tenga valores faltantes no es al azar, por lo tanto depende de las variables faltantes.
+
+Supongamos que tenemos un set de datos y que los datos faltantes aparecen tanto en la **categoría A como en la B o en la C,** y los valores faltantes pueden **ser altos o bajos**. 
+
+Esto quiere decir que esos datos faltantes no dependen ni de la categoría ni del valor mismo de los datos, por lo que podemos decir que el mecanismo es completamente aleatorio.
+
+![[Pasted image 20240826194345.png]]
+
+
+## (MAR: Missing at Random)
+Ocurre cuando la probabilidad de que una variable tenga valores faltantes no es al azar, por lo tanto depende de las variables faltantes.
+
+Volviendo a nuestro set de datos hipotético podemos ver que sistemáticamente los datos con valores menores a 100 faltan, tanto para las categorías A, B como C. **Es decir que los valores faltantes dependen de la variable “V2”, y por tanto la razón de la falta de datos NO es aleatoria.**
+
+Este mecanismo es el más complicado de todos, porque como la pérdida de datos es sistemática tenemos que encontrar esta razón, intentar corregir el problema y, muy probablemente, adquirir los datos nuevamente.
+
+![[Pasted image 20240826201350.png]]
+
+## (MAR: Missing at Random)
+Ocurre cuando la probabilidad de que una variable tenga valor faltante es independiente de las variables con valores faltantes pero dependiente de las otras variables con valores observables. Esto sugiere un supuesto menos restringido.
+
+Este mecanismo es un punto intermedio entre los dos anteriores.
+
+En el ejemplo vemos que los datos faltantes corresponden únicamente a datos en la categoría B, y que estos datos faltantes van desde los más pequeños a los más grandes. Esto quiere decir que los valores faltantes dependen sólo de la variable “V1” (la categoría) y no de la propia variable “V2”.
+
+![[Pasted image 20240826201444.png]]
+
+## Estrategias
+Tenemos dos grandes grupos que **son el descarte de datos y la imputación.**
+
+Consiste simplemente en eliminar los registros que contengan datos faltantes, mientras que en **la imputación** lo que se busca es estimar el valor del dato faltante. Para esto último se puede usar la información de los registros vecinos, la información presente en otras variables (o columnas) del set de datos, como un estadístico o simplemente una constante.
+
+En términos generales estas técnicas se pueden aplicar a datos faltantes aleatorios o completamente aleatorios, es decir que asumen un grado de aleatoriedad en el mecanismo responsable de la pérdida de los datos.
+
+Sin embargo, **para el caso de datos faltantes no aleatorios no es recomendable usar estas técnicas** porque la pérdida de datos en este caso es sistemática.
+
+![[Pasted image 20240826202059.png]]
+
+### Descarte
+
+Eliminar los ejemplos (o variables) con MV: sencillo, pero no se puede aplicar siempre. **Sólo cuando el porcentaje de datos faltantes es pequeño.**
+
+Si el porcentaje de **MV** es grande, debemos pensar en otra solución. Es bueno ver como están distribuido los **MV** en el dataset completo.
+
+Aunque existen diferentes técnicas, en general estas se centran en tres:
+- Eliminar valores faltantes
+- Eliminar filas del dataset faltantes
+- Eliminar columnas del dataset faltantes
+
+![[Pasted image 20240826203336.png]]
+
+Una forma es la eliminación por pares (pairwise deletion),  donde se quitarán únicamente las casillas con el dato faltante. 
+
+La ventaja es que preservamos los datos conocidos, pero la desventaja es que podremos tener características (es decir columnas) con diferente cantidad de datos, lo que puede complicar el entrenamiento de un modelo de Machine Learning pues el número de datos debe ser el mismo para cada característica:
+
+![[Pasted image 20240826203745.png]]
+
+Una forma más agresiva, es la eliminación de la lista (listwise deletion).
+
+La cual consiste en remover del set de datos las filas que contengan datos faltantes, con la desventaja de que al eliminar la fila completa eliminaremos también algunos datos existentes, lo que puede llevar a una pérdida significativa de información
+
+![[Pasted image 20240826203804.png]]
+
+### Imputación
+En muchos casos, la mejor opción es imputar datos, ya que esto permite trabajar con todos los datos aunque produzca un sesgo.
+
+Existen muchas técnicas para lidiar con esto. La taxonomía no está 100% definida, pero acá entregamos un ejemplo.
+
+**Las técnicas de imputación están enfocadas a variables numéricas.**
+
+Para variables categóricas se podría imputar con la moda, pero es preferible realizar un encoding antes, identificando si es una variable categórica nominal u ordinal.
+
+![[Pasted image 20240826204017.png]]
+
+En la imputación **lo que hacemos es mirar el comportamiento de los datos vecinos para poder estimar el valor del dato faltante.**
+
+Idealmente esta imputación no debería cambiar la distribución de nuestros datos. Así que si originalmente teníamos una distribución normal (con forma de campana), entonces después de la imputación se debería mantener esta distribución original.
+
+Acá podemos usar dos técnicas: **la imputación simple y la imputación múltiple,** y en ambos casos, las debemos usar sólo si estamos seguros de que los mecanismos son para datos faltantes completamente aleatorios.
+
+![[Pasted image 20240826204148.png]]
+
+#### Imputación simple
+En la imputación simple se usa un algoritmo para hacer una única estimación y el valor obtenido se usa para reemplazar el dato faltante correspondiente. En este caso las tres técnicas más usadas son:
+
+- **Imputación por la media o la mediana:** se calcula la media o la mediana y se reemplazan los datos faltantes con cualquiera de estos dos valores.  Tiene la desventaja de que al reemplazar muchos datos faltantes con un único valor estaremos cambiando la distribución de los datos.
+
+- **Imputación por una constante:** se reemplazan los valores faltantes con un valor que luego nos ayudará a reconocer estos registros como faltantes. Tiene la desventaja que el modelo de ML puede detectar reglas en los datos de manera errónea.
+
+- **Hacer la imputación por regresión**: En este caso cada dato faltante es reemplazado con el valor predicho por un modelo de regresión. Aquí se preserva la distribución de los datos. Pero, debe haber algún tipo de correlación entre las variables que estamos usando para construir este modelo.
+
+- **Imputación hot-deck**: En este caso, el dato faltante es reemplazado con valores tomados de datos “cercanos” al dato faltante. Dentro de esta categoría el método más usado es el de k-vecinos más cercanos (o kNN por sus siglas en Inglés: k-Nearest Neighbors). Es mucho más preciso que la media o la mediana, y puede funcionar en lugar de la regresión cuando los datos no están correlacionados. La desventaja es que si tenemos muchos datos se requiere bastante tiempo de cómputo.
+
+#### Imputación múltiple
+En la imputación múltiple se hacen múltiples estimaciones, que luego se combinan para producir un único valor, que será el usado para reemplazar el dato faltante correspondiente, con lo cual se puede disminuir el sesgo de la estimación.
+
+El método más usado es el algoritmo de Imputación Múltiple con Ecuaciones Encadenadas (o MICE por sus siglas en Inglés: **Multiple Imputation by Chained Equations). Aquí, la idea es que progresivamente las estimaciones sean cada vez más precisas y se acerquen más y más al valor real.**
+
+Aunque es un método muy preciso, requiere que haya relación lineal entre las variables.
+
+## Outliers
+Los valores atípicos son **aquellos puntos de datos que difieren significativamente de otras observaciones presentes en un conjunto de datos dado.** Puede ocurrir debido a la variabilidad en la medición y debido a una mala interpretación al llenar los puntos de datos.
+
+Al realizar la recopilación de datos, es cuando los valores atípicos se presentan por primera vez a la población. Los valores atípicos pueden ser el resultado de un error durante la recopilación de datos o pueden ser solo una indicación de variación en los datos.
+
+En el ejemplo,  todos los jugadores obtuvieron una puntuación de más de 300, excepto el Jugador 3, que obtuvo una puntuación de 10. Si esto es un error, podemos ignorarlo, pero si es una variación en los datos, debemos analizar un poco más.
+
+![[Pasted image 20240826204445.png]]
+
+### Detección con Visualización
+
+#### Boxplot
+En un gráfico de caja (boxplot), los outliers se trazan como puntos individuales, mientras que el resto de la población se agrupará dentro de la caja o los “bigotes” del gráfico.
+
+La gráfica muestra tres puntos entre 10 y 12, estos son valores atípicos ya que no están incluidos en el cuadro de la observación, es decir, no están cerca de los cuartiles.
+
+Aquí analizamos el **valor atípico univariable.**
+
+![[Pasted image 20240826204626.png]]
+
+#### Gráfico de dispersión
+Un gráfico de dispersión es un tipo de gráfico o diagrama matemático que utiliza coordenadas cartesianas para mostrar valores de dos variables típicamente para un conjunto de datos. 
+
+Mirando la gráfica, podemos ver que la mayoría de los puntos de datos se encuentran en el lado inferior izquierdo, pero hay puntos que están lejos de la población, como la esquina superior derecha.
+
+Este es un análisis de  **valores atípico multivariable.**
+
+![[Pasted image 20240826204744.png]]
+
+### Detección con Métricas
+**La puntuación Z** asume que las variables tienen una distribución Gaussiana. Aquí se representan el “número de desviaciones estándar” alejadas de la media.
+
+Aquí, normalmente definimos valores atípicos como puntos cuyo módulo de puntuación z es mayor que un valor de umbral. Este valor de umbral suele ser superior a 2 (3 es un valor común).
+
+![[Pasted image 20240826204914.png]]
+
+**El método IQR**, usa del rango intercuartílico (IQR), para detectar valores atípicos. 
+
+IQR nos dice la variación en el conjunto de datos. **Cualquier valor que esté más allá del rango de -1,5 x IQR a 1,5 x IQR se trata como un valor atípico.**
+
+- Q1 representa el primer cuartil/percentil 25 de los datos.
+- Q2 representa el segundo cuartil/mediana/percentil 50 de los datos.
+- Q3 representa el tercer cuartil/percentil 75 de los datos.
+- (Q1–1.5IQR) representan el valor más pequeño en el conjunto de datos y 
+- (Q3+1.5IQR) representan el valor más grande en el conjunto de datos
+
+![[Pasted image 20240826205115.png]]
+
+### Corrección o eliminación
+**Usando el puntaje Z:** si queremos eliminar o filtrar los valores atípicos y obtener los datos limpios, se puede hacer con solo un código de línea, ya que ya hemos calculado el puntaje Z.
+
+En el código se eliminan más de 90 filas del conjunto de datos BOSTON HOUSE, es decir, se eliminaron los valores atípicos usando la librería SPICY.
+
+```python
+from scipy import stats
+import numpy as np
+
+z = np.abs(stats.zscore(boston_df))
+boston_df_o = boston_df[(z < 3).all(axis=1)]
+boson_df.shape # (506, 13) 
+boson_df_o.shape # (415, 13) 
+```
+
+**Puntuación IQR,** al igual que el puntaje Z, podemos usar el puntaje IQR para filtrar los valores atípicos manteniendo solo los valores válidos.
+
+El código descrito eliminará los valores atípicos del conjunto de datos.
+
+```python
+Q1 = boston_df_o1.quantile(0.25)
+Q3 = boston_df_o1.quantile(0.75)
+IQR = Q3 - Q1
+
+boston_df_out = boston_df_o1[~((boston_df_o1 < (Q1 - 1.5 * IQR)) |(boston_df_o1 > (Q3 + 1.5 * IQR))).any(axis=1)]
+```
+
+Al igual que la imputación de valores faltantes, también podemos imputar valores atípicos
+
+Podemos **usar la media, la mediana, el valor cero en este método.**  Al imputar, no hay pérdida de datos. 
+- Por ejemplo, aquí aplicamos la media.
+
+![[Pasted image 20240826210409.png]]
+
+En otro caso aplicamos mediana
+
+![[Pasted image 20240826210431.png]]
+
+# Que es KNN
+KNN significa K vecino más cercano (K-Nearest Neighbors), el propio nombre sugiere que se considera el vecino más cercano, **es uno de los algoritmos de aprendizaje automático supervisado**, curiosamente, podemos resolver problemas de clasificación y regresión con el algoritmo. 
+
+Es uno de los modelos de **Machine Learning más simples y además nos sirve para la imputación de datos.**
+
+## Como funciona
+K-NN tiene dos parámetros: **La medida de distancia o similaridad.**
+- El parámetro “K” o “e” según como se decida crear los vecindarios.
+
+El **concepto de similaridad o distancia** son parecidos, ya que tratan de cuantificar lo mismo, pero de puntos de vistas distinto.
+- **La distancia** entre más crece, más alejados o distintos son los objetos a medir
+- **La similaridad** entre más crece, más parecidos o cercanos son los objetos a medir.
+
+### Formas de calcular las métricas
+**EUCLIDIANA**: es la fórmula de distancia más utilizada. La fórmula de la distancia euclidiana encuentra la distancia más corta entre los puntos A y B. Esto a veces se conoce como el teorema de Pitágoras.
+
+$$
+d = \sqrt{(p_1 - q_1)^2 + (p_2 - q_2)^2}
+$$
+
+**MANHATTAN** es la suma de las diferencias absolutas entre puntos en todas las dimensiones. La distancia Manhattan se usa  si necesitamos calcular la distancia entre dos puntos de datos en una ruta similar a una cuadrícula.
+
+$$
+d = \sum_{i=1}^{n} |x_i - y_i|
+
+$$
+
+**MINKOWSKI** es un espacio vectorial normado que puede considerarse como una generalización de la distancia euclidiana y la distancia de Manhattan.
+
+$$
+d(i, j) = \left( \sum_{k=1}^{p} |x_{ik} - x_{jk}|^q \right)^{\frac{1}{q}}, \quad q > 0
+$$
+
+
+#### Formas
+![[Pasted image 20240826211321.png]]
+
+
+### Vecindarios
+**La más tradicional es usar el parámetro K:** esto se basa en elegir los K vecinos más cercanos según una métrica de distancia o similaridad.
+
+No existe un método estructurado para encontrar el mejor valor de K.
+
+En este ejemplo, el punto negro central busca los K=6 vecinos más cercanos en un espacio de 2 dimensiones.
+
+![[Pasted image 20240826211420.png]]
+
+**La otra estrategia es usar el parámetro “e”:** este parámetro define un radio “e” y todo dato que esté dentro de ese radio “e” es un dato perteneciente al vecindario.
+
+En este ejemplo, hay un punto central indicado con la flecha. Este punto define su vecindario según el valor del parámetro “e”, hay 2 circunferencias que son el resultado de 2 valores de “e” distintos y según el valor de “e”, es el tamaño del vecindario (3 y 5).
+
+![[Pasted image 20240826211515.png]]
+
+## Imputación
+
+### Usos de KNN en la imputación
+La idea de usar K-NN para imputación es usar los vecindarios para obtener el valor que reemplazaremos por el “valor faltante”.
+
+Definidos los parámetros del algoritmo (distancia y valor de K o “e”), buscaremos cuáles son los datos que conformarán el vecindario.
+
+La distancia se debe calcular con las variables observables y, además, se deben elegir datos que tengan valores que sirvan para realizar la imputación.
+
+#### Ejemplo
+Supongamos que queremos imputar un valor a valores **NaN**.
+Podemos usar las variables numéricas y observables para calcular la distancia.
+
+![[Pasted image 20240826211843.png]]
+
+La distancia se calcula entre el vector que tiene el MV que queremos imputar y los vectores que también tienen valores en esas variables y que tengan datos observados en la variable **Humidity**, eso hace que los datos: 3, 6, 8 y 9 no sean considerados por tener “valores faltantes”.
+
+![[Pasted image 20240826212113.png]]
+
+Supongamos que K=3. Entonces, los vecinos más cercanos serían: 1, 5 y 7, finalmente, con esos 3 datos estimamos el MV con la técnica que queramos. En este caso, podríamos usar la media: (64.0 + 68.0 + 68.0)/3.
+
+![[Pasted image 20240826212204.png]]

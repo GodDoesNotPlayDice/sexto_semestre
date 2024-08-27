@@ -4,29 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "c4f61775d8383080",
+        "id": "33d93deb554f42d6",
         "type": "tabs",
         "children": [
           {
-            "id": "9b079cf3fc731425",
+            "id": "7b8006118a643fb3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Gestion/Experiencia 1/Caso/Farmacia.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e711ff2e999ea483",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Gestion/Experiencia 1/Caso/Grafico.md"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -95,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Gestion/Experiencia 1/Caso/Farmacia.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Gestion/Experiencia 1/Caso/Farmacia.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Gestion/Experiencia 1/Caso/Farmacia.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -161,8 +143,22 @@
       "tldraw:Create new tldrawing": false
     }
   },
-  "active": "9b079cf3fc731425",
+  "active": "7b8006118a643fb3",
   "lastOpenFiles": [
+    "ML/Experiencia 1/Resumen.md",
+    "ML/Imagenes/Pasted image 20240826211321.png",
+    "ML/Imagenes/Pasted image 20240826212204.png",
+    "ML/Imagenes/Pasted image 20240826212113.png",
+    "ML/Imagenes/Pasted image 20240826211843.png",
+    "ML/Imagenes/Pasted image 20240826211515.png",
+    "ML/Imagenes/Pasted image 20240826211420.png",
+    "Pasted image 20240826211302.png",
+    "ML/Imagenes/Pasted image 20240826210431.png",
+    "ML/Imagenes/Pasted image 20240826210409.png",
+    "ML/Imagenes/Pasted image 20240826205115.png",
+    "ML/Experiencia 1/MinMaxScaler y Salida de datos.md",
+    "Negocios/Tasks.md",
+    "Gestion/Experiencia 1/Caso/Farmacia.md",
     "Gestion/Experiencia 1/Caso/Grafico.md",
     "Gestion/Experiencia 1/Resumen.md",
     "Excalidraw",
@@ -171,23 +167,10 @@
     "Gestion/PMBOK/Diagrama.md",
     "tldraw",
     "Gestion/PMBOK",
-    "Gestion/Experiencia 1/Caso/Farmacia.md",
     "Etica/Caso.md",
     "Etica/Resumen.md",
     "Etica/Tasks.md",
     "Seguridad/Experiencia 1/Resumen.md",
-    "ML/Experiencia 1/MinMaxScaler y Salida de datos.md",
-    "ML/Experiencia 1/Resumen.md",
-    "ML/Imagenes/Pasted image 20240822203057.png",
-    "ML/Imagenes/Pasted image 20240822202104.png",
-    "ML/Imagenes/Pasted image 20240822201025.png",
-    "ML/Imagenes/Pasted image 20240822200831.png",
-    "ML/Imagenes/Pasted image 20240822200227.png",
-    "ML/Imagenes/Pasted image 20240822200009.png",
-    "Pasted image 20240822200155.png",
-    "Pasted image 20240822195001.png",
-    "ML/Imagenes/Pasted image 20240822194748.png",
-    "ML/Imagenes/Pasted image 20240822194545.png",
     "Negocios/Experiencia 1/Resumen.md",
     "Negocios/Experiencia 1/Actividad 2/Actividad.md",
     "Negocios/Experiencia 1/Actividad 2/Actividad-Estrella-DW.md",
@@ -201,14 +184,12 @@
     "Gestion/Experiencia 2/Imagenes",
     "Emprendimiento/Experiencia 1/Resumen.md",
     "Excalidraw/Drawing 2024-08-20 15.06.05.excalidraw.md",
-    "Negocios/Tasks.md",
     "Negocios/Experiencia 1/Actividad 1/Lectura 1.md",
     "Gestion/Experiencia 1/Imagenes",
     "Negocios/Resumen.md",
     "Seguridad/Imagenes",
     "Negocios/Experiencia 1",
     "Gestion/Experiencia 2",
-    "Gestion/Esquemas/Que es un proyecto.md",
     "Year/Semester/Plataformas/Untitled.canvas",
     "Untitled.canvas",
     "Networks/IPs/Untitled.canvas"
