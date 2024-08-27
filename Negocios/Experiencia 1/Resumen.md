@@ -202,3 +202,101 @@ Es un esquema de diseño de bases de datos que se utiliza en data warehouse y se
 3) Guardar backup → BD → Tasks → Backup ⇒
 	1) `C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\Backup`
 
+\
+# Modelo dimensional
+**En un modelo de datos dimensional**: Un modelo dimensional es un modelo de datos que se utiliza en data warehouse y se compone de tablas de hechos y tablas de dimensiones, que se utilizan para analizar y reportar información de negocio.
+
+![[Pasted image 20240826212732.png]]
+
+ **Hechos**: El registro (medición) de un hecho.
+-  Numéricos 
+- Aditivos
+**Dimensiones**: Descriptores de los hechos. 
+- Brindan contexto
+- Se segmenta en torno a ellos 
+
+![[Pasted image 20240826213012.png]]
+
+
+**Tabla de Hechos**: Contiene las medidas cuantitativas que se desean analizar.
+- Una venta, Un movimiento de stock, Click de usuario en sitio web
+- **Caracteristicas**:
+	- Llave única compuesta de llaves foráneas de dimensiones asociadas 
+	- **Valores de medición**:
+		- Precio de venta
+		- Cantidad involucrada
+		- Peso
+		- Impuesto
+		- etc
+	- **Tipos de datos**: numéricos
+		- Para hacer cálculos Aditivos para poder hacer agregaciones:
+			- `Sum()`
+			- `Avg()`
+			- `Min()`
+			- `Max()`
+		- No aditivos – información referente a la transacción.
+			- Utilidad
+- **Granularidad**: es el nivel de detalle representado por cada fila de la tabla de hechos.
+	- Es decir “¿qué representa una fila de mi tabla de hechos?”
+		- Formas de definirlo: 
+			- La **granularidad** está definida por algún concepto de negocio relevante, venta individual o la línea específica de la boleta en la venta.
+			- La **granularidad** está definida por una combinación de dimensiones.
+				- Ventas por sucursal, fecha y línea de producto. En este ejemplo cada fila de la tabla de hechos representará la combinación de todas las ventas para cada combinación de fecha, sucursal y línea de producto posible.
+- **Dimensiones**: Tablas dimensionales
+	- Llave única 
+	- Atributos
+		- Texto 
+		- Discretos 
+	- Pocos registros (comparado con las tablas de hechos) 
+	- Varias columnas
+	- Fuente de:
+		- Restricciones WHERE
+		- Agrupaciones 
+	- Son esenciales en un modelo dimensional 
+		- Contienen los atributos que definen la granularidad 
+- Orientación al analista (usuario) 
+	- Valores ojalá descriptivos 
+	- Códigos
+	- Romperlos en sus componentes descriptivos 
+![[Pasted image 20240826214240.png]]
+
+## SCD (Slowly Changing Dimensions)
+Dimensiones que cambian lentamente **SCD (Slowly Changing Dimensions)**
+
+- Validez de los valores de algunas dimensiones no es eterna 
+	- Vendedor cambia de jefe 
+	- Cliente cambia de comuna 
+	- Comuna cambia de región (Chile, por ejemplo)
+- El cómo tratamos esto no da lo mismo
+	- ¿Puede pensar por qué es relevante?
+
+### Ejemplo 1
+![[Pasted image 20240826214516.png]]
+
+### Ejemplo 2
+![[Pasted image 20240826214532.png]]
+
+### Ejemplo 3
+![[Pasted image 20240826214543.png]]
+
+## Llaves sustitutas
+Tabla dimensional tiene 1 columna llave, pero no puede ser la llave natural! 
+
+- Con llave natural tendríamos menos flexibilidad: 
+	- Manejo de dimensiones que cambian lentamente. 
+	- Integración de llaves naturales distintas para una misma dimensión.
+
+**Forma típica:** Números naturales incrementales o derivada de cálculos en base a los datos. 
+- ¿Dónde las manejamos? 
+	- En la ETL.
+- ¿Hay excepciones? 
+	- La dimensión Fecha, porque es estable y altamente predecible. 
+	- En general un entero con formato YYYYMMDD basta. 
+- Son dimensiones asociadas a distintas tablas de hechos 
+	- El ejemplo máximo: Dimensión Fecha.
+- Tienen el mismo significado y contenido respecto de cualquier asociación. 
+	- Son el medio de conexión entre distintos hechos 
+
+- La dimensión del centro en la figura es una dimensión conformada.
+- Las dimensiones conformadas son el “pegamento” del Data Warehouse.
+![[Pasted image 20240826220056.png]]
