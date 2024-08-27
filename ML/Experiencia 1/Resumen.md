@@ -459,6 +459,8 @@ AA^{-1} = A^{-1}A = I
 $$
 Estas matrices deben ser cuadradas y no todas las matrices tienen inversa.
 
+**Dato**: en las matrices inversas es importante ya que podemos encontrar variables **x** y **z** que son incógnitas que podemos usar para el modelo.
+
 ```python
 import numpy as np
 
@@ -504,6 +506,9 @@ Los **eigenvalores** y **eigenvectores** son conceptos clave en álgebra lineal 
 $$
 \begin{pmatrix} 2 & 3 \\ 2 & 1 \end{pmatrix} \times \begin{pmatrix} 3 \\ 2 \end{pmatrix} = \begin{pmatrix} 12 \\ 8 \end{pmatrix} = 4 \times \begin{pmatrix} 3 \\ 2 \end{pmatrix}
 $$
+
+**Dato**: Esos vectores que son propiedades en el significado fisico que cualquier matriz de cualquier dimension es el espacio y aca buscamos 3 vectores especiales, tencnica que veremos a fin de semestre es el PCA, en conclusion son variables que entregan datos en un cierto espacio.
+
 
 ### Neutralización
 Dada la propiedad de que **multiplicar un eigenvector solo cambia su longitud pero no su naturaleza de eigenvector**, es frecuente **escalarlos de tal forma que su longitud sea 1**.
@@ -568,6 +573,10 @@ A diferencia de **estadística inferencial** utiliza una muestra aleatoria de da
 
 La estadística descriptiva comprende tres categorías principales: **distribución de frecuencias, medidas de tendencia central y medidas de variabilidad.**
 
+
+**Dato**: estadistica descriptiva sacarle al foto a los datos, y la inferencial la cual se puede sacar con un grupo de datos, las medidas de variabilidad son importantes.
+
+**Dato acerca la media y mediana**: la media se puede contrastar con la desviación estandar ya que si es muy grande es pq hay valores muy grandes y otros muy pequeños y cuando es muy pequeña es porque si hay una igualdad en los datos.
 ## Estructura de datos
 Los datos provienen de muchas fuentes: mediciones de sensores, eventos, texto, imágenes y videos.
 

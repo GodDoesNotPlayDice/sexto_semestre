@@ -4,16 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "33d93deb554f42d6",
+        "id": "c4f61775d8383080",
         "type": "tabs",
         "children": [
           {
-            "id": "7b8006118a643fb3",
+            "id": "9b079cf3fc731425",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Negocios/Imagenes/Pasted image 20240826220056.png"
+                "file": "ML/Experiencia 1/Resumen.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e711ff2e999ea483",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Gestion/Experiencia 1/Caso/Grafico.md"
               }
             }
           }
@@ -83,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Negocios/Imagenes/Pasted image 20240826220056.png",
+                "file": "ML/Experiencia 1/Resumen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Negocios/Imagenes/Pasted image 20240826220056.png",
+                "file": "ML/Experiencia 1/Resumen.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Negocios/Imagenes/Pasted image 20240826220056.png"
+                "file": "ML/Experiencia 1/Resumen.md"
               }
             }
           }
@@ -149,23 +161,19 @@
       "tldraw:Create new tldrawing": false
     }
   },
-  "active": "f40a5c963d9bea0e",
+  "active": "9b079cf3fc731425",
   "lastOpenFiles": [
-    "Negocios/Experiencia 1/Resumen.md",
+    "Gestion/Experiencia 1/Caso/Farmacia.md",
     "Negocios/Imagenes/Pasted image 20240826220056.png",
     "Negocios/Imagenes/Pasted image 20240826214543.png",
     "Negocios/Imagenes/Pasted image 20240826214532.png",
     "Negocios/Imagenes/Pasted image 20240826214516.png",
     "Negocios/Imagenes/Pasted image 20240826214240.png",
-    "Pasted image 20240826214158.png",
-    "Pasted image 20240826214202.png",
     "Negocios/Imagenes/Pasted image 20240826213012.png",
     "Negocios/Imagenes/Pasted image 20240826212732.png",
-    "Pasted image 20240826212804.png",
-    "ML/Experiencia 1/Resumen.md",
-    "ML/Experiencia 1/MinMaxScaler y Salida de datos.md",
-    "Negocios/Tasks.md",
-    "Gestion/Experiencia 1/Caso/Farmacia.md",
+    "ML/Imagenes/Pasted image 20240826212204.png",
+    "ML/Imagenes/Pasted image 20240826212113.png",
+    "ML/Imagenes/Pasted image 20240826211843.png",
     "Gestion/Experiencia 1/Caso/Grafico.md",
     "Gestion/Experiencia 1/Resumen.md",
     "Excalidraw",
@@ -178,6 +186,9 @@
     "Etica/Resumen.md",
     "Etica/Tasks.md",
     "Seguridad/Experiencia 1/Resumen.md",
+    "ML/Experiencia 1/MinMaxScaler y Salida de datos.md",
+    "ML/Experiencia 1/Resumen.md",
+    "Negocios/Experiencia 1/Resumen.md",
     "Negocios/Experiencia 1/Actividad 2/Actividad.md",
     "Negocios/Experiencia 1/Actividad 2/Actividad-Estrella-DW.md",
     "Negocios/Experiencia 1/Actividad 2/Tldraw 2024-08-21 10.09PM.md",
@@ -190,6 +201,7 @@
     "Gestion/Experiencia 2/Imagenes",
     "Emprendimiento/Experiencia 1/Resumen.md",
     "Excalidraw/Drawing 2024-08-20 15.06.05.excalidraw.md",
+    "Negocios/Tasks.md",
     "Negocios/Experiencia 1/Actividad 1/Lectura 1.md",
     "Gestion/Experiencia 1/Imagenes",
     "Negocios/Resumen.md",
