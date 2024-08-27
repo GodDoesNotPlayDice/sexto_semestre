@@ -204,19 +204,31 @@ Es un esquema de diseño de bases de datos que se utiliza en data warehouse y se
 
 \
 # Modelo dimensional
+
+¿Que se almacena en el modelo dimensional?
+- Datos cuales se quedan en una tabla y ese tiene distintos esquemas cuales son **estrella, copo o constelación**, este se caracteriza por ser una tabla **hecho** cual se construye usando el método de **kimball** cual consiste en 4 pasos estos son el **proceso de negocio, granularidad, dimensiones y medidas** y el conjunto de estos paso hace la tabla **hechos**, como se compone la clave primaria de la tabla hecho con el conjunto de las primary key de las dimensiones estas se relacionan **uno a muchos** 
+	- La diferencia entre copo y estrella es su normalizacion
+
 **En un modelo de datos dimensional**: Un modelo dimensional es un modelo de datos que se utiliza en data warehouse y se compone de tablas de hechos y tablas de dimensiones, que se utilizan para analizar y reportar información de negocio.
+
+
+En la siguiente imagen tenemos 3 diemensiones y una tabla de hechos
 
 ![[Pasted image 20240826212732.png]]
 
- **Hechos**: El registro (medición) de un hecho.
+ **Hechos**: El registro (medición) de un hecho lo que voy a medir y registrar
 -  Numéricos 
 - Aditivos
 **Dimensiones**: Descriptores de los hechos. 
 - Brindan contexto
 - Se segmenta en torno a ellos 
 
-![[Pasted image 20240826213012.png]]
 
+En la siguiente imagen podemos decir que las **métricas** son el **importeTotal**, **utilidad** las métricas solo van en la tabla hechos.
+
+Dentro de las dimensiones las claves primarias tienen que ser **enteros** la única excepción puede ser la **dimension fecha** cual puede ser **entero** o **la fecha**.
+
+![[Pasted image 20240826213012.png]]
 
 **Tabla de Hechos**: Contiene las medidas cuantitativas que se desean analizar.
 - Una venta, Un movimiento de stock, Click de usuario en sitio web
@@ -258,6 +270,12 @@ Es un esquema de diseño de bases de datos que se utiliza en data warehouse y se
 	- Valores ojalá descriptivos 
 	- Códigos
 	- Romperlos en sus componentes descriptivos 
+
+**Dato**: Siempre debe existir la **dimension tiempo** para tener un registro histórico.
+
+
+Romper o separar en una sola Dimension es mas rápido 
+
 ![[Pasted image 20240826214240.png]]
 
 ## SCD (Slowly Changing Dimensions)

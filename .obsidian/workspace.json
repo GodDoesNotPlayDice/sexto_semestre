@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/Experiencia 1/Resumen.md",
+                "file": "Negocios/Experiencia 1/Resumen.md",
                 "mode": "source",
                 "source": false
               }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/Experiencia 1/Resumen.md",
+                "file": "Negocios/Experiencia 1/Resumen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/Experiencia 1/Resumen.md",
+                "file": "Negocios/Experiencia 1/Resumen.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Experiencia 1/Resumen.md"
+                "file": "Negocios/Experiencia 1/Resumen.md"
               }
             }
           }
@@ -163,6 +163,8 @@
   },
   "active": "9b079cf3fc731425",
   "lastOpenFiles": [
+    "Seguridad/Experiencia 1/Resumen.md",
+    "ML/Experiencia 1/Resumen.md",
     "Gestion/Experiencia 1/Caso/Farmacia.md",
     "Negocios/Imagenes/Pasted image 20240826220056.png",
     "Negocios/Imagenes/Pasted image 20240826214543.png",
@@ -185,9 +187,7 @@
     "Etica/Caso.md",
     "Etica/Resumen.md",
     "Etica/Tasks.md",
-    "Seguridad/Experiencia 1/Resumen.md",
     "ML/Experiencia 1/MinMaxScaler y Salida de datos.md",
-    "ML/Experiencia 1/Resumen.md",
     "Negocios/Experiencia 1/Resumen.md",
     "Negocios/Experiencia 1/Actividad 2/Actividad.md",
     "Negocios/Experiencia 1/Actividad 2/Actividad-Estrella-DW.md",
