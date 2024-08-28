@@ -72,10 +72,10 @@ Las buenas prácticas de gestión de proyectos recomiendan que esa información 
 - Marca el inicio formal de un proyecto.
 - Define la persona responsable del proyecto.
 - Permite visualizar las diferentes iniciativas de la organización.
-	- Podemos visualizar los proyectos.
+	- Podemos visualizar los proyectos, porque podemos visualizar todas las iniciativas de la organización.
 
 
-## Quienes firman el acta de constitución?2
+## Quienes firman el acta de constitución?
 Los representante de cada parte.
 
 - **Patrocinador:** Es la persona que autoriza el proyecto.
