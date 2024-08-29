@@ -11,8 +11,12 @@
             "id": "70f3eb13d2b34357",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Ingles/Tasks.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Ingles/Tasks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Ingles/Tasks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Ingles/Tasks.md"
+              }
             }
           }
         ],
@@ -145,8 +153,10 @@
   },
   "active": "70f3eb13d2b34357",
   "lastOpenFiles": [
-    "Ingles/EA1/Listening/Transcript.md",
     "Ingles/TOIEC.md",
+    "Ingles/Tasks.md",
+    "Ingles/Homophones",
+    "Ingles/EA1/Listening/Transcript.md",
     "Ingles/EA1/Listening/EA1 Photographs mini test.mp3",
     "Ingles/EA1/Listening/ESP1513 Booklet - Listening.pdf",
     "Ingles/EA1/Listening",
@@ -187,10 +197,8 @@
     "Negocios/Experiencia 1/Actividad 2",
     "Negocios/Experiencia 1/Actividad 1",
     "Gestion/Experiencia 2/Resumen.md",
-    "Gestion/Experiencia 2/Imagenes",
     "Emprendimiento/Experiencia 1/Resumen.md",
     "Excalidraw/Drawing 2024-08-20 15.06.05.excalidraw.md",
-    "Negocios/Tasks.md",
     "Year/Semester/Plataformas/Untitled.canvas",
     "Untitled.canvas",
     "Networks/IPs/Untitled.canvas"
