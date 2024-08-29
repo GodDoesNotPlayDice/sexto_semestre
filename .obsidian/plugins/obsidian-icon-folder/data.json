@@ -219,5 +219,9 @@
   "Gestion/PMBOK/Resumen.md": "FiFile",
   "Gestion/PMBOK/Diagrama.md": "FiFile",
   "Gestion/Experiencia 1/Caso/Grafico.md": "FiFile",
-  "Gestion/Experiencia 1/Prueba 1.md": "FiFile"
+  "Gestion/Experiencia 1/Prueba 1.md": "FiFile",
+  "Ingles/TOIEC.md": "FiFile",
+  "Ingles/EA1": "CoFolder",
+  "Ingles/EA1/Listening": "CoFolder",
+  "Ingles/EA1/Listening/Transcript.md": "FiFile"
 }

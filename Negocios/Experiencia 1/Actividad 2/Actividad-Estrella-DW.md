@@ -138,7 +138,7 @@ tags: [tldraw]
 				"dash": "draw",
 				"size": "m",
 				"font": "draw",
-				"text": "H_VENTAS\n\nid_venta  (PK)\ncodigo_producto (FK)\ncanal_id (FK)\nid_vendedor (FK)\nid_tiempo(FK)\nid_cliente(FK)\nid_ubicacion(FK)\ncantidad\ntotal_neto\nimpuesto\ntotal_documento",
+				"text": "H_VENTAS\n\ncodigo_producto (FK)\ncanal_id (FK)\nid_vendedor (FK)\nid_tiempo(FK)\nid_cliente(FK)\nid_ubicacion(FK)\ncantidad\ntotal_neto\nimpuesto\ntotal_documento",
 				"align": "middle",
 				"verticalAlign": "start",
 				"growY": 0,
@@ -238,12 +238,12 @@ tags: [tldraw]
 				"bend": 0,
 				"start": {
 					"type": "binding",
-					"boundShapeId": "shape:vA7dmJ0qmxxbt1C_jePUH",
+					"boundShapeId": "shape:I4ffHEX1ZLCSTzPfqg3rZ",
 					"normalizedAnchor": {
-						"x": 0.4875013503955039,
-						"y": 0.02858883502071789
+						"x": 0.9662786936024689,
+						"y": 0.023411969158170336
 					},
-					"isPrecise": false,
+					"isPrecise": true,
 					"isExact": false
 				},
 				"end": {
@@ -265,8 +265,8 @@ tags: [tldraw]
 			"typeName": "shape"
 		},
 		"shape:kr1a82AKWBpwhuDLddoAU": {
-			"x": 1145.5731936431632,
-			"y": 328.59804794437287,
+			"x": 880.369718563145,
+			"y": 540.7608001002227,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -284,20 +284,20 @@ tags: [tldraw]
 				"bend": 0,
 				"start": {
 					"type": "binding",
-					"boundShapeId": "shape:vA7dmJ0qmxxbt1C_jePUH",
+					"boundShapeId": "shape:I4ffHEX1ZLCSTzPfqg3rZ",
 					"normalizedAnchor": {
-						"x": 0.9521443662781127,
-						"y": 0.5461610957158158
+						"x": 0.9928807191621233,
+						"y": 0.7482144565632465
 					},
-					"isPrecise": false,
+					"isPrecise": true,
 					"isExact": false
 				},
 				"end": {
 					"type": "binding",
 					"boundShapeId": "shape:m2g9acsduc9NsjMQ82N9P",
 					"normalizedAnchor": {
-						"x": 0.037377616951937524,
-						"y": 0.46653410339607215
+						"x": 0.05082688684554209,
+						"y": 0.3485352695348342
 					},
 					"isPrecise": true,
 					"isExact": false
@@ -468,8 +468,8 @@ tags: [tldraw]
 			"typeName": "shape"
 		},
 		"shape:m2g9acsduc9NsjMQ82N9P": {
-			"x": 1281.5369023258122,
-			"y": 197.09960557213714,
+			"x": 1019.9912573688694,
+			"y": 509.856732796455,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
