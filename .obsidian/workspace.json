@@ -4,28 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "c4f61775d8383080",
+        "id": "69fc3b5c8c4bdc01",
         "type": "tabs",
         "children": [
           {
-            "id": "9b079cf3fc731425",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Negocios/Experiencia 1/Resumen.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e711ff2e999ea483",
+            "id": "45d29c01b0cb863a",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Gestion/Experiencia 1/Caso/Grafico.md"
+                "file": "Negocios/Experiencia 1/Actividad 3/Esquema-Estrella.md"
+              }
+            }
+          },
+          {
+            "id": "1d91f225e5822686",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Negocios/Experiencia 1/Actividad 3/Actividad 3.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -79,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 273.49999618530273
+    "width": 273.49999618530273,
+    "collapsed": true
   },
   "right": {
     "id": "483ef326b8ee36a1",
@@ -95,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Negocios/Experiencia 1/Resumen.md",
+                "file": "Negocios/Experiencia 1/Actividad 3/Esquema-Estrella.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Negocios/Experiencia 1/Resumen.md",
+                "file": "Negocios/Experiencia 1/Actividad 3/Esquema-Estrella.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Negocios/Experiencia 1/Resumen.md"
+                "file": "Negocios/Experiencia 1/Actividad 3/Esquema-Estrella.md"
               }
             }
           }
@@ -161,53 +162,54 @@
       "tldraw:Create new tldrawing": false
     }
   },
-  "active": "9b079cf3fc731425",
+  "active": "45d29c01b0cb863a",
   "lastOpenFiles": [
-    "Seguridad/Experiencia 1/Resumen.md",
-    "ML/Experiencia 1/Resumen.md",
-    "Gestion/Experiencia 1/Caso/Farmacia.md",
-    "Negocios/Imagenes/Pasted image 20240826220056.png",
-    "Negocios/Imagenes/Pasted image 20240826214543.png",
-    "Negocios/Imagenes/Pasted image 20240826214532.png",
-    "Negocios/Imagenes/Pasted image 20240826214516.png",
-    "Negocios/Imagenes/Pasted image 20240826214240.png",
-    "Negocios/Imagenes/Pasted image 20240826213012.png",
-    "Negocios/Imagenes/Pasted image 20240826212732.png",
-    "ML/Imagenes/Pasted image 20240826212204.png",
-    "ML/Imagenes/Pasted image 20240826212113.png",
-    "ML/Imagenes/Pasted image 20240826211843.png",
-    "Gestion/Experiencia 1/Caso/Grafico.md",
-    "Gestion/Experiencia 1/Resumen.md",
-    "Excalidraw",
-    "Gestion/Experiencia 1/Ciclo del proyecto.md",
-    "Gestion/PMBOK/Resumen.md",
-    "Gestion/PMBOK/Diagrama.md",
-    "tldraw",
-    "Gestion/PMBOK",
-    "Etica/Caso.md",
-    "Etica/Resumen.md",
-    "Etica/Tasks.md",
-    "ML/Experiencia 1/MinMaxScaler y Salida de datos.md",
-    "Negocios/Experiencia 1/Resumen.md",
-    "Negocios/Experiencia 1/Actividad 2/Actividad.md",
+    "Negocios/Experiencia 1/Actividad 3/Actividad 3.md",
+    "Negocios/Experiencia 1/Actividad 3/Esquema-Estrella.md",
     "Negocios/Experiencia 1/Actividad 2/Actividad-Estrella-DW.md",
-    "Negocios/Experiencia 1/Actividad 2/Tldraw 2024-08-21 10.09PM.md",
+    "Negocios/Experiencia 1/Actividad 3",
     "Negocios/Experiencia 1/DW-obtener-informacion.md",
     "Negocios/Experiencia 1/Modelo-Dimensional.md",
+    "Negocios/Experiencia 1/Resumen.md",
+    "Gestion/PMBOK/Resumen.md",
+    "Gestion/PMBOK/Diagrama.md",
+    "Gestion/PMBOK",
+    "Negocios/Experiencia 1/Actividad 2/Actividad.md",
+    "Negocios/Experiencia 1/Actividad 2/Tldraw 2024-08-21 10.09PM.md",
+    "tldraw",
+    "Untitled.md",
     "Negocios/Experiencia 1/Kimball.md",
     "Negocios/Experiencia 1/Actividad 2",
     "Negocios/Experiencia 1/Actividad 1",
     "Gestion/Experiencia 2/Resumen.md",
+    "Gestion/Experiencia 1/Ciclo del proyecto.md",
+    "Gestion/Experiencia 1/Caso/Imagenes/Pasted image 20240821112100.png",
+    "Gestion/Experiencia 2/Imagenes/Pasted image 20240820201939.png",
     "Gestion/Experiencia 2/Imagenes",
+    "Gestion/Experiencia 2/Imagenes/Pasted image 20240820194322.png",
+    "Gestion/Experiencia 1/Resumen.md",
     "Emprendimiento/Experiencia 1/Resumen.md",
+    "Seguridad/Experiencia 1/Resumen.md",
     "Excalidraw/Drawing 2024-08-20 15.06.05.excalidraw.md",
     "Negocios/Tasks.md",
+    "Excalidraw",
     "Negocios/Experiencia 1/Actividad 1/Lectura 1.md",
+    "ML/Experiencia 1/Resumen.md",
+    "Negocios/Imagenes/Pasted image 20240819204327.png",
+    "Negocios/Imagenes/Pasted image 20240819204246.png",
+    "Negocios/Imagenes/Pasted image 20240819203342.png",
+    "Pasted image 20240819203248.png",
+    "Negocios/Imagenes/Pasted image 20240819203251.png",
+    "Negocios/Imagenes/Pasted image 20240819202131.png",
+    "Negocios/Imagenes/Pasted image 20240819201621.png",
+    "Gestion/Experiencia 1/Caso/Farmacia.md",
     "Gestion/Experiencia 1/Imagenes",
+    "Etica/Resumen.md",
+    "Etica/Caso.md",
     "Negocios/Resumen.md",
     "Seguridad/Imagenes",
     "Negocios/Experiencia 1",
-    "Gestion/Experiencia 2",
+    "Gestion/Esquemas/Que es un proyecto.md",
     "Year/Semester/Plataformas/Untitled.canvas",
     "Untitled.canvas",
     "Networks/IPs/Untitled.canvas"
