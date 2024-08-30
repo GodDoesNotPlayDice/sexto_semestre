@@ -10,9 +10,15 @@ Ud. ha sido contratado para aplicar Inteligencia de Negocios y generar un modelo
 - **Cantidad** de libros prestados de **manera semestral y anual.**
 
 **Tabla hecho**: H_PRESTAMOS
-**Granulariedad**: Cada préstamo individual
-**Dimensiones:** D_Tiempo, D_Alumnos, D_Categoria, D_Libro, D_Sede, D_Tipo, D_Comuna
-**Métricas**: dias_retraso (int), dias_prestados (int), cant_prestados_semestral (int), cant_prestados_anual (int)
+**Granularidad**: 
+- Los libros que se prestaron La categoría de los libros prestados
+- El tipo de libro prestado El alumno que solicito el libro
+- La sede que pertenece el alumno 
+- La carrera que esta cursando el alumno
+- Cuando el alumno solicito el préstamo
+**Dimensiones:** D_Tiempo, D_Alumnos, D_Categoría, D_Libro, D_Sede, D_Tipo, D_Carrera
+
+**Métricas**: días_retraso (int), dias_prestados (int), cant_prestados_semestral (int), cant_prestados_anual (int)
 
 
 

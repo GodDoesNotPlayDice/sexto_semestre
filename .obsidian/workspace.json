@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gestion/PMBOK/Resumen.md",
+                "file": "Negocios/Experiencia 1/Actividad 3/Actividad 3.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Gestion/PMBOK/Resumen.md",
+                "file": "Negocios/Experiencia 1/Actividad 3/Actividad 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Gestion/PMBOK/Resumen.md",
+                "file": "Negocios/Experiencia 1/Actividad 3/Actividad 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Gestion/PMBOK/Resumen.md"
+                "file": "Negocios/Experiencia 1/Actividad 3/Actividad 3.md"
               }
             }
           }
@@ -153,13 +153,13 @@
   },
   "active": "40db378af7699ece",
   "lastOpenFiles": [
-    "Gestion/PMBOK/Diagrama.md",
+    "Negocios/Experiencia 1/Actividad 3/Esquema-Estrella.md",
+    "Negocios/Experiencia 1/Actividad 3/Actividad 3.md",
     "Gestion/PMBOK/Resumen.md",
+    "Gestion/PMBOK/Diagrama.md",
     "ML/Experiencia 1/Resumen.md",
     "ML/Experiencia 1/MinMaxScaler y Salida de datos.md",
-    "Negocios/Experiencia 1/Actividad 3/Actividad 3.md",
     "Negocios/Experiencia 1/Resumen.md",
-    "Negocios/Experiencia 1/Actividad 3/Esquema-Estrella.md",
     "Ingles/TOIEC.md",
     "Ingles/EA1/Listening/Transcript.md",
     "Ingles/EA1/Listening/ESP1513 Booklet - Listening.pdf",
