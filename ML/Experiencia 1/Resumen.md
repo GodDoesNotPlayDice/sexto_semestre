@@ -682,8 +682,8 @@ desviacion_absoluta_media = np.mean(np.abs(a - np.mean(a)))
 
 Las estimaciones de variabilidad más conocidas son la **varianza y la desviación estándar**, que se basan en desviaciones al cuadrado. 
 
-La **varianza** es un promedio de las desviaciones al cuadrado
-La **desviación** estándar es la raíz cuadrada de la varianza.
+La **varianza** es un promedio de las desviaciones al cuadrado (sin signos negativos), y mide cuánto varían los datos de la media).
+La **desviación** estándar es la raíz cuadrada de la varianza. (mismo rango que el de la variable original osea en raiz cuadrada de la varianza)
 
 La **desviación estándar** es mucho más fácil de interpretar que la **varianza** ya que está en la misma escala que los datos originales.
 
@@ -738,6 +738,9 @@ Las **líneas discontinuas**, denominadas bigotes, se extienden desde la parte s
 
 Los **valores atípicos** se muestran como puntos individuales.
 
+
+
+
 ```python
 import matplotlib.pyplot as plt
 
@@ -756,6 +759,14 @@ En general, los histogramas se trazan de manera que:
 - Las barras tienen el mismo ancho.
 - El número de barras dependen del usuario.
 - Las barras son contiguas: no se muestra ningún espacio vacío entre las barras, a menos que haya una barra vacía.
+
+**Diferencia entre gráfico de barra y histograma**: en el histograma las barras están juntas y en el gráfico de barra están separadas, además en el histograma se puede ver la distribución de los datos y en el gráfico de barra no
+- **Cuando usar un histograma**: cuando se quiere ver la distribución de los datos, en el caso de los gráficos de barra se usan para comparar datos.
+- **Cuando usar un grafico de barras**: cuando se quiere comparar datos y que se diferencia del histograma porque las barras están separadas y no se ve la distribución de los datos sino se ve la comparación en variables categoricas.
+
+**Analisis antojadizo**: esto es cuando se toma un dato y se le da un significado que no tiene.
+**Bins**: es el número de barras que se van a mostrar en el histograma, y esto empieza a dividir los datos en segmentos. (como ejemplo se pueden sacar grupos de edades y saber si son familias.)
+ 
 
 ![[Pasted image 20240822200831.png]]
 
@@ -810,6 +821,11 @@ El coeficiente de correlación siempre se encuentra entre +1 (correlación posit
 **Las variables pueden tener una asociación que no sea lineal, en cuyo caso el coeficiente de correlación puede no ser una métrica útil.**
 
 A partir de una tabla de correlaciones, se puede trazar un mapa de calor para mostrar visualmente la relación entre múltiples variables. 
+
+La correlación va entre -1 y 1.
+- **1**: Significa que si una variable aumenta la otra también aumenta perfectamente.
+
+Decir que hay correlacion no es igual a decir que hay causalidad, ya que pueden haber variables que se comporten muy similares pero que no tienen sentido que esten relacionadas.
 
 ![[Pasted image 20240822203057.png]]
 
@@ -958,6 +974,8 @@ En un gráfico de caja (boxplot), los outliers se trazan como puntos individuale
 La gráfica muestra tres puntos entre 10 y 12, estos son valores atípicos ya que no están incluidos en el cuadro de la observación, es decir, no están cerca de los cuartiles.
 
 Aquí analizamos el **valor atípico univariable.**
+
+**Porque?**: Se hace un boxplot para analizar una variable y regresa quantiles (esto responde para el proque quiero saber.)
 
 ![[Pasted image 20240826204626.png]]
 

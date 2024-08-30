@@ -13,9 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Negocios/Experiencia 1/Actividad 3/Actividad 3.md",
+                "file": "ML/Experiencia 1/Resumen.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "d119a8a067349941",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "ML/Experiencia 1/Boxplot.md"
               }
             }
           }
@@ -85,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Negocios/Experiencia 1/Actividad 3/Actividad 3.md",
+                "file": "ML/Experiencia 1/Resumen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Negocios/Experiencia 1/Actividad 3/Actividad 3.md",
+                "file": "ML/Experiencia 1/Resumen.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Negocios/Experiencia 1/Actividad 3/Actividad 3.md"
+                "file": "ML/Experiencia 1/Resumen.md"
               }
             }
           }
@@ -153,11 +163,12 @@
   },
   "active": "40db378af7699ece",
   "lastOpenFiles": [
-    "Negocios/Experiencia 1/Actividad 3/Esquema-Estrella.md",
+    "ML/Experiencia 1/Boxplot.md",
+    "ML/Experiencia 1/Resumen.md",
     "Negocios/Experiencia 1/Actividad 3/Actividad 3.md",
+    "Negocios/Experiencia 1/Actividad 3/Esquema-Estrella.md",
     "Gestion/PMBOK/Resumen.md",
     "Gestion/PMBOK/Diagrama.md",
-    "ML/Experiencia 1/Resumen.md",
     "ML/Experiencia 1/MinMaxScaler y Salida de datos.md",
     "Negocios/Experiencia 1/Resumen.md",
     "Ingles/TOIEC.md",
@@ -198,7 +209,6 @@
     "Negocios/Imagenes/Pasted image 20240819203251.png",
     "Negocios/Imagenes/Pasted image 20240819202131.png",
     "Negocios/Imagenes/Pasted image 20240819201621.png",
-    "Gestion/Experiencia 1/Caso/Farmacia.md",
     "Year/Semester/Plataformas/Untitled.canvas",
     "Untitled.canvas",
     "Networks/IPs/Untitled.canvas"
