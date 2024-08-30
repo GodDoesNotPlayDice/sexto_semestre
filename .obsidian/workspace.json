@@ -8,22 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "45d29c01b0cb863a",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Negocios/Experiencia 1/Actividad 3/Esquema-Estrella.md"
-              }
-            }
-          },
-          {
-            "id": "1d91f225e5822686",
+            "id": "40db378af7699ece",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Negocios/Experiencia 1/Actividad 3/Actividad 3.md",
+                "file": "Gestion/PMBOK/Resumen.md",
                 "mode": "source",
                 "source": false
               }
@@ -79,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 273.49999618530273,
-    "collapsed": true
+    "width": 273.49999618530273
   },
   "right": {
     "id": "483ef326b8ee36a1",
@@ -96,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Negocios/Experiencia 1/Actividad 3/Esquema-Estrella.md",
+                "file": "Gestion/PMBOK/Resumen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Negocios/Experiencia 1/Actividad 3/Esquema-Estrella.md",
+                "file": "Gestion/PMBOK/Resumen.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Negocios/Experiencia 1/Actividad 3/Esquema-Estrella.md"
+                "file": "Gestion/PMBOK/Resumen.md"
               }
             }
           }
@@ -162,8 +151,13 @@
       "tldraw:Create new tldrawing": false
     }
   },
-  "active": "45d29c01b0cb863a",
+  "active": "40db378af7699ece",
   "lastOpenFiles": [
+    "Negocios/Experiencia 1/Actividad 3/Actividad 3.md",
+    "Gestion/PMBOK/Resumen.md",
+    "Gestion/PMBOK/Diagrama.md",
+    "Negocios/Experiencia 1/Resumen.md",
+    "Negocios/Experiencia 1/Actividad 3/Esquema-Estrella.md",
     "Ingles/TOIEC.md",
     "Ingles/EA1/Listening/Transcript.md",
     "Ingles/EA1/Listening/ESP1513 Booklet - Listening.pdf",
@@ -171,15 +165,10 @@
     "Ingles/EA1/Listening",
     "Ingles/EA1",
     "Gestion/Experiencia 1/Prueba 1.md",
-    "Negocios/Experiencia 1/Actividad 3/Actividad 3.md",
-    "Negocios/Experiencia 1/Actividad 3/Esquema-Estrella.md",
     "Negocios/Experiencia 1/Actividad 2/Actividad-Estrella-DW.md",
     "Negocios/Experiencia 1/Actividad 3",
     "Negocios/Experiencia 1/DW-obtener-informacion.md",
     "Negocios/Experiencia 1/Modelo-Dimensional.md",
-    "Negocios/Experiencia 1/Resumen.md",
-    "Gestion/PMBOK/Resumen.md",
-    "Gestion/PMBOK/Diagrama.md",
     "Gestion/PMBOK",
     "Negocios/Experiencia 1/Actividad 2/Actividad.md",
     "Negocios/Experiencia 1/Actividad 2/Tldraw 2024-08-21 10.09PM.md",

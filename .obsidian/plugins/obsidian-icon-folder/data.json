@@ -224,5 +224,8 @@
   "Ingles/EA1": "CoFolder",
   "Ingles/EA1/Listening": "CoFolder",
   "Ingles/EA1/Listening/Transcript.md": "FiFile",
-  "Ingles/Homophones": "CoFolder"
+  "Ingles/Homophones": "CoFolder",
+  "Negocios/Experiencia 1/Actividad 3": "CoFolder",
+  "Negocios/Experiencia 1/Actividad 3/Actividad 3.md": "FiFile",
+  "Negocios/Experiencia 1/Actividad 3/Esquema-Estrella.md": "LiPen"
 }
