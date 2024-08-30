@@ -112,3 +112,48 @@ Cuales aporta y cual no aporta.
 
 **Guillermo Llanos (Gerente de Finanzas) - Consultado (C)**:
 - **Justificación**: Guillermo Llanos tiene un papel importante en el monitoreo financiero, pero no en la ejecución directa. Su rol es de apoyo, consultado para asegurar la viabilidad financiera del proyecto: "Dirigir, coordinar y ejecutar la preparación del presupuesto operacional y financiero"
+
+### Socios y Accionistas
+**Importancia**: Los socios o accionistas tienen poder en las decisiones estratégicas porque, al ser propietarios o tener una participación significativa en la empresa, tienen un interés directo en su dirección y éxito a largo plazo. Su inversión y participación les otorgan derechos, como votar en la junta directiva y participar en la toma de decisiones clave que pueden afectar el rumbo de la empresa.
+
+
+## Planificación de gestión de interesados.
+### Gestionar atentamente (Alto Poder, Alto Interés):
+
+**Mariela García (Gerente General):** Tiene un alto poder de decisión en el proyecto.
+
+**Benjamín Castillo (Gerente de TI):** Es importante para la implementación tecnológica ya que con alto poder sobre las decisiones técnicas y un alto interés en el proyecto.
+
+**Guillermo Llanos (Gerente de Finanzas):** Controla el presupuesto y tiene un interés importante en la eficiencia financiera del proyecto.
+
+**Gabriel Monroy (Gerente Comercial):** Interesado en cómo el proyecto impacta en el mercado y en la relación con los clientes.
+
+### Mantener satisfecho (Alto Poder, Bajo Interés):
+
+**Leslie Mendoza (Gerente de Sucursales):** Tiene un poder en la operatividad de las sucursales, pero su interés podría ser moderado ya que sus decisiones no afectan directamente.
+
+**Accionistas / Socios:** Aunque tienen poder sobre las decisiones estratégicas, su interés podría centrarse más en los resultados financieros a largo plazo que en el proceso del proyecto en sí.
+
+**Gobierno y Entidades regulatorias:** Estas entidades tienen un alto poder porque regulan el sector farmacéutico y pueden influir en la operación de la empresa a través de leyes, licencias, y regulaciones eso sí su interés en el proyecto puede ser limitado, ya que no participan directamente en la operación o beneficios del proyecto, salvo para asegurar que se cumplan las normas.
+  
+  
+  
+  
+
+### Mantener informado (Bajo Poder, Alto Interés):
+
+**Carlos Matus (Jefe de Comunicaciones):** Debe estar informado para comunicar efectivamente los avances y cambios, aunque no tiene poder de decisión sobre el proyecto.
+
+ I**sabel Pardo (Gerente de RRHH):** Es responsable de la gestión del personal, lo cual es crucial para la implementación del proyecto, especialmente si se requieren nuevas contrataciones o cambios en la estructura del personal pero no tiene mucho impacto de las decisiones estratégicas del proyecto.
+ 
+**Clientes Finales:** Tienen un gran interés en la expectativa en cómo el proyecto mejorará su experiencia de usuario, pero no tienen poder sobre las decisiones.
+
+ **Proveedores Medicamentos:** Se deben mantener informados en cuanto a los avances y cambios del proyecto, pero solo lo necesario para mantener su interés.
+ 
+**Jefes de Locales:** Tienen interés en cómo el proyecto impactará las operaciones diarias en sus sucursales, pero su poder de influencia en las decisiones es limitado.
+
+### Monitorear (mínimo esfuerzo) (Bajo Poder, Bajo Interés):
+
+**Proveedores de Tecnología:** Aunque son esenciales para la ejecución, su poder es limitado y su interés puede ser moderado, centrado en cumplir con sus contratos.
+
+**Competencias:** tienen un bajo poder en la toma de decisiones del proyecto y su interés directo es también bajo ya que estos solo deben ser monitoreados para evaluar sus movimientos estratégicos y ajustar las propias decisiones de la empresa en respuesta a cambios en el mercado.
