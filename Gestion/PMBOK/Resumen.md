@@ -33,11 +33,50 @@ En los proyectos puede haber elementos repetitivos en los entregables y activida
 
 -  Los **proyectos** se llevan a cabo para cumplir objetivos mediante la producción de entregables.
 - Un **objetivo** se define como una meta hacia la cual se debe dirigir el trabajo, una posición estratégica que se quiere lograr, un fin que se desea alcanzar, un resultado obtener, un producto a producir o un servicio a prestar.
--  Un **entregable** se define como cualquier producto, resultado o capacidad único y verificable para ejecutar un servicio que se produce para completar un proceso, una fase o un proyecto y los entregables pueden ser tangibles o intangibles.
+-  Un **entregable** se define como cualquier producto, resultado o capacidad único y verificable para ejecutar un servicio que se produce para completar un proceso, una fase o un proyecto y los entregables pueden ser **tangibles o intangibles.**
 
 El cumplimiento de los objetivos del proyecto puede producir uno o más de los siguientes entregables:
 - Un **producto único**, que puede ser un **componente** de otro elemento, una mejora o corrección de un elemento o un nuevo elemento final en sí mismo (p.ej., la corrección de un defecto en un elemento final)
 - Un **servicio único** o la capacidad de realizar un servicio (p.ej., una función de negocio que brinda apoyo a la producción o distribución);
 - Un **resultado único**, tal como una conclusión o un documento (p.ej., un proyecto de investigación que desarrolla conocimientos que se pueden emplear para determinar si existe una tendencia o si un nuevo proceso beneficiará a la sociedad);
+
+
+Puede haber elementos repetitivos en algunos entregables y actividades del proyecto.
+- Esta repetición **no altera las características** fundamentales y únicas del trabajo del proyecto.
+
+**Ejemplos de proyectos**:
+- Desarrollar un nuevo compuesto farmacéutico para el mercado,
+- Extender un servicio de guía turístico,
+- Fusionar dos organizaciones,
+- Mejorar un proceso de negocio dentro de una organización,
+- Adquirir e instalar un nuevo sistema de hardware informático para su uso en una organización,
+- Buscar petróleo en una región,
+- Modificar un programa de software informático usado en una organización,
+- Realizar investigaciones para desarrollar un nuevo proceso de fabricación, y
+- Construir un edificio.
+
+**Esfuerzo temporal:** La naturaleza temporal de los proyectos implica que un proyecto tiene un principio y un final definidos que sea temporal no significa necesariamente que un **proyecto sea de corta duración.** 
+El final del proyecto se alcanza **cuando se cumplen una o más de las siguientes situaciones**
+- Los objetivos del proyecto se han logrado
+- Los objetivos no se cumplirán o no pueden cumplirse
+- El financiamiento del proyecto se ha agotado o ya no está disponible
+- La necesidad del proyecto ya no existe
+	- (p.ej., el cliente ya no desea terminar el proyecto, un cambio de estrategia o prioridad pone fin al proyecto, la dirección de la organización deciden finalizar el proyecto)
+- Los recursos humanos o físicos ya no están disponibles
+- El proyecto se da por terminado por conveniencia o causa legal.
+
+Los proyectos son temporales, pero sus entregables pueden existir más allá del final del proyecto. Los proyectos pueden producir entregables de naturaleza social, económica, material o ambiental. 
+- Por ejemplo, un proyecto para construir un monumento nacional creará un entregable que se espera perdure durante siglos.
+- El proyecto se da por terminado por conveniencia o causa legal.
+
+**Los proyectos impulsan el cambio:** Los proyectos impulsan el cambio en las organizaciones. 
+Desde una perspectiva de negocio, **un proyecto está destinado a mover una organización de un estado a otro estado a fin de lograr un objetivo específico** 
+
+- Antes de que comience el proyecto, normalmente se **dice que la organización está en el estado actual.** 
+
+- **El resultado deseado del cambio impulsado por el proyecto se describe como el estado futuro.**
+
+
+![[Pasted image 20240831132830.png]]
 
 

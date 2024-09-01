@@ -8,24 +8,22 @@
         "type": "tabs",
         "children": [
           {
-            "id": "40db378af7699ece",
+            "id": "205ba43c5c3ebad5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "ML/Experiencia 1/Resumen.md",
-                "mode": "source",
-                "source": false
+                "file": "Gestion/PMBOK/Guia_del_PMBOK_sexta_edicion_espanol.pdf"
               }
             }
           },
           {
-            "id": "d119a8a067349941",
+            "id": "46a38df34b96b577",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "tldraw-view",
               "state": {
-                "file": "ML/Experiencia 1/Boxplot.md"
+                "file": "Gestion/PMBOK/Diagrama.md"
               }
             }
           }
@@ -74,12 +72,20 @@
               "type": "bookmarks",
               "state": {}
             }
+          },
+          {
+            "id": "77c43d6130d14c20",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 273.49999618530273
+    "width": 243.5124969482422
   },
   "right": {
     "id": "483ef326b8ee36a1",
@@ -95,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/Experiencia 1/Resumen.md",
+                "file": "Gestion/PMBOK/Guia_del_PMBOK_sexta_edicion_espanol.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/Experiencia 1/Resumen.md",
+                "file": "Gestion/PMBOK/Guia_del_PMBOK_sexta_edicion_espanol.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Experiencia 1/Resumen.md"
+                "file": "Gestion/PMBOK/Guia_del_PMBOK_sexta_edicion_espanol.pdf"
               }
             }
           }
@@ -161,14 +167,27 @@
       "tldraw:Create new tldrawing": false
     }
   },
-  "active": "40db378af7699ece",
+  "active": "205ba43c5c3ebad5",
   "lastOpenFiles": [
-    "ML/Experiencia 1/Boxplot.md",
-    "ML/Experiencia 1/Resumen.md",
-    "Negocios/Experiencia 1/Actividad 3/Actividad 3.md",
-    "Negocios/Experiencia 1/Actividad 3/Esquema-Estrella.md",
-    "Gestion/PMBOK/Resumen.md",
     "Gestion/PMBOK/Diagrama.md",
+    "Gestion/PMBOK/Guia_del_PMBOK_sexta_edicion_espanol.pdf",
+    "Gestion/Experiencia 1/Prueba 1.md",
+    "Gestion/Experiencia 1/Resumen.md",
+    "Gestion/Experiencia 2/Resumen.md",
+    "Gestion/PMBOK/Resumen.md",
+    "Gestion/PMBOK/Imagenes/Pasted image 20240831132830.png",
+    "Gestion/Tasks.md",
+    "Ingles/Ingles.md",
+    "Etica/Resumen.md",
+    "Etica/Caso.md",
+    "Etica/Tasks.md",
+    "Tags",
+    "Gestion/PMBOK/Imagenes",
+    "Pasted image 20240831132811.png",
+    "Negocios/Experiencia 1/Actividad 3/Actividad 3.md",
+    "ML/Experiencia 1/Boxplot.md",
+    "Negocios/Experiencia 1/Actividad 3/Esquema-Estrella.md",
+    "ML/Experiencia 1/Resumen.md",
     "ML/Experiencia 1/MinMaxScaler y Salida de datos.md",
     "Negocios/Experiencia 1/Resumen.md",
     "Ingles/TOIEC.md",
@@ -177,7 +196,6 @@
     "Ingles/EA1/Listening/EA1 Photographs mini test.mp3",
     "Ingles/EA1/Listening",
     "Ingles/EA1",
-    "Gestion/Experiencia 1/Prueba 1.md",
     "Negocios/Experiencia 1/Actividad 2/Actividad-Estrella-DW.md",
     "Negocios/Experiencia 1/Actividad 3",
     "Negocios/Experiencia 1/DW-obtener-informacion.md",
@@ -188,27 +206,14 @@
     "tldraw",
     "Untitled.md",
     "Negocios/Experiencia 1/Kimball.md",
-    "Negocios/Experiencia 1/Actividad 2",
-    "Negocios/Experiencia 1/Actividad 1",
-    "Gestion/Experiencia 2/Resumen.md",
-    "Gestion/Experiencia 1/Ciclo del proyecto.md",
     "Gestion/Experiencia 1/Caso/Imagenes/Pasted image 20240821112100.png",
     "Gestion/Experiencia 2/Imagenes/Pasted image 20240820201939.png",
-    "Gestion/Experiencia 2/Imagenes",
     "Gestion/Experiencia 2/Imagenes/Pasted image 20240820194322.png",
-    "Gestion/Experiencia 1/Resumen.md",
-    "Emprendimiento/Experiencia 1/Resumen.md",
-    "Seguridad/Experiencia 1/Resumen.md",
-    "Excalidraw/Drawing 2024-08-20 15.06.05.excalidraw.md",
-    "Negocios/Tasks.md",
-    "Negocios/Experiencia 1/Actividad 1/Lectura 1.md",
     "Negocios/Imagenes/Pasted image 20240819204327.png",
     "Negocios/Imagenes/Pasted image 20240819204246.png",
     "Negocios/Imagenes/Pasted image 20240819203342.png",
     "Pasted image 20240819203248.png",
     "Negocios/Imagenes/Pasted image 20240819203251.png",
-    "Negocios/Imagenes/Pasted image 20240819202131.png",
-    "Negocios/Imagenes/Pasted image 20240819201621.png",
     "Year/Semester/Plataformas/Untitled.canvas",
     "Untitled.canvas",
     "Networks/IPs/Untitled.canvas"
