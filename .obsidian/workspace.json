@@ -8,22 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "205ba43c5c3ebad5",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Gestion/PMBOK/Guia_del_PMBOK_sexta_edicion_espanol.pdf"
-              }
-            }
-          },
-          {
             "id": "46a38df34b96b577",
             "type": "leaf",
             "state": {
-              "type": "tldraw-view",
+              "type": "image",
               "state": {
-                "file": "Gestion/PMBOK/Diagrama.md"
+                "file": "Gestion/PMBOK/Resumen PMBOK.svg"
               }
             }
           }
@@ -85,7 +75,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 243.5124969482422
+    "width": 227.5110321044922
   },
   "right": {
     "id": "483ef326b8ee36a1",
@@ -101,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Gestion/PMBOK/Guia_del_PMBOK_sexta_edicion_espanol.pdf",
+                "file": "Gestion/PMBOK/Resumen PMBOK.svg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Gestion/PMBOK/Guia_del_PMBOK_sexta_edicion_espanol.pdf",
+                "file": "Gestion/PMBOK/Resumen PMBOK.svg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Gestion/PMBOK/Guia_del_PMBOK_sexta_edicion_espanol.pdf"
+                "file": "Gestion/PMBOK/Resumen PMBOK.svg"
               }
             }
           }
@@ -167,15 +157,17 @@
       "tldraw:Create new tldrawing": false
     }
   },
-  "active": "205ba43c5c3ebad5",
+  "active": "46a38df34b96b577",
   "lastOpenFiles": [
     "Gestion/PMBOK/Diagrama.md",
+    "Gestion/PMBOK/Resumen PMBOK.svg",
     "Gestion/PMBOK/Guia_del_PMBOK_sexta_edicion_espanol.pdf",
+    "Gestion/PMBOK/Resumen.md",
+    "ML/Experiencia 1/Resumen.md",
+    "Gestion/PMBOK/Imagenes/Pasted image 20240831132830.png",
     "Gestion/Experiencia 1/Prueba 1.md",
     "Gestion/Experiencia 1/Resumen.md",
     "Gestion/Experiencia 2/Resumen.md",
-    "Gestion/PMBOK/Resumen.md",
-    "Gestion/PMBOK/Imagenes/Pasted image 20240831132830.png",
     "Gestion/Tasks.md",
     "Ingles/Ingles.md",
     "Etica/Resumen.md",
@@ -187,7 +179,6 @@
     "Negocios/Experiencia 1/Actividad 3/Actividad 3.md",
     "ML/Experiencia 1/Boxplot.md",
     "Negocios/Experiencia 1/Actividad 3/Esquema-Estrella.md",
-    "ML/Experiencia 1/Resumen.md",
     "ML/Experiencia 1/MinMaxScaler y Salida de datos.md",
     "Negocios/Experiencia 1/Resumen.md",
     "Ingles/TOIEC.md",
@@ -213,7 +204,6 @@
     "Negocios/Imagenes/Pasted image 20240819204246.png",
     "Negocios/Imagenes/Pasted image 20240819203342.png",
     "Pasted image 20240819203248.png",
-    "Negocios/Imagenes/Pasted image 20240819203251.png",
     "Year/Semester/Plataformas/Untitled.canvas",
     "Untitled.canvas",
     "Networks/IPs/Untitled.canvas"
