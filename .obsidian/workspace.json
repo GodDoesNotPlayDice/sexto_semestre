@@ -11,15 +11,26 @@
             "id": "46a38df34b96b577",
             "type": "leaf",
             "state": {
+              "type": "tldraw-view",
+              "state": {
+                "file": "Gestion/PMBOK/Diagrama.md"
+              }
+            }
+          },
+          {
+            "id": "386457835679ed0c",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Etica/Caso.md",
+                "file": "Gestion/Experiencia 2/Resumen.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Etica/Caso.md",
+                "file": "Gestion/Experiencia 2/Resumen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Etica/Caso.md",
+                "file": "Gestion/Experiencia 2/Resumen.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Etica/Caso.md"
+                "file": "Gestion/Experiencia 2/Resumen.md"
               }
             }
           }
@@ -159,21 +170,21 @@
       "tldraw:Create new tldrawing": false
     }
   },
-  "active": "46a38df34b96b577",
+  "active": "386457835679ed0c",
   "lastOpenFiles": [
-    "Gestion/Experiencia 1/Prueba 1.md",
-    "Gestion/Experiencia 1/Resumen.md",
-    "Gestion/PMBOK/Resumen.md",
     "Gestion/PMBOK/Diagrama.md",
+    "Gestion/Experiencia 1/Resumen.md",
+    "Gestion/Experiencia 2/Resumen.md",
+    "Gestion/Experiencia 1/Prueba 1.md",
+    "Gestion/PMBOK/Resumen.md",
+    "Etica/Resumen.md",
+    "Etica/Caso.md",
     "Gestion/PMBOK/Resumen PMBOK.svg",
     "Gestion/PMBOK/Guia_del_PMBOK_sexta_edicion_espanol.pdf",
     "ML/Experiencia 1/Resumen.md",
     "Gestion/PMBOK/Imagenes/Pasted image 20240831132830.png",
-    "Gestion/Experiencia 2/Resumen.md",
     "Gestion/Tasks.md",
     "Ingles/Ingles.md",
-    "Etica/Resumen.md",
-    "Etica/Caso.md",
     "Etica/Tasks.md",
     "Tags",
     "Gestion/PMBOK/Imagenes",

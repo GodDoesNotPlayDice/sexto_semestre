@@ -33,3 +33,18 @@ La responsabilidad es de la persona.
 - Voluntariedad por inducción
 	- Influenciar en acciones ajenas
 
+
+## Quiz
+Virtudes cardinales son
+- Prudencia
+- Justicia
+- Fortaleza
+- Templanza
+- Fe
+
+
+Que entendemos por etica
+- Ciencia que estudia la moral
+
+En que conciste la dimension objetiva del trabajo?
+- Por el producto que soy evaluado, por el resultado
