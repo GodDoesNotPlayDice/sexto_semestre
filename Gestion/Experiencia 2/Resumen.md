@@ -4,7 +4,7 @@ Que es la [[Gestion/Experiencia 1/Resumen#Dirección de Proyecto|Direccion de Pr
 
 El plan para la dirección del proyecto define la manera en que el proyecto **se ejecuta, se monitora, se controla y se cierra.**
 
-Un **Plan de Dirección** es la estrategia que gestiona un proyecto y sus procesos en diversas áreas de conocimiento, justificando el rol del Director de Proyectos. Este plan incluye líneas base de alcance, cronograma y costos, que se utilizan para medir el progreso y la finalización del proyecto.
+Un **Plan de Dirección** es la estrategia que gestiona un proyecto y sus procesos en diversas **áreas de conocimiento, justificando el rol del Director de Proyectos**. Este plan incluye líneas base de alcance, cronograma y costos, que se utilizan para medir el progreso y la finalización del proyecto.
 
 > Los Planes de Dirección de Proyecto nos enseñan cómo vamos a gestionar cada área de conocimiento del Proyecto.
 > 
@@ -21,7 +21,8 @@ Es el plan sobre
 
 Las **líneas para la medición del desempeño** se refieren a los puntos de referencia establecidos en el plan de dirección del proyecto para evaluar y medir el progreso y rendimiento del proyecto en términos de alcance, cronograma y costos.
 
-Estas líneas base permiten **comparar el estado actual del proyecto con los planes originales** y ayudan a **identificar desviaciones, facilitando la toma de decisiones correctivas cuando sea necesario.** Son esenciales para asegurar que el proyecto se mantenga en **curso** y **cumpla** con los objetivos establecidos.\
+**Importante**.
+Estas líneas base permiten **comparar el estado actual del proyecto con los planes originales** y ayudan a **identificar desviaciones, facilitando la toma de decisiones correctivas cuando sea necesario.** Son esenciales para asegurar que el proyecto se mantenga en **curso** y **cumpla** con los objetivos establecidos.
 
 ### El PDP se realiza cuando
 1) Una vez que se han recogido los **REQUISITOS VALIDOS.**
@@ -193,6 +194,10 @@ El plan de gestión del alcance del proyecto comienzan con el análisis del Proj
 ### En que ayuda el plan de alcance del proyecto
 El plan de alcance del proyecto ayuda a garantizar que el proyecto se mantenga enfocado en sus objetivos, evita desviaciones y malentendidos, mejora la comunicación entre los interesados, y previene el crecimiento no controlado del alcance, asegurando que el proyecto se complete dentro de los límites de tiempo y presupuesto establecidos.
 
+**Documento vivo**: Se refiere a que el plan de alcance del proyecto es un documento dinámico que se actualiza y ajusta a medida que el proyecto avanza y se obtiene nueva información. Es importante revisar y actualizar el plan de alcance regularmente para reflejar los cambios en el proyecto y asegurar que siga siendo relevante y efectivo.
+
+**Simple o Completo**: El plan de alcance del proyecto puede ser simple o complejo, dependiendo de la naturaleza del proyecto y de las necesidades de los interesados. En algunos casos, un plan de alcance simple puede ser suficiente para guiar el proyecto, mientras que en otros casos, un plan más detallado y completo puede ser necesario para abordar los desafíos y riesgos específicos del proyecto.
+
 #### Entradas:
 
 - **Plan para la Dirección del Proyecto:** Es una entrada esencial que reúne todos los planes secundarios aprobados para asegurar que el alcance esté alineado con los objetivos y restricciones del proyecto. Proporciona la base necesaria para desarrollar el Plan de Gestión del Alcance, asegurando la coherencia y la integración con otras áreas clave como tiempo, costos y calidad.
@@ -211,10 +216,15 @@ El plan de alcance del proyecto ayuda a garantizar que el proyecto se mantenga e
 - **Juicio de Expertos:** Es una herramienta clave que implica la utilización de conocimientos especializados para guiar la planificación y toma de decisiones del proyecto. Esta técnica se basa en las aportaciones de personas o grupos que tienen:
 	- **Conocimiento y experiencia:** Personas con educación, habilidades, y experiencia relevante que pueden proporcionar perspectivas valiosas sobre cómo gestionar el alcance del proyecto.
 	- **Alto conocimiento de aspectos clave:** Expertos que tienen un entendimiento profundo de los elementos críticos del proyecto y pueden ayudar a identificar riesgos, oportunidades, y enfoques eficaces para definir y controlar el alcance.
+	- **Desventaja de usarlo siempre**:  Puede llevar a sesgos y limitar la creatividad y la innovación, por lo que es importante combinarlo con otras técnicas y fuentes de información y ademas nos podemos quedar sin plata.
 - **Reuniones:** Son una herramienta y técnica crucial que permite la coordinación y la toma de decisiones entre los miembros del equipo del proyecto y otros interesados clave. Estas reuniones pueden incluir:
 	- **Reuniones del equipo del proyecto:** Espacios donde los miembros del equipo discuten, planifican y toman decisiones sobre el alcance del proyecto.
 	- **Participación de interesados clave:** Se recomienda la asistencia del Director del Proyecto (DP), el Sponsor, y otros interesados relevantes, dependiendo de los temas a tratar.
 	- **Agenda y actas de reuniones:** Es importante llevar una agenda clara de las reuniones y registrar las actas, que deben incluir fechas, acuerdos, responsables, y plazos. Esto asegura que todos los participantes estén alineados y se puedan realizar seguimientos efectivos de las decisiones tomadas.
+- **Tecnicas de facilicitación**:  Son técnicas que ayudan a guiar y facilitar la colaboración y la toma de decisiones en un grupo de personas, habla de conflictos dentro de la toma de proyectos y el director de proyectos toma ese rol de solucionar.
+  - **Técnicas de resolución de conflictos:** Herramientas y métodos para abordar y resolver conflictos entre los miembros del equipo y otros interesados.
+  - **Técnicas de toma de decisiones en grupo:** Métodos para ayudar a los participantes a llegar a acuerdos y tomar decisiones efectivas en un entorno de grupo.
+  - **Técnicas de creatividad y pensamiento lateral:** Herramientas para fomentar la generación de ideas innovadoras y soluciones creativas para los desafíos del proyecto.
 #### Salidas:
 
 - **Plan de Gestión del Alcance:** El plan de gestión del alcance puede ser un documento formal o informal, y puede variar en detalle según las necesidades del proyecto. Es un componente clave del Plan para la Dirección del Proyecto y sirve como base para otros procesos de gestión del alcance.
