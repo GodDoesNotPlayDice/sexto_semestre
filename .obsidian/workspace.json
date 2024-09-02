@@ -11,9 +11,11 @@
             "id": "46a38df34b96b577",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Gestion/PMBOK/Resumen PMBOK.svg"
+                "file": "Etica/Caso.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -91,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Gestion/PMBOK/Resumen PMBOK.svg",
+                "file": "Etica/Caso.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Gestion/PMBOK/Resumen PMBOK.svg",
+                "file": "Etica/Caso.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Gestion/PMBOK/Resumen PMBOK.svg"
+                "file": "Etica/Caso.md"
               }
             }
           }
@@ -159,14 +161,14 @@
   },
   "active": "46a38df34b96b577",
   "lastOpenFiles": [
+    "Gestion/Experiencia 1/Prueba 1.md",
+    "Gestion/Experiencia 1/Resumen.md",
+    "Gestion/PMBOK/Resumen.md",
     "Gestion/PMBOK/Diagrama.md",
     "Gestion/PMBOK/Resumen PMBOK.svg",
     "Gestion/PMBOK/Guia_del_PMBOK_sexta_edicion_espanol.pdf",
-    "Gestion/PMBOK/Resumen.md",
     "ML/Experiencia 1/Resumen.md",
     "Gestion/PMBOK/Imagenes/Pasted image 20240831132830.png",
-    "Gestion/Experiencia 1/Prueba 1.md",
-    "Gestion/Experiencia 1/Resumen.md",
     "Gestion/Experiencia 2/Resumen.md",
     "Gestion/Tasks.md",
     "Ingles/Ingles.md",
