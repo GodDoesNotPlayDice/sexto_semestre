@@ -47,9 +47,15 @@
 	- producto  (nvarchar(40))
 	- categoria  (nvarchar(15))
 	- descripción (ntext)
+- D_Tiempo
+	- fecha
 ## Identificar Métricas y Tabla de Hechos
 Tabla Hechos: **H_ORDEN**
 **Métricas**:
 - precio_unitario (money)
 - cantidad (smallint)
 - descuento (real)
+
+## KPI
+preguntas con enfoque estrategico
+- Ejemplo: ¿Cuál es el producto más vendido? -> que hacer? -> aumentar la producción.

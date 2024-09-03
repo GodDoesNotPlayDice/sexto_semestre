@@ -13,13 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/Experiencia 1/Resumen.md",
+                "file": "Negocios/Caso/Caso Semestral.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "5ba282449759d79a",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Negocios/Caso/Drawing 2024-09-03 15.04.38.excalidraw.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/Experiencia 1/Resumen.md",
+                "file": "Negocios/Caso/Drawing 2024-09-03 15.04.38.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/Experiencia 1/Resumen.md",
+                "file": "Negocios/Caso/Drawing 2024-09-03 15.04.38.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Experiencia 1/Resumen.md"
+                "file": "Negocios/Caso/Drawing 2024-09-03 15.04.38.excalidraw.md"
               }
             }
           }
@@ -159,10 +170,12 @@
       "tldraw:Create new tldrawing": false
     }
   },
-  "active": "46a38df34b96b577",
+  "active": "5ba282449759d79a",
   "lastOpenFiles": [
-    "Negocios/Experiencia 1/Actividad 3/Actividad 3.md",
     "Negocios/Caso/Caso Semestral.md",
+    "Negocios/Caso/Drawing 2024-09-03 15.04.38.excalidraw.md",
+    "ML/Experiencia 1/Resumen.md",
+    "Negocios/Experiencia 1/Actividad 3/Actividad 3.md",
     "Negocios/Experiencia 1/Resumen.md",
     "Negocios/Experiencia 1/Actividad 3/Esquema-Estrella.md",
     "Negocios/Experiencia 1/DW-obtener-informacion.md",
@@ -174,7 +187,6 @@
     "Gestion/PMBOK/Resumen PMBOK.svg",
     "Gestion/PMBOK/Guia_del_PMBOK_sexta_edicion_espanol.pdf",
     "Gestion/PMBOK/Resumen.md",
-    "ML/Experiencia 1/Resumen.md",
     "Gestion/PMBOK/Imagenes/Pasted image 20240831132830.png",
     "Gestion/Experiencia 1/Prueba 1.md",
     "Gestion/Experiencia 1/Resumen.md",
@@ -199,7 +211,6 @@
     "Negocios/Experiencia 1/Actividad 2/Actividad.md",
     "Negocios/Experiencia 1/Actividad 2/Tldraw 2024-08-21 10.09PM.md",
     "Untitled.md",
-    "Negocios/Experiencia 1/Kimball.md",
     "Gestion/Experiencia 1/Caso/Imagenes/Pasted image 20240821112100.png",
     "Gestion/Experiencia 2/Imagenes/Pasted image 20240820201939.png",
     "Gestion/Experiencia 2/Imagenes/Pasted image 20240820194322.png",
