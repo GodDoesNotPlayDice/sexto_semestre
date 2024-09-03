@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiFile",
       "TiPdf",
       "LiPen",
       "LiGlasses",
-      "FiImage",
-      "CoFolder"
+      "FiImage"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [
@@ -236,5 +236,7 @@
   "Negocios/Experiencia 1/Actividad 3/Esquema-Estrella.md": "LiPen",
   "ML/Experiencia 1/Boxplot.md": "LiPen",
   "Gestion/PMBOK/Imagenes": "FiImage",
-  "Gestion/PMBOK/Guia_del_PMBOK_sexta_edicion_espanol.pdf": "TiPdf"
+  "Gestion/PMBOK/Guia_del_PMBOK_sexta_edicion_espanol.pdf": "TiPdf",
+  "Negocios/Caso": "CoFolder",
+  "Negocios/Caso/Caso Semestral.md": "LiFile"
 }

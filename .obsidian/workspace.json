@@ -11,26 +11,15 @@
             "id": "46a38df34b96b577",
             "type": "leaf",
             "state": {
-              "type": "tldraw-view",
-              "state": {
-                "file": "Gestion/PMBOK/Diagrama.md"
-              }
-            }
-          },
-          {
-            "id": "386457835679ed0c",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "Gestion/Experiencia 2/Resumen.md",
+                "file": "ML/Experiencia 1/Resumen.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -104,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Gestion/Experiencia 2/Resumen.md",
+                "file": "ML/Experiencia 1/Resumen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Gestion/Experiencia 2/Resumen.md",
+                "file": "ML/Experiencia 1/Resumen.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Gestion/Experiencia 2/Resumen.md"
+                "file": "ML/Experiencia 1/Resumen.md"
               }
             }
           }
@@ -170,30 +159,34 @@
       "tldraw:Create new tldrawing": false
     }
   },
-  "active": "386457835679ed0c",
+  "active": "46a38df34b96b577",
   "lastOpenFiles": [
-    "Gestion/PMBOK/Diagrama.md",
-    "Gestion/Experiencia 1/Resumen.md",
-    "Gestion/Experiencia 2/Resumen.md",
-    "Gestion/Experiencia 1/Prueba 1.md",
-    "Gestion/PMBOK/Resumen.md",
-    "Etica/Resumen.md",
+    "Negocios/Experiencia 1/Actividad 3/Actividad 3.md",
+    "Negocios/Caso/Caso Semestral.md",
+    "Negocios/Experiencia 1/Resumen.md",
+    "Negocios/Experiencia 1/Actividad 3/Esquema-Estrella.md",
+    "Negocios/Experiencia 1/DW-obtener-informacion.md",
+    "Negocios/Experiencia 1/Modelo-Dimensional.md",
     "Etica/Caso.md",
+    "Negocios/Caso",
+    "Etica/Resumen.md",
+    "Gestion/PMBOK/Diagrama.md",
     "Gestion/PMBOK/Resumen PMBOK.svg",
     "Gestion/PMBOK/Guia_del_PMBOK_sexta_edicion_espanol.pdf",
+    "Gestion/PMBOK/Resumen.md",
     "ML/Experiencia 1/Resumen.md",
     "Gestion/PMBOK/Imagenes/Pasted image 20240831132830.png",
+    "Gestion/Experiencia 1/Prueba 1.md",
+    "Gestion/Experiencia 1/Resumen.md",
+    "Gestion/Experiencia 2/Resumen.md",
     "Gestion/Tasks.md",
     "Ingles/Ingles.md",
     "Etica/Tasks.md",
     "Tags",
     "Gestion/PMBOK/Imagenes",
     "Pasted image 20240831132811.png",
-    "Negocios/Experiencia 1/Actividad 3/Actividad 3.md",
     "ML/Experiencia 1/Boxplot.md",
-    "Negocios/Experiencia 1/Actividad 3/Esquema-Estrella.md",
     "ML/Experiencia 1/MinMaxScaler y Salida de datos.md",
-    "Negocios/Experiencia 1/Resumen.md",
     "Ingles/TOIEC.md",
     "Ingles/EA1/Listening/Transcript.md",
     "Ingles/EA1/Listening/ESP1513 Booklet - Listening.pdf",
@@ -202,12 +195,9 @@
     "Ingles/EA1",
     "Negocios/Experiencia 1/Actividad 2/Actividad-Estrella-DW.md",
     "Negocios/Experiencia 1/Actividad 3",
-    "Negocios/Experiencia 1/DW-obtener-informacion.md",
-    "Negocios/Experiencia 1/Modelo-Dimensional.md",
     "Gestion/PMBOK",
     "Negocios/Experiencia 1/Actividad 2/Actividad.md",
     "Negocios/Experiencia 1/Actividad 2/Tldraw 2024-08-21 10.09PM.md",
-    "tldraw",
     "Untitled.md",
     "Negocios/Experiencia 1/Kimball.md",
     "Gestion/Experiencia 1/Caso/Imagenes/Pasted image 20240821112100.png",

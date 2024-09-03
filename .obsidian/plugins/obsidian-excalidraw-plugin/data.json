@@ -93,15 +93,16 @@
   "library2": {
     "type": "excalidrawlib",
     "version": 2,
-    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.0.23",
+    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.4.0",
     "libraryItems": [
       {
         "status": "unpublished",
         "elements": [
           {
             "type": "rectangle",
-            "version": 43,
-            "versionNonce": 769540603,
+            "version": 44,
+            "versionNonce": 1261616194,
+            "index": "a0",
             "isDeleted": false,
             "id": "ogpHv3U_gV1ujfXrwyib6",
             "fillStyle": "solid",
@@ -123,7 +124,7 @@
               "type": 3
             },
             "boundElements": [],
-            "updated": 1724977453652,
+            "updated": 1725319567704,
             "link": null,
             "locked": false
           }
