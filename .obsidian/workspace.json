@@ -8,24 +8,26 @@
         "type": "tabs",
         "children": [
           {
-            "id": "46a38df34b96b577",
+            "id": "5ba282449759d79a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Negocios/Caso/Caso Semestral.md",
+                "file": "Gestion/Experiencia 2/Resumen clase 1.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "5ba282449759d79a",
+            "id": "45b23f63472f6fac",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Negocios/Caso/Drawing 2024-09-03 15.04.38.excalidraw.md"
+                "file": "Gestion/Experiencia 2/Resumen.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -104,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Negocios/Caso/Drawing 2024-09-03 15.04.38.excalidraw.md",
+                "file": "Gestion/Experiencia 2/Resumen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Negocios/Caso/Drawing 2024-09-03 15.04.38.excalidraw.md",
+                "file": "Gestion/Experiencia 2/Resumen.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Negocios/Caso/Drawing 2024-09-03 15.04.38.excalidraw.md"
+                "file": "Gestion/Experiencia 2/Resumen.md"
               }
             }
           }
@@ -170,8 +172,10 @@
       "tldraw:Create new tldrawing": false
     }
   },
-  "active": "5ba282449759d79a",
+  "active": "45b23f63472f6fac",
   "lastOpenFiles": [
+    "Gestion/Experiencia 2/Resumen clase 1.md",
+    "Gestion/Experiencia 2/Resumen.md",
     "Negocios/Caso/Caso Semestral.md",
     "Negocios/Caso/Drawing 2024-09-03 15.04.38.excalidraw.md",
     "ML/Experiencia 1/Resumen.md",
@@ -190,7 +194,6 @@
     "Gestion/PMBOK/Imagenes/Pasted image 20240831132830.png",
     "Gestion/Experiencia 1/Prueba 1.md",
     "Gestion/Experiencia 1/Resumen.md",
-    "Gestion/Experiencia 2/Resumen.md",
     "Gestion/Tasks.md",
     "Ingles/Ingles.md",
     "Etica/Tasks.md",
@@ -210,7 +213,6 @@
     "Gestion/PMBOK",
     "Negocios/Experiencia 1/Actividad 2/Actividad.md",
     "Negocios/Experiencia 1/Actividad 2/Tldraw 2024-08-21 10.09PM.md",
-    "Untitled.md",
     "Gestion/Experiencia 1/Caso/Imagenes/Pasted image 20240821112100.png",
     "Gestion/Experiencia 2/Imagenes/Pasted image 20240820201939.png",
     "Gestion/Experiencia 2/Imagenes/Pasted image 20240820194322.png",

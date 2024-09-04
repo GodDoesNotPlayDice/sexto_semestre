@@ -32,7 +32,7 @@ Estas líneas base permiten **comparar el estado actual del proyecto con los pla
 5) Los riesgos estén **CONTROLADOS.**
 6) Los **STAKEHOLDERS** estén comprometidos con el Proyecto.
 
-## Globalidad del Trabajo
+## Globalidad del Trabajo (Globalidad del PDP)
 El Plan de Dirección de Proyecto es un documento que **aborda la globalidad del trabajo** que se va a realizar, es decir, **cómo se va a hacer el trabajo**.
 - Todos los planes de **GESTIÓN**.
 - Los planes **DIMENSIONALES**.
@@ -41,14 +41,18 @@ El Plan de Dirección de Proyecto es un documento que **aborda la globalidad del
 
 ## Integración
 El plan de dirección del Proyecto integra, involucra y relaciona todas las áreas de conocimiento del Proyecto con todos sus procesos. 
-
-
 - **Área de alcance** del Proyecto.
 - **Área de coste** del Proyecto.
 - **Área de tiempo** (cronograma) del Proyecto
 
 # Documento de Requerimientos
 El documento de requerimientos es un documento que **contiene toda la información necesaria para la realización de un proyecto.** Este documento es el resultado de la recopilación de **información de los interesados y de la identificación de los requisitos del proyecto.**
+
+
+¿De que manera nos aporta valor a la gestion de requerimientos y su rspectiva documentacion?
+- **Especificar**: Se genera un documento de Especificación de Requisitos, comprensible por el cliente, que después sea útil para los implementadores.
+- **Clasificar y Organizar**: Implica agruparlos en categorías coherentes, utilizando un modelo arquitectónico y asociándolos con subsistemas. Luego, se **priorizan y negocian** para resolver conflictos entre los interesados, mediante acuerdos y compromisos.
+- **Descubrir**: Interactuar con los interesados para descubrir sus requisitos e intereses.
 
 ## No es igual a un acta de constitución
 
@@ -62,12 +66,20 @@ La disciplina de **gestión de requerimientos** se enfoca en el análisis, docum
 
 Al gestionar requisitos se **intenta reducir el Riesgo de Implementación del proyecto**, en dos ejes:
 - **Eficacia**: Riesgo de hacer algo que el cliente no solicitó.
+	- Quiere decir que el proyecto no cumple con los objetivos del cliente.
 - **Eficiencia**: Riesgo de sub (o sobre) estimar recursos y/o tiempo.
+	- Quiere decir que el proyecto no se ajusta a los plazos y presupuestos establecidos.!
 
 Sus resultados pueden ser:
 - **Exitoso**: Cumple todos los requisitos y es entregado a tiempo y dentro del presupuesto.
 - **Cuestionado**: Cumple la mayoría de los requisitos e incurre en sobrecostos/retrasos.
 - **Fracasado**: : Cancelado pues no entrega lo esperado e incurre en sobrecostos/retrasos graves.
+	- Los fracasos estan ligados a 5.
+		- **Cambios en los Requisitos**
+		- **Falta de Compromiso**
+		- **Falta de Comunicación**
+		- **Requisitos incompletos**
+		- **Cliente no necesita.**
 
 ### Clasificación de los requisitos
 
