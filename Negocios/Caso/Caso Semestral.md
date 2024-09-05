@@ -59,3 +59,6 @@ Tabla Hechos: **H_ORDEN**
 ## KPI
 preguntas con enfoque estrategico
 - Ejemplo: ¿Cuál es el producto más vendido? -> que hacer? -> aumentar la producción.
+
+
+Que valor usamos de pk en la dimension tiempo?

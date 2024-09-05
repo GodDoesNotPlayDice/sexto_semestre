@@ -239,5 +239,6 @@
   "Gestion/PMBOK/Guia_del_PMBOK_sexta_edicion_espanol.pdf": "TiPdf",
   "Negocios/Caso": "CoFolder",
   "Negocios/Caso/Caso Semestral.md": "LiFile",
-  "Gestion/Experiencia 2/Resumen clase 1.md": "LiFile"
+  "Gestion/Experiencia 2/Resumen clase 1.md": "LiFile",
+  "Negocios/Caso/Caso Diagrama.md": "LiFile"
 }
