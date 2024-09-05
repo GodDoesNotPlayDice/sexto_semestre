@@ -23,9 +23,11 @@
             "id": "45b23f63472f6fac",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Negocios/Caso/Caso Diagrama.md"
+                "file": "Negocios/Caso/Caso Semestral.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -104,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Negocios/Caso/Caso Diagrama.md",
+                "file": "Negocios/Caso/Caso Semestral.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Negocios/Caso/Caso Diagrama.md",
+                "file": "Negocios/Caso/Caso Semestral.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Negocios/Caso/Caso Diagrama.md"
+                "file": "Negocios/Caso/Caso Semestral.md"
               }
             }
           }
@@ -172,9 +174,9 @@
   },
   "active": "45b23f63472f6fac",
   "lastOpenFiles": [
+    "Negocios/Caso/Caso Diagrama.md",
     "Negocios/Caso/Caso Semestral.md",
     "Gestion/Experiencia 2/Resumen clase 1.md",
-    "Negocios/Caso/Caso Diagrama.md",
     "Negocios/Experiencia 1/Actividad 2/Actividad-Estrella-DW.md",
     "Negocios/Experiencia 1/Modelo-Dimensional.md",
     "Negocios/Experiencia 1/DW-obtener-informacion.md",

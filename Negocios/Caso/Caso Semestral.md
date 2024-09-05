@@ -62,3 +62,11 @@ preguntas con enfoque estrategico
 
 
 Que valor usamos de pk en la dimension tiempo?
+- Agregar metricas de tiempo (dia, mes, año, etc)
+Los tipos de datos estan bien en la tablas?
+- XD
+El nivel de granularidad esta bien?
+- Corregir algunas granularidades redundantes
+Las dimensiones modeladas son las correctas?
+- Remplazar la D_Ubicación por otra.
+
