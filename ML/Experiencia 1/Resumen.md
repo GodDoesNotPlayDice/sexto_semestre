@@ -854,10 +854,12 @@ Para saber **cuál técnica podremos utilizar para el tratamiento de los datos f
 
 ## (MCAR: Missing Completely at Random)
 Ocurre cuando la probabilidad de que una variable **tenga valor faltante es independiente de la misma variable y de cualquier otra influencia externa**. Lo que significa que los valores faltantes no dependen de los datos.
+- Cuando no hay una razón especifica de porque apareció. (es aleatorio)
 
 
 ## (MNAR: Missing Not at Random)
 Ocurre cuando la probabilidad de que una variable tenga valores faltantes no es al azar, por lo tanto depende de las variables faltantes.
+- Hay una situación en particular que hace que ese dato falte.
 
 Supongamos que tenemos un set de datos y que los datos faltantes aparecen tanto en la **categoría A como en la B o en la C,** y los valores faltantes pueden **ser altos o bajos**. 
 
@@ -868,6 +870,7 @@ Esto quiere decir que esos datos faltantes no dependen ni de la categoría ni de
 
 ## (MAR: Missing at Random)
 Ocurre cuando la probabilidad de que una variable tenga valores faltantes no es al azar, por lo tanto depende de las variables faltantes.
+- Supone que los datos faltantes tienen alguna relación con las variables que se observan.
 
 Volviendo a nuestro set de datos hipotético podemos ver que sistemáticamente los datos con valores menores a 100 faltan, tanto para las categorías A, B como C. **Es decir que los valores faltantes dependen de la variable “V2”, y por tanto la razón de la falta de datos NO es aleatoria.**
 
@@ -883,6 +886,13 @@ Este mecanismo es un punto intermedio entre los dos anteriores.
 En el ejemplo vemos que los datos faltantes corresponden únicamente a datos en la categoría B, y que estos datos faltantes van desde los más pequeños a los más grandes. Esto quiere decir que los valores faltantes dependen sólo de la variable “V1” (la categoría) y no de la propia variable “V2”.
 
 ![[Pasted image 20240826201444.png]]
+
+
+## Arboles
+Los arboles no necesitan tanta data e ignora nulls y no necesita escalar los datos, pero no es tan interpretable y no es tan bueno para predecir.
+
+## Convergencia
+Es cuando al modelo de entrenamiento ya no puede predecir mas datos sino que queda siempre en los mismos datos.
 
 ## Estrategias
 Tenemos dos grandes grupos que **son el descarte de datos y la imputación.**
@@ -949,6 +959,7 @@ En la imputación simple se usa un algoritmo para hacer una única estimación�
 - **Hacer la imputación por regresión**: En este caso cada dato faltante es reemplazado con el valor predicho por un modelo de regresión. Aquí se preserva la distribución de los datos. Pero, debe haber algún tipo de correlación entre las variables que estamos usando para construir este modelo.
 
 - **Imputación hot-deck**: En este caso, el dato faltante es reemplazado con valores tomados de datos “cercanos” al dato faltante. Dentro de esta categoría el método más usado es el de k-vecinos más cercanos (o kNN por sus siglas en Inglés: k-Nearest Neighbors). Es mucho más preciso que la media o la mediana, y puede funcionar en lugar de la regresión cuando los datos no están correlacionados. La desventaja es que si tenemos muchos datos se requiere bastante tiempo de cómputo.
+	- Hace grupos de datos para que sea mas fácil de recomendar para el algoritmo.
 
 #### Imputación múltiple
 En la imputación múltiple se hacen múltiples estimaciones, que luego se combinan para producir un único valor, que será el usado para reemplazar el dato faltante correspondiente, con lo cual se puede disminuir el sesgo de la estimación.
@@ -956,6 +967,7 @@ En la imputación múltiple se hacen múltiples estimaciones, que luego se comb
 El método más usado es el algoritmo de Imputación Múltiple con Ecuaciones Encadenadas (o MICE por sus siglas en Inglés: **Multiple Imputation by Chained Equations). Aquí, la idea es que progresivamente las estimaciones sean cada vez más precisas y se acerquen más y más al valor real.**
 
 Aunque es un método muy preciso, requiere que haya relación lineal entre las variables.
+- Es por su iteración.
 
 ## Outliers
 Los valores atípicos son **aquellos puntos de datos que difieren significativamente de otras observaciones presentes en un conjunto de datos dado.** Puede ocurrir debido a la variabilidad en la medición y debido a una mala interpretación al llenar los puntos de datos.
@@ -1120,3 +1132,8 @@ La distancia se calcula entre el vector que tiene el MV que queremos imputar y l
 Supongamos que K=3. Entonces, los vecinos más cercanos serían: 1, 5 y 7, finalmente, con esos 3 datos estimamos el MV con la técnica que queramos. En este caso, podríamos usar la media: (64.0 + 68.0 + 68.0)/3.
 
 ![[Pasted image 20240826212204.png]]
+
+
+
+
+# Escalado

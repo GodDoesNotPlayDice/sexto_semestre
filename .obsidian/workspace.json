@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Negocios/Caso/Caso Semestral.md",
+                "file": "ML/Experiencia 1/Resumen.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Negocios/Caso/Caso Semestral.md",
+                "file": "ML/Experiencia 1/Resumen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Negocios/Caso/Caso Semestral.md",
+                "file": "ML/Experiencia 1/Resumen.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Negocios/Caso/Caso Semestral.md"
+                "file": "ML/Experiencia 1/Resumen.md"
               }
             }
           }
@@ -174,8 +174,8 @@
   },
   "active": "45b23f63472f6fac",
   "lastOpenFiles": [
-    "Negocios/Caso/Caso Diagrama.md",
     "Negocios/Caso/Caso Semestral.md",
+    "Negocios/Caso/Caso Diagrama.md",
     "Gestion/Experiencia 2/Resumen clase 1.md",
     "Negocios/Experiencia 1/Actividad 2/Actividad-Estrella-DW.md",
     "Negocios/Experiencia 1/Modelo-Dimensional.md",
