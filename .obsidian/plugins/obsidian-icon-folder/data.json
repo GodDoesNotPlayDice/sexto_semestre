@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "CoFolder",
       "LiFile",
       "TiPdf",
       "LiPen",
-      "LiGlasses",
-      "FiImage"
+      "LiGlasses"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [
@@ -240,5 +240,7 @@
   "Negocios/Caso": "CoFolder",
   "Negocios/Caso/Caso Semestral.md": "LiFile",
   "Gestion/Experiencia 2/Resumen clase 1.md": "LiFile",
-  "Negocios/Caso/Caso Diagrama.md": "LiFile"
+  "Negocios/Caso/Caso Diagrama.md": "LiFile",
+  "Etica/Exp1": "CoFolder",
+  "Etica/Exp1/Resumen.md": "LiFile"
 }
