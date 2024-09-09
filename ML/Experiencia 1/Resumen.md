@@ -1137,3 +1137,146 @@ Supongamos que K=3. Entonces, los vecinos más cercanos serían: 1, 5 y 7, final
 
 
 # Escalado
+Una de las transformaciones más importantes que hay que aplicar a los datos es el escalado de características. **Salvo algunas excepciones, los algoritmos de Machine Learning no tienen un buen rendimiento cuando los atributos numéricos de entrada tienen escalas muy diferentes.**
+- Acá habla de que el escalado es importante para igual números muy pequeños con números muy grandes.
+
+## Por que escalar?
+La mayoría de las veces, nuestro conjunto de datos contendrá características que **varían mucho en magnitudes, unidades y rango.** Pero dado que la **mayoría de los algoritmos de aprendizaje automático usan la distancia euclidiana** _entre dos puntos de datos en sus cálculos_, esto es un problema.
+
+Si se dejan solos, estos algoritmos sólo toman en cuenta la magnitud de las características y descuidan las unidades.
+
+Los resultados variarían mucho entre diferentes unidades, por ejemplo entre 5 kg y 5000 g. 
+
+Las características con magnitudes altas pesarán mucho más en los cálculos de distancia que las características con magnitudes bajas. Para suprimir este efecto, necesitamos traer todas las características al mismo nivel de magnitudes. Esto se puede lograr escalando.
+
+
+## Normalización
+El objetivo de la normalización es cambiar sus observaciones para que puedan describirse como una distribución normal.
+
+La distribución normal (distribución gaussiana), también conocida como curva de campana , es una distribución estadística específica en la que aproximadamente las mismas observaciones caen por encima y por debajo de la media, la media y la mediana son iguales y hay más observaciones más cercanas a la media.
+
+Se utiliza la siguiente fórmula.
+Podemos ver que cuando Xi=min, entonces Xnew=0, y cuando Xi=max, entonces Xnew=1.
+Esto significa que el valor mínimo de X se asigna a 0 y el valor máximo de X se asigna a 1. 
+Por lo tanto, **todo el rango de valores de X, desde el mínimo hasta el máximo, se asigna al rango de 0 a 1.**
+Esta forma de escalamiento es muy sensible a los outliers.
+En Python, usamos **MinMaxScaler**.
+$$
+X_{\text{new}} = \frac{X_i - \min(X)}{\max(X) - \min(X)}
+$$
+
+## Estandarización
+**La estandarización** **(también llamada normalización de puntuación z)** transforma sus datos de modo que la distribución resultante tenga una media de 0 y una desviación estándar de 1.
+
+En Python usamos la función **StandardScaler**.
+
+Es más resistente a outliers, pero no es muy interpretable para datos que se alejan mucho de una distribución Normal.
+$$
+X_{\text{new}} = \frac{X_i - X_{\text{mean}}}{\text{Standard Deviation}}
+$$
+
+## Comparación
+**Escalado vs. Normalización: ¿Cuál es la diferencia?** En ambos casos, está transformando los valores de las variables numéricas para que los puntos de datos transformados tengan propiedades útiles específicas. 
+
+La diferencia es que, al escalar, está cambiando el rango de sus datos mientras que en la normalización está cambiando la forma de la distribución de sus datos.
+
+![[Pasted image 20240909194952.png]]
+
+
+# Encoding
+La mayoría de los **algoritmos de aprendizaje automático no pueden manejar variables categóricas a menos que las convirtamos en valores numéricos.** 
+
+El rendimiento de muchos algoritmos varía en función de cómo se codifican las variables categóricas.
+
+Hay muchas maneras en que podemos codificar estas variables categóricas como números y usarlas en un algoritmo.
+
+## One Hot Encoding
+En este método, asignamos cada categoría a un vector que contiene 1 y 0, lo que denota la presencia o ausencia de la característica. 
+
+El número de vectores depende del número de categorías de características. 
+
+Este **método produce muchas columnas que ralentizan significativamente el aprendizaje** si el número de la categoría es muy alto para la función. 
+
+```python
+
+from sklearn.preprocessing import OneHotEncoder
+import pandas as pd
+
+# Suponiendo que 'df' es el DataFrame original con la columna 'Temperature'
+ohe = OneHotEncoder()
+ohc = ohe.fit_transform(df.Temperature.values.reshape(-1, 1)).toarray()
+dfOneHot = pd.DataFrame(ohc, columns=["Temp_" + str(ohe.categories_[0][i]) for i in range(len(ohe.categories_[0]))])
+
+# Concatenar el DataFrame original con el codificado
+dfh = pd.concat([df, dfOneHot], axis=1)
+
+# Mostrar el DataFrame resultante
+dfh
+```
+
+## Binary Encoding
+La codificación binaria convierte una categoría en dígitos binarios, cada dígito binario crea una columna de características, **si hay n categorías únicas, la codificación binaria da como resultado las únicas funciones de registro `(base 2)ⁿ`**. 
+
+En este ejemplo, tenemos cuatro características; por lo tanto, las características codificadas en binario serán tres características. 
+
+En comparación con One Hot Encoding, esto requerirá menos columnas de funciones (para 100 categorías, One Hot Encoding tendrá 100 funciones, mientras que para la codificación binaria, necesitaremos solo siete funciones).
+
+```python
+import category_encoders as ce
+import pandas as pd
+
+# Suponiendo que 'df' es el DataFrame original con la columna 'Temperature'
+encoder = ce.BinaryEncoder(cols=['Temperature'])
+dfbin = encoder.fit_transform(df['Temperature'])
+
+# Concatenar el DataFrame original con el codificado
+df = pd.concat([df, dfbin], axis=1)
+
+# Mostrar el DataFrame resultante
+df
+```
+
+## Label Encoding
+En esta codificación, a cada categoría se le asigna un valor de 1 a N (donde N es el número de categorías para la función. 
+
+**Un problema importante con este enfoque es que no hay relación ni orden entre estas clases**, pero el algoritmo podría considerarlas como algún orden o alguna relación.
+
+En el siguiente ejemplo, puede verse como **Scikit** Learn nos permite aplicar Label Encoding con: `(Cold<Hot<Very Hot<Warm….0 < 1 < 2 < 3)`.
+
+```python
+from sklearn.preprocessing import LabelEncoder
+import pandas as pd
+
+# Suponiendo que 'df' es el DataFrame original con la columna 'Temperature'
+df['Temp_label_encoded'] = LabelEncoder().fit_transform(df.Temperature)
+
+# Mostrar el DataFrame resultante
+df
+```
+
+## Ordinal Encoding
+Realizamos la codificación ordinal **para garantizar que la codificación de las variables conserve la naturaleza ordinal de la variable.** Esta codificación se ve casi similar a Label Encoder, pero es ligeramente diferente, ya que la Label Encoder no consideraría si la variable es ordinal o no, y asignará una secuencia de números enteros.
+
+En este código usando Pandas, primero debemos asignar el orden original de la variable a través de un diccionario. Luego podemos **mapear** cada fila para la variable según el diccionario.
+
+```python
+import pandas as pd
+
+# Diccionario de mapeo de valores ordinales
+Temp_dict = {
+    'Cold': 1,
+    'Warm': 2,
+    'Hot': 3,
+    'Very Hot': 4
+}
+
+# Aplicar el mapeo a la columna 'Temperature'
+df['Temp_Ordinal'] = df.Temperature.map(Temp_dict)
+
+# Mostrar el DataFrame resultante
+df
+```
+
+Aunque es muy sencillo, **requiere codificación** para indicar los valores ordinales y la asignación real de texto a un número entero según el orden.
+
+
