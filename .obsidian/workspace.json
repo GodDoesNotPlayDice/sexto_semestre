@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Negocios/Experiencia 2/Resumen.md",
+                "file": "ML/Experiencia 1/Resumen.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 227.5110321044922
+    "width": 227.5110321044922,
+    "collapsed": true
   },
   "right": {
     "id": "483ef326b8ee36a1",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Negocios/Experiencia 2/Resumen.md",
+                "file": "ML/Experiencia 1/Resumen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Negocios/Experiencia 2/Resumen.md",
+                "file": "ML/Experiencia 1/Resumen.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Negocios/Experiencia 2/Resumen.md"
+                "file": "ML/Experiencia 1/Resumen.md"
               }
             }
           }
@@ -159,11 +160,11 @@
       "tldraw:Create new tldrawing": false
     }
   },
-  "active": "f40a5c963d9bea0e",
+  "active": "cf9645bb023c7c18",
   "lastOpenFiles": [
+    "Negocios/Experiencia 2/Resumen.md",
     "Negocios/Imagenes/Pasted image 20240909210911.png",
     "Seguridad/Experiencia 2/Resumen.md",
-    "Negocios/Experiencia 2/Resumen.md",
     "Negocios/Experiencia 2",
     "Pasted image 20240909210424.png",
     "Seguridad/Imagenes/Pasted image 20240909205733.png",
@@ -206,7 +207,6 @@
     "Ingles/EA1/Listening/EA1 Photographs mini test.mp3",
     "Ingles/EA1/Listening",
     "Gestion/Experiencia 1/Caso/Imagenes/Pasted image 20240821112100.png",
-    "Gestion/Experiencia 2/Imagenes/Pasted image 20240820201939.png",
     "Year/Semester/Plataformas/Untitled.canvas",
     "Untitled.canvas",
     "Networks/IPs/Untitled.canvas"

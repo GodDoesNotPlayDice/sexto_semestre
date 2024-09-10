@@ -1065,6 +1065,8 @@ Es uno de los modelos de **Machine Learning más simples y además nos sirve par
 ## Como funciona
 K-NN tiene dos parámetros: **La medida de distancia o similaridad.**
 - El parámetro “K” o “e” según como se decida crear los vecindarios.
+	- **e**: parametro de la distancia
+	- **K**: concidera los dos mas parecidos.
 
 El **concepto de similaridad o distancia** son parecidos, ya que tratan de cuantificar lo mismo, pero de puntos de vistas distinto.
 - **La distancia** entre más crece, más alejados o distintos son los objetos a medir
@@ -1077,7 +1079,7 @@ $$
 d = \sqrt{(p_1 - q_1)^2 + (p_2 - q_2)^2}
 $$
 
-**MANHATTAN** es la suma de las diferencias absolutas entre puntos en todas las dimensiones. La distancia Manhattan se usa  si necesitamos calcular la distancia entre dos puntos de datos en una ruta similar a una cuadrícula.
+**MANHATTAN** es la suma de las diferencias absolutas entre puntos en todas las dimensiones. La distancia Manhattan **se usa  si necesitamos calcular la distancia entre dos puntos de datos en una ruta similar a una cuadrícula.**
 
 $$
 d = \sum_{i=1}^{n} |x_i - y_i|
@@ -1110,6 +1112,8 @@ En este ejemplo, hay un punto central indicado con la flecha. Este punto define 
 
 ![[Pasted image 20240826211515.png]]
 
+Una manera es con la estrategia de radio y barre a los que estan cercanos.
+
 ## Imputación
 
 ### Usos de KNN en la imputación
@@ -1133,8 +1137,11 @@ Supongamos que K=3. Entonces, los vecinos más cercanos serían: 1, 5 y 7, final
 
 ![[Pasted image 20240826212204.png]]
 
+`weight`: es un parámetro que se le puede dar a los datos que están mas cerca para que tengan mas peso en la imputación.
 
-
+```python
+knn_imputer = KNNImputer(n_neighbors=2, weights='uniform')
+```
 
 # Escalado
 Una de las transformaciones más importantes que hay que aplicar a los datos es el escalado de características. **Salvo algunas excepciones, los algoritmos de Machine Learning no tienen un buen rendimiento cuando los atributos numéricos de entrada tienen escalas muy diferentes.**
