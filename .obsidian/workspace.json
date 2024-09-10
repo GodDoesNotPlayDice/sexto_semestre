@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/Experiencia 1/Resumen.md",
+                "file": "Negocios/Experiencia 2/Resumen.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b49e074f97b6ab27",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Negocios/Experiencia 2/Resumen.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,8 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 227.5110321044922,
-    "collapsed": true
+    "width": 227.5110321044922
   },
   "right": {
     "id": "483ef326b8ee36a1",
@@ -94,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/Experiencia 1/Resumen.md",
+                "file": "Negocios/Experiencia 2/Resumen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/Experiencia 1/Resumen.md",
+                "file": "Negocios/Experiencia 2/Resumen.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Experiencia 1/Resumen.md"
+                "file": "Negocios/Experiencia 2/Resumen.md"
               }
             }
           }
@@ -160,9 +172,11 @@
       "tldraw:Create new tldrawing": false
     }
   },
-  "active": "cf9645bb023c7c18",
+  "active": "f40a5c963d9bea0e",
   "lastOpenFiles": [
+    "Negocios/Experiencia 2/ETL.md",
     "Negocios/Experiencia 2/Resumen.md",
+    "ML/Experiencia 1/Resumen.md",
     "Negocios/Imagenes/Pasted image 20240909210911.png",
     "Seguridad/Experiencia 2/Resumen.md",
     "Negocios/Experiencia 2",
@@ -172,7 +186,6 @@
     "Seguridad/Experiencia 1/Resumen.md",
     "Seguridad/Experiencia 2/Drawing 2024-09-09 20.09.27.excalidraw.md",
     "Seguridad/Experiencia 2",
-    "ML/Experiencia 1/Resumen.md",
     "Gestion/Experiencia 2/Resumen clase 2.md",
     "Pasted image 20240909200041.png",
     "ML/Imagenes/Pasted image 20240909194952.png",

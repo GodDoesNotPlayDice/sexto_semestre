@@ -245,5 +245,7 @@
   "Etica/Exp1/Resumen.md": "LiFile",
   "Seguridad/Experiencia 2": "CoFolder",
   "Seguridad/Experiencia 2/Resumen.md": "LiFile",
-  "Negocios/Experiencia 2": "CoFolder"
+  "Negocios/Experiencia 2": "CoFolder",
+  "Negocios/Experiencia 2/Resumen.md": "LiFile",
+  "Negocios/Experiencia 2/ETL.md": "LiPen"
 }
