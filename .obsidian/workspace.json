@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "bc056c85c9e2b5f5",
+        "id": "b6533308e2ca56dc",
         "type": "tabs",
         "children": [
           {
-            "id": "cf9645bb023c7c18",
+            "id": "7da1f0b4c8c627a1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Negocios/Experiencia 2/Resumen.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b49e074f97b6ab27",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Negocios/Experiencia 2/Resumen.md",
+                "file": "Seguridad/Experiencia 2/Resumen.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Negocios/Experiencia 2/Resumen.md",
+                "file": "Seguridad/Experiencia 2/Resumen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Negocios/Experiencia 2/Resumen.md",
+                "file": "Seguridad/Experiencia 2/Resumen.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Negocios/Experiencia 2/Resumen.md"
+                "file": "Seguridad/Experiencia 2/Resumen.md"
               }
             }
           }
@@ -172,10 +159,10 @@
       "tldraw:Create new tldrawing": false
     }
   },
-  "active": "f40a5c963d9bea0e",
+  "active": "7da1f0b4c8c627a1",
   "lastOpenFiles": [
-    "Negocios/Experiencia 2/ETL.md",
     "Negocios/Experiencia 2/Resumen.md",
+    "Negocios/Experiencia 2/ETL.md",
     "ML/Experiencia 1/Resumen.md",
     "Negocios/Imagenes/Pasted image 20240909210911.png",
     "Seguridad/Experiencia 2/Resumen.md",

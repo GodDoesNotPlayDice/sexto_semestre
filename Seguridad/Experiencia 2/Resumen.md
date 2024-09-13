@@ -37,10 +37,13 @@ El comité de Seguridad de la Información además debe cumplir un rol activo de
 ![[Pasted image 20240909205246.png]]
 
 **Dirección ejecutiva**: implementar un GSI efectivo y definir los objetivos estratégicos, además de apoyar continuamente el apoyo de estos.
+- Define
 
 **Comité Directivo**: proveer un canal efectivo de comunicación entre los diferentes actores para asegurar el cumplimiento del programa de seguridad, realizando las tareas específicas de apoyo al programa de Seguridad de la Información.
+- Promueve
 
 **Oficial de Seguridad de la Información (CISO):** desarrollar la estrategia de seguridad, así como la supervisión de su ejecución.
+- Desarrolla
 
 ### Ciclo de vida de una política de seguridad de la información
 - **Aprobación** de las políticas por parte de la Dirección Ejecutiva.
@@ -52,6 +55,7 @@ El comité de Seguridad de la Información además debe cumplir un rol activo de
 - **Dar el ejemplo**, de parte de los directivos de seguridad, al resto de la organización
 
 ### Modelo de negocios para la seguridad de la información 
+La política de seguridad tiene que estar siempre alineado con las leyes del país.
 
 **Organización**: red de procesos, activos y personas que interactúan por un objetivo común. Enmarcado en la estrategia corporativa, se establece como deben ser gestionados los recursos para alcanzar los objetivos del negocio.
 
@@ -62,13 +66,20 @@ El comité de Seguridad de la Información además debe cumplir un rol activo de
 **Tecnología**: herramientas para mejorar la eficiencia de los procesos.
 
 ### Métricas
-Un indicador es una métrica o combinación de métricas que nos permite conocer en profundidad el funcionamiento de un proceso en su contexto. Los indicadores, deben reunir las siguientes características:
+Un indicador es una métrica o combinación de métricas que nos permite conocer en profundidad el funcionamiento de un proceso en su contexto. Los indicadores, deben reunir 
+
+Nos sirve para reconocer si la política que se esta inplementando es buena.
+
+las siguientes características:
 - Específicos.
 - Medibles.
 - Alcanzables.
 - Realistas.
 - Alcanzables en el tiempo
 
+Nos sirve para cuantificar si la estamos haciendo bien.
+- Lo medible se puede mejorar 
+- Lo no medible es imposible de mejorar.
 
 ### Como elegir las mejores métricas
 **Cuantitativo**: las métricas deben ser cuantitativas para que puedan compararse a lo largo del tiempo y las organizaciones. 
@@ -96,6 +107,13 @@ Un indicador es una métrica o combinación de métricas que nos permite conocer
 **Auditoria:** se debe llevar un registro de lo que se hizo y  en que instante.
 Separación de funciones: las funciones críticas deben estar separadas en más de un usuario.
 
+
+### Debe responder a lo siguiente
+**Propósito**: las métricas deben respaldar los objetivos comerciales y los requisitos regulatorios, conectar las métricas a la empresa puede ayudar con la aceptación de las partes interesadas.
+
+**Control**: para que las métricas valgan la pena, deben demostrar que se está cumpliendo un objetivo. 
+
+**Contexto**: Responde preguntas como «¿por qué lo estamos recopilando?», «¿Qué historia cuenta?» Y «¿cómo se compara esto con nuestra industria?»
 ## Fases de una política de Seguridad
 ![[Pasted image 20240909205733.png]]
 
