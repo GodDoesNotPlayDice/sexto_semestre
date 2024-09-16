@@ -48,3 +48,7 @@ Que entendemos por etica
 
 En que conciste la dimension objetiva del trabajo?
 - Por el producto que soy evaluado, por el resultado
+
+
+## Apuntes
+**Centro**: El centro es la persona, ya que si la persona es afectada por el trabajo, el trabajo se ve afectado.
