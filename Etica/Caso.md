@@ -81,3 +81,17 @@ Camilo refleja una escalada en su desesperación y temor por perder su estatus, 
 El **Caso 4: Camilo entre la espada y la pared** se centra en Camilo, un supervisor de la empresa MR que enfrenta un dilema ético y personal. Camilo, a pesar de su éxito profesional, está presionado por problemas financieros, incluyendo la deuda de un auto nuevo que no puede pagar. En un intento desesperado por obtener dinero, propone a Roberto, un joven ingeniero de su equipo, participar en una actividad poco ética: vender información privilegiada sobre las ofertas de la empresa durante el "Ciber Monday". Roberto, quien ya ha sufrido acoso laboral por parte de Camilo, se debate entre aceptar para mejorar su situación laboral o rechazar la oferta por sus principios éticos.
 
 Al final, Roberto decide no ceder a la presión y reporta la situación a Recursos Humanos, lo que lleva a la destitución de Camilo. Camilo, aunque admite su responsabilidad, no se disculpa directamente con Roberto, pero le envía un mensaje lamentando cómo sucedieron las cosas y reconociendo que, de haberse conocido mejor, podrían haberse llevado bien.
+
+
+
+## Caso 5
+¿Que les parece la actuación de las personas que trabajan para CSI?
+- Me parece extremadamente mal que la gente cual es encargada de instalar software o remplazar equipos para brindar una mejor calidad de trabajo no se haga con la calidad o dedicación que corresponden.
+¿Por qué crees que tales personas no realizan un buen trabajo?
+- Yo creo que no realizan un buen trabajo porque primero mencionan en el texto que los que trabajan en CSI no son tan profesionales y segundo que va de la mano con lo primero es la falta de compromiso con el servicio que estas dando.
+¿Es responsabilidad de Roberto el trabajo deficiente que entregaban las personas de CSI?
+- No es responsabilidad de Roberto el trabajo deficiente que entregaban las personas de CSI, ya que el no es el encargado de supervisar el trabajo de estas personas, es responsabilidad de la gerente de CSI.
+¿Que les parece el e análisis que roberto esta haciendo al respecto?
+- Me parece buen análisis porque se pone en ambos puntos de vista de parte de el, de su empresa y de CSI, si bien esta bastante bien el análisis creo que deberia ser mas egoista y no tan empatico con la empresa que le brinda el servicio ya que si bien el hace todo lo que esta a su alcance no es su responsabilidad las fallas de parte de CSI.
+¿Como habrías resuelto la situación, en lugar de roberto?
+- Hubiera hablado con mi superior para informar todos los errores o defectos que me he encontrado a lo largo de mi jornada laboral ya que no puede ser que por culpa de personas que no saben hacer su trabajo que se supone que se categorizan como "profesionales".
