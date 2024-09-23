@@ -14,5 +14,6 @@
   "tldraw",
   "shortcuts-extender",
   "code-emitter",
-  "github-copilot"
+  "github-copilot",
+  "ollama"
 ]

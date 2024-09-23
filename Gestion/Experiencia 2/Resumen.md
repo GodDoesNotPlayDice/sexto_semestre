@@ -258,3 +258,42 @@ El plan de alcance del proyecto ayuda a garantizar que el proyecto se mantenga e
 
 ![[Pasted image 20240820201939.png]]
 
+# EDT y Diccionario del EDT
+Crear la **EDT** es el **PROCESO DE SUBDIVIDIR LOS ENTREGABLES DEL PROYECTO** y el trabajo del proyecto en componentes **más pequeños y más fáciles de manejar**, donde cada nivel descendente representa una definición cada vez mas detallada del trabajo del proyecto
+- LA EDT (Estructura de Desglose del Trabajo) o WBS (Work Breakdown Estructure) organiza y define el alcance total del proyecto.
+	- Es una descomposición jerárquica del alcance total a realizar por el equipo del proyecto para cumplir con los objetivos del proyecto y crear los entregables requeridos.
+![[Pasted image 20240923145951.png]]
+
+## Que no es un EDT
+ - No es una lista de tareas
+ - No es un organigrama
+ - No tiene secuencia
+
+## Que es un entregable
+**Entregable**: Tangible, perceptible, que se puede medir, que se asigna tiempo y costo y que se puede monitorear.
+
+## Herramientas técnicas
+### Descomposición
+Es una técnica utilizada para dividir y subdividir el alcance del proyecto y los entregables del proyecto en partes más pequeñas y manejables. El nivel de descomposición es a menudo guiado por el grado de control necesario para dirigir el proyecto de manera efectiva.
+> La descomposición es la subdivisión de los productos entregables de un proyecto en componentes más pequeños y fáciles de manejar, hasta que el trabajo y los productos entregables se definan al nivel del paquete de trabajo (work package).
+
+La descomposición de la EDT , generalmente implica las siguientes actividades
+- Identificar y analizar los entregables y el trabajo relacionado. 
+- Estructurar y organizar la EDT.
+- Descomponer los niveles superiores en componentes detallados de nivel inferior. 
+- Desarrollar y asignar códigos de identificación de los componentes de la EDT. 
+- Verificar que el grado de la descomposición de los entregables sea el adecuado.
+
+#### Paquetes de trabajo
+El trabajo planificado está contenido en el nivel más bajo de los componentes de la EDT, denominados paquetes de trabajo.
+
+Un paquete de trabajo se puede utilizar para agrupar las actividades donde el trabajo es programado y estimado, seguido y controlado.
+
+### La estructura del WBS 
+ - !Usar las fases del ciclo de vida del proyecto como el primer nivel de descomposición, insertando los productos entregables del proyecto en el segundo nivel. 
+ - Usar los entregables principales como el primer nivel de descomposición. - 
+ - Usar los subproyectos, que puedan ser desarrollados por organizaciones fuera del equipo del proyecto, como trabajo contratado
+
+## Salidas
+![[Pasted image 20240923151449.png]]
+![[Pasted image 20240923151517.png]]

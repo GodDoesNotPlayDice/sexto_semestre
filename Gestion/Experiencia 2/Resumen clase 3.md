@@ -11,6 +11,6 @@
 - Planificar -> Gestión del alcance
 - Recopilar -> Requisitos
 - Definir -> Alcance -> Enunciado del alcance y Resultado
-- Crear -> EDT/WBS
+- Crear -> EDT/WBS (Estructura de desglose de trabajo)
 - Validar -> Alcance -> Aceptacion de entregables
 - Monitorie y Control -> Alcance -> Control de cambios

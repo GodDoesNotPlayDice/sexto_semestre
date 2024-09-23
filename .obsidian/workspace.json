@@ -4,18 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "558bc48236e84ea3",
+        "id": "955384d5344560b3",
         "type": "tabs",
         "children": [
           {
-            "id": "073c9254632e574f",
+            "id": "006e101eb43e9344",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Etica/Caso.md",
-                "mode": "source",
-                "source": false
+                "file": "Gestion/Experiencia 2/Imagenes/Pasted image 20240923151449.png"
               }
             }
           }
@@ -93,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Etica/Caso.md",
+                "file": "Gestion/Experiencia 2/Imagenes/Pasted image 20240923151449.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Etica/Caso.md",
+                "file": "Gestion/Experiencia 2/Imagenes/Pasted image 20240923151449.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Etica/Caso.md"
+                "file": "Gestion/Experiencia 2/Imagenes/Pasted image 20240923151449.png"
               }
             }
           }
@@ -159,10 +157,18 @@
       "tldraw:Create new tldrawing": false
     }
   },
-  "active": "073c9254632e574f",
+  "active": "f40a5c963d9bea0e",
   "lastOpenFiles": [
-    "Etica/Resumen.md",
+    "Gestion/Experiencia 2/Resumen.md",
+    "Gestion/Experiencia 2/Imagenes/Pasted image 20240923151517.png",
+    "Gestion/Experiencia 2/Imagenes/Pasted image 20240923151449.png",
+    "Gestion/Experiencia 2/Imagenes/Pasted image 20240923145951.png",
+    "Gestion/Experiencia 2/Resumen clase 4.md",
+    "Untitled.canvas",
     "Gestion/Experiencia 2/Resumen clase 3.md",
+    "Gestion/Experiencia 2/Resumen clase 2.md",
+    "Etica/Caso.md",
+    "Etica/Resumen.md",
     "ML/ET/Entrega 1/Etapa 1.md",
     "ML/ET/Entrega 1",
     "ML/ET",
@@ -170,9 +176,7 @@
     "Ingles/Test-Nivel",
     "Ingles/EA1/Listening and Reading/Listening Test.md",
     "Ingles/EA1/Listening and Reading",
-    "Gestion/Experiencia 2/Resumen.md",
     "Gestion/Experiencia 2/Resumen clase 1.md",
-    "Gestion/Experiencia 2/Resumen clase 2.md",
     "Gestion/Tasks.md",
     "Seguridad/Experiencia 2/Resumen.md",
     "Negocios/Experiencia 2/Resumen.md",
@@ -197,18 +201,11 @@
     "Negocios/Experiencia 1/DW-obtener-informacion.md",
     "Negocios/Experiencia 1/Actividad 3/Actividad 3.md",
     "Negocios/Experiencia 1/Resumen.md",
-    "Negocios/Experiencia 1/Actividad 3/Esquema-Estrella.md",
-    "Etica/Caso.md",
     "Negocios/Caso",
-    "Gestion/PMBOK/Diagrama.md",
     "Gestion/PMBOK/Resumen PMBOK.svg",
     "Gestion/PMBOK/Guia_del_PMBOK_sexta_edicion_espanol.pdf",
-    "Gestion/PMBOK/Imagenes/Pasted image 20240831132830.png",
     "Tags",
-    "Pasted image 20240831132811.png",
-    "Gestion/Experiencia 1/Caso/Imagenes/Pasted image 20240821112100.png",
     "Year/Semester/Plataformas/Untitled.canvas",
-    "Untitled.canvas",
     "Networks/IPs/Untitled.canvas"
   ]
 }
