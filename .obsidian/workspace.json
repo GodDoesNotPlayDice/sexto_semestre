@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ingles/EA1/Listening and Reading/Reading.md",
+                "file": "ML/Experiencia 2/Resumen.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ingles/EA1/Listening and Reading/Reading.md",
+                "file": "ML/Experiencia 2/Resumen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ingles/EA1/Listening and Reading/Reading.md",
+                "file": "ML/Experiencia 2/Resumen.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ingles/EA1/Listening and Reading/Reading.md"
+                "file": "ML/Experiencia 2/Resumen.md"
               }
             }
           }
@@ -161,8 +161,15 @@
   },
   "active": "006e101eb43e9344",
   "lastOpenFiles": [
-    "Ingles/EA1/Listening and Reading/Listening Test.md",
+    "Pasted image 20240924100240.png",
+    "ML/Imagenes/Pasted image 20240924100111.png",
+    "ML/Experiencia 2/Resumen.md",
+    "ML/Imagenes/Pasted image 20240924100011.png",
+    "ML/Imagenes/Pasted image 20240924095903.png",
+    "ML/Imagenes/Pasted image 20240924095752.png",
     "Ingles/EA1/Listening and Reading/Reading.md",
+    "ML/Experiencia 2",
+    "Ingles/EA1/Listening and Reading/Listening Test.md",
     "Ingles/Test-Nivel/Test.md",
     "Ingles/Tasks.md",
     "Gestion/Experiencia 2/Imagenes/Pasted image 20240923151449.png",
@@ -190,23 +197,17 @@
     "Negocios/Experiencia 2",
     "Pasted image 20240909210424.png",
     "Seguridad/Imagenes/Pasted image 20240909205733.png",
-    "Seguridad/Imagenes/Pasted image 20240909205246.png",
     "Seguridad/Experiencia 1/Resumen.md",
     "Seguridad/Experiencia 2/Drawing 2024-09-09 20.09.27.excalidraw.md",
     "Seguridad/Experiencia 2",
-    "Pasted image 20240909200041.png",
-    "ML/Imagenes/Pasted image 20240909194952.png",
     "Etica/Exp1/Resumen.md",
     "Etica/Exp1",
     "Negocios/Caso/Caso Semestral.md",
     "Negocios/Caso/Caso Diagrama.md",
     "Negocios/Experiencia 1/Actividad 2/Actividad-Estrella-DW.md",
     "Negocios/Experiencia 1/Modelo-Dimensional.md",
-    "Negocios/Experiencia 1/DW-obtener-informacion.md",
     "Negocios/Caso",
-    "Gestion/PMBOK/Resumen PMBOK.svg",
     "Gestion/PMBOK/Guia_del_PMBOK_sexta_edicion_espanol.pdf",
-    "Tags",
     "Year/Semester/Plataformas/Untitled.canvas",
     "Networks/IPs/Untitled.canvas"
   ]
