@@ -250,5 +250,10 @@
   "Negocios/Experiencia 2/ETL.md": "LiPen",
   "Gestion/Experiencia 2/Resumen clase 2.md": "LiFile",
   "Gestion/Experiencia 2/Resumen clase 3.md": "LiFile",
-  "Gestion/Experiencia 2/Resumen clase 4.md": "LiFile"
+  "Gestion/Experiencia 2/Resumen clase 4.md": "LiFile",
+  "Ingles/EA1/Listening and Reading": "CoFolder",
+  "Ingles/Test-Nivel": "CoFolder",
+  "Ingles/Test-Nivel/Test.md": "CoFolder",
+  "Ingles/EA1/Listening and Reading/Listening Test.md": "LiFile",
+  "Ingles/EA1/Listening and Reading/Reading.md": "LiFile"
 }

@@ -11,9 +11,11 @@
             "id": "006e101eb43e9344",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Gestion/Experiencia 2/Imagenes/Pasted image 20240923151449.png"
+                "file": "Ingles/EA1/Listening and Reading/Reading.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -91,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Gestion/Experiencia 2/Imagenes/Pasted image 20240923151449.png",
+                "file": "Ingles/EA1/Listening and Reading/Reading.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Gestion/Experiencia 2/Imagenes/Pasted image 20240923151449.png",
+                "file": "Ingles/EA1/Listening and Reading/Reading.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Gestion/Experiencia 2/Imagenes/Pasted image 20240923151449.png"
+                "file": "Ingles/EA1/Listening and Reading/Reading.md"
               }
             }
           }
@@ -157,11 +159,15 @@
       "tldraw:Create new tldrawing": false
     }
   },
-  "active": "f40a5c963d9bea0e",
+  "active": "006e101eb43e9344",
   "lastOpenFiles": [
+    "Ingles/EA1/Listening and Reading/Listening Test.md",
+    "Ingles/EA1/Listening and Reading/Reading.md",
+    "Ingles/Test-Nivel/Test.md",
+    "Ingles/Tasks.md",
+    "Gestion/Experiencia 2/Imagenes/Pasted image 20240923151449.png",
     "Gestion/Experiencia 2/Resumen.md",
     "Gestion/Experiencia 2/Imagenes/Pasted image 20240923151517.png",
-    "Gestion/Experiencia 2/Imagenes/Pasted image 20240923151449.png",
     "Gestion/Experiencia 2/Imagenes/Pasted image 20240923145951.png",
     "Gestion/Experiencia 2/Resumen clase 4.md",
     "Untitled.canvas",
@@ -172,9 +178,7 @@
     "ML/ET/Entrega 1/Etapa 1.md",
     "ML/ET/Entrega 1",
     "ML/ET",
-    "Ingles/Test-Nivel/Test.md",
     "Ingles/Test-Nivel",
-    "Ingles/EA1/Listening and Reading/Listening Test.md",
     "Ingles/EA1/Listening and Reading",
     "Gestion/Experiencia 2/Resumen clase 1.md",
     "Gestion/Tasks.md",
@@ -199,8 +203,6 @@
     "Negocios/Experiencia 1/Actividad 2/Actividad-Estrella-DW.md",
     "Negocios/Experiencia 1/Modelo-Dimensional.md",
     "Negocios/Experiencia 1/DW-obtener-informacion.md",
-    "Negocios/Experiencia 1/Actividad 3/Actividad 3.md",
-    "Negocios/Experiencia 1/Resumen.md",
     "Negocios/Caso",
     "Gestion/PMBOK/Resumen PMBOK.svg",
     "Gestion/PMBOK/Guia_del_PMBOK_sexta_edicion_espanol.pdf",
