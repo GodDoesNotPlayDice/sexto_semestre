@@ -255,5 +255,10 @@
   "Ingles/Test-Nivel": "CoFolder",
   "Ingles/Test-Nivel/Test.md": "CoFolder",
   "Ingles/EA1/Listening and Reading/Listening Test.md": "LiFile",
-  "Ingles/EA1/Listening and Reading/Reading.md": "LiFile"
+  "Ingles/EA1/Listening and Reading/Reading.md": "LiFile",
+  "ML/ET": "CoFolder",
+  "ML/ET/Entrega 1": "CoFolder",
+  "ML/ET/Entrega 1/Etapa 1.md": "CoFolder",
+  "ML/Experiencia 2": "CoFolder",
+  "ML/Experiencia 2/Resumen.md": "LiFile"
 }
