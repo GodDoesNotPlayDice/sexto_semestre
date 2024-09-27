@@ -17,3 +17,5 @@ Cuantas partes tine un proyecto son 5.
 		- Crear -> EDT/WBS **(Estructura de desglose de trabajo) / (Work Breakdown Structure)**
 		- Validar -> Alcance -> Aceptación de entregables (Criterios de aceptación de los entregables)
 		- Monitoreo y Control -> Alcance -> Control de cambios.
+	- **Que tiene un PDP**:
+		- Tiene planes de gestión.
