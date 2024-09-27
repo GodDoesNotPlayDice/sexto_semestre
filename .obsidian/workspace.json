@@ -11,9 +11,11 @@
             "id": "006e101eb43e9344",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "ML/Imagenes/Pasted image 20240924100240.png"
+                "file": "Seguridad/Experiencia 2/Resumen.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -91,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/Imagenes/Pasted image 20240924100240.png",
+                "file": "Seguridad/Experiencia 2/Resumen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/Imagenes/Pasted image 20240924100240.png",
+                "file": "Seguridad/Experiencia 2/Resumen.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Imagenes/Pasted image 20240924100240.png"
+                "file": "Seguridad/Experiencia 2/Resumen.md"
               }
             }
           }
@@ -157,10 +159,20 @@
       "tldraw:Create new tldrawing": false
     }
   },
-  "active": "f40a5c963d9bea0e",
+  "active": "006e101eb43e9344",
   "lastOpenFiles": [
+    "Seguridad/Imagenes/Pasted image 20240927112511.png",
+    "Seguridad/Experiencia 2/Resumen.md",
     "ML/Experiencia 2/Resumen.md",
+    "Pasted image 20240924100240.png",
     "ML/Imagenes/Pasted image 20240924100240.png",
+    "Gestion/Experiencia 2/Resumen.md",
+    "Gestion/Experiencia 2/Resumen clase 4.md",
+    "Gestion/Experiencia 2/Resumen clase 2.md",
+    "Gestion/Experiencia 2/Resumen clase 3.md",
+    "Gestion/Experiencia 2/Resumen clase 1.md",
+    "Gestion/Experiencia 2/ET2/Que tiene que tener.md",
+    "Gestion/Experiencia 2/ET2",
     "ML/Imagenes/Pasted image 20240924100111.png",
     "ML/Imagenes/Pasted image 20240924100011.png",
     "ML/Imagenes/Pasted image 20240924095903.png",
@@ -171,13 +183,9 @@
     "Ingles/Test-Nivel/Test.md",
     "Ingles/Tasks.md",
     "Gestion/Experiencia 2/Imagenes/Pasted image 20240923151449.png",
-    "Gestion/Experiencia 2/Resumen.md",
     "Gestion/Experiencia 2/Imagenes/Pasted image 20240923151517.png",
     "Gestion/Experiencia 2/Imagenes/Pasted image 20240923145951.png",
-    "Gestion/Experiencia 2/Resumen clase 4.md",
     "Untitled.canvas",
-    "Gestion/Experiencia 2/Resumen clase 3.md",
-    "Gestion/Experiencia 2/Resumen clase 2.md",
     "Etica/Caso.md",
     "Etica/Resumen.md",
     "ML/ET/Entrega 1/Etapa 1.md",
@@ -185,15 +193,11 @@
     "ML/ET",
     "Ingles/Test-Nivel",
     "Ingles/EA1/Listening and Reading",
-    "Gestion/Experiencia 2/Resumen clase 1.md",
     "Gestion/Tasks.md",
-    "Seguridad/Experiencia 2/Resumen.md",
     "Negocios/Experiencia 2/Resumen.md",
     "Negocios/Experiencia 2/ETL.md",
     "ML/Experiencia 1/Resumen.md",
-    "Negocios/Imagenes/Pasted image 20240909210911.png",
     "Negocios/Experiencia 2",
-    "Pasted image 20240909210424.png",
     "Seguridad/Experiencia 1/Resumen.md",
     "Seguridad/Experiencia 2/Drawing 2024-09-09 20.09.27.excalidraw.md",
     "Seguridad/Experiencia 2",
@@ -202,9 +206,7 @@
     "Negocios/Caso/Caso Semestral.md",
     "Negocios/Caso/Caso Diagrama.md",
     "Negocios/Experiencia 1/Actividad 2/Actividad-Estrella-DW.md",
-    "Negocios/Experiencia 1/Modelo-Dimensional.md",
     "Negocios/Caso",
-    "Gestion/PMBOK/Guia_del_PMBOK_sexta_edicion_espanol.pdf",
     "Year/Semester/Plataformas/Untitled.canvas",
     "Networks/IPs/Untitled.canvas"
   ]
