@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "955384d5344560b3",
+        "id": "e8ccc5c7db00157c",
         "type": "tabs",
         "children": [
           {
-            "id": "006e101eb43e9344",
+            "id": "6aedfcf4fda5f739",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Seguridad/Experiencia 2/Resumen.md",
+                "file": "Gestion/Experiencia 2/ET2/Que tiene que tener.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Seguridad/Experiencia 2/Resumen.md",
+                "file": "Gestion/Experiencia 2/ET2/Que tiene que tener.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Seguridad/Experiencia 2/Resumen.md",
+                "file": "Gestion/Experiencia 2/ET2/Que tiene que tener.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Seguridad/Experiencia 2/Resumen.md"
+                "file": "Gestion/Experiencia 2/ET2/Que tiene que tener.md"
               }
             }
           }
@@ -159,33 +159,32 @@
       "tldraw:Create new tldrawing": false
     }
   },
-  "active": "006e101eb43e9344",
+  "active": "f40a5c963d9bea0e",
   "lastOpenFiles": [
-    "Seguridad/Imagenes/Pasted image 20240927112511.png",
-    "Seguridad/Experiencia 2/Resumen.md",
-    "ML/Experiencia 2/Resumen.md",
-    "Pasted image 20240924100240.png",
-    "ML/Imagenes/Pasted image 20240924100240.png",
     "Gestion/Experiencia 2/Resumen.md",
     "Gestion/Experiencia 2/Resumen clase 4.md",
-    "Gestion/Experiencia 2/Resumen clase 2.md",
-    "Gestion/Experiencia 2/Resumen clase 3.md",
-    "Gestion/Experiencia 2/Resumen clase 1.md",
+    "Seguridad/Experiencia 2/Resumen.md",
+    "Seguridad/Imagenes/Pasted image 20240927191258.png",
+    "Seguridad/Imagenes/Pasted image 20240927185305.png",
+    "Seguridad/Imagenes/Pasted image 20240927185253.png",
+    "Seguridad/Imagenes/Pasted image 20240927185245.png",
+    "Seguridad/Imagenes/Pasted image 20240927185237.png",
+    "Seguridad/Imagenes/Pasted image 20240927175755.png",
+    "Seguridad/Imagenes/Pasted image 20240927173929.png",
+    "Seguridad/Imagenes/Pasted image 20240927173727.png",
+    "Seguridad/Imagenes/Pasted image 20240927112511.png",
     "Gestion/Experiencia 2/ET2/Que tiene que tener.md",
     "Gestion/Experiencia 2/ET2",
-    "ML/Imagenes/Pasted image 20240924100111.png",
-    "ML/Imagenes/Pasted image 20240924100011.png",
-    "ML/Imagenes/Pasted image 20240924095903.png",
-    "ML/Imagenes/Pasted image 20240924095752.png",
+    "ML/Imagenes/Pasted image 20240924100240.png",
+    "ML/Experiencia 2/Resumen.md",
     "Ingles/EA1/Listening and Reading/Reading.md",
     "ML/Experiencia 2",
     "Ingles/EA1/Listening and Reading/Listening Test.md",
     "Ingles/Test-Nivel/Test.md",
     "Ingles/Tasks.md",
-    "Gestion/Experiencia 2/Imagenes/Pasted image 20240923151449.png",
-    "Gestion/Experiencia 2/Imagenes/Pasted image 20240923151517.png",
-    "Gestion/Experiencia 2/Imagenes/Pasted image 20240923145951.png",
     "Untitled.canvas",
+    "Gestion/Experiencia 2/Resumen clase 3.md",
+    "Gestion/Experiencia 2/Resumen clase 2.md",
     "Etica/Caso.md",
     "Etica/Resumen.md",
     "ML/ET/Entrega 1/Etapa 1.md",
@@ -193,6 +192,7 @@
     "ML/ET",
     "Ingles/Test-Nivel",
     "Ingles/EA1/Listening and Reading",
+    "Gestion/Experiencia 2/Resumen clase 1.md",
     "Gestion/Tasks.md",
     "Negocios/Experiencia 2/Resumen.md",
     "Negocios/Experiencia 2/ETL.md",

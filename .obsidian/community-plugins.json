@@ -15,5 +15,6 @@
   "shortcuts-extender",
   "code-emitter",
   "github-copilot",
-  "ollama"
+  "ollama",
+  "table-extended"
 ]

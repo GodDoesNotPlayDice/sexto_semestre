@@ -184,9 +184,174 @@ Implementar buenas practicas, permitirá mitigar las vulnerabilidades mas comune
 Estas practicas se pueden transformar en requisitos que se deben seguir para poder ir realizando un software menos vulnerable a ataques, sin la necesidad de que el desarrollador sea un experto en seguridad o ciberseguridad
 
 
+### Amenazas que hay que tener en cuenta
+Virus, troyanos, phishing, malware, bombas lógicas, screen scraping, amenazas avanzadas persistentes (APT), ransomware, spyware…
+
+**SQL Injection:** Ocurre cuando una tercera parte inserta fragmentos de código intruso en, por ejemplo, el campo de entrada de un formulario. Esto le franqueará el acceso a la base de datos de la víctima.
+
+**XSS (Cross Site Scripting):** Se basa en la inyección de scripts dentro de una web usando HTML, JavaScript u otro lenguaje de codificación. El script se ejecutará en el navegador del cliente con el fin de espiar sus sesiones, redirigirlo a sitios web dañinos, sustraer su información personal o manipular su actividad.
+
+**Ataques de denegación de servicios (DDoS):** Tienen lugar cuando una red de dispositivos lanza un ataque simultáneo, realizando una solicitud masiva de peticiones que el servicio se ve incapaz de atender.
+
+### ¿Qué es el desarrollo seguro de Software?
+Es un enfoque de desarrollo de software que tiene en cuenta la seguridad en cada fase del ciclo de vida del desarrollo de software. 
+
+### DevSecOps
+DevSecOps es la seguridad como cultura de código donde integra herramientas de seguridad en el ciclo de vida de DevOps. La seguridad como parte del proceso de DevOps es la única forma de mitigar los riesgos.
+
+Es un cambio de transformación que incorpora la cultura, las prácticas y las herramientas de seguridad en cada fase de los procesos de DevOps. Elimina los silos entre el equipo de desarrollo, seguridad y operaciones.
+
+![[Pasted image 20240927173727.png]]
+
+### Algunas compañías que utilizan DevSecOps
+- S-SDLC (Secure Software Development Life Cycle).
+- CLASP (Comprehensive Lightweight Application Security Process).
+- SSDF (Secure Software Development Framework).
+
+## S-SDLC
+Se basa en verificar los requisitos de seguridad a lo largo de las distintas fases de construcción del software: análisis, diseño, desarrollo, pruebas y mantenimiento. 
+
+Las claves del S-SDLC son la atención al detalle, para favorecer la identificación inmediata de las vulnerabilidades; y la mejora continua.
+
+![[Pasted image 20240927173929.png]]
+
+### Actividades de seguridad identificadas
+- Estrategia y orientación (top 10 owasp, cert, cwe)
+- Formación en seguridad de los grupos implicados en el desarrollo.
+- Identificación y definición de riesgos de negocio del cliente.
+- Obtención y validación de los requisitos de seguridad.
+- Análisis y modelado de amenazas que proteja la superficie de ataques.
+- Revisión del diseño.
+- Revisión del código.
+- Testing de seguridad.
+- Validación de salidas garantizando la seguridad del código liberado.
+- Evaluación y métricas confirmando el seguimiento de la seguridad.
+- Implantación de un plan de respuesta a incidentes.
+
+#### Divididas en 4 areas del desarrollo
+##### Políticas
+1. Definición de objetivos y directrices globales y sectoriales. 
+2. Implicación de todos los grupos. Formación. 
+3. Conocimiento de los riesgos
+
+##### Metodologías SDL
+1. Construcción de software seguro por defecto:
+2. Requisitos, Modelado de amenazas. Diseño
+3. seguro. Análisis de código. Testing de seguridad.
+
+##### Supervisión
+1. Evaluación continua.
+2. Cumplimiento de seguridad.
+3. Conocimiento instantáneo del estado.
+
+##### Observatorio
+1. Nuevos tipos de ataques y vulnerabilidades.
+2. Aprendizaje continuo.
+3. Convertir medidas reactivas en preventivas.
+
+## CLASP
+Es un conjunto de piezas, el cual podría ser integrado en otros procesos de desarrollo de software, tiene ciertas propiedades como son su fácil adopción a otros entornos y la eficiencia. 
+
+Su fuerte es la riqueza de recursos de seguridad que dispone, lo cual deberá ser implementado en las actividades del **SDLC**. 
+
+### CLASP se organiza en vistas, de las cuales dispone de cinco
+- **Vista de conceptos (Concepts view)**
+	- Proporciona una introducción de alto nivel al describir brevemente, 
+		- Por ejemplo, la interacción de las cinco vistas de CLASP, las siete mejores prácticas, su taxonomía,  y su relación con las políticas de seguridad además de una secuencia de muestra para aplicar los componentes del proceso.
+- **Vista basada en roles (Role-Based view)**
+	- Esta vista contiene introducciones basadas en roles al proceso CLASP.
+- **Vista Actividades-Auditoria (Activity-Assesment view)**
+	- Esta vista ayuda a los gerentes de proyecto a evaluar la idoneidad de las 24 actividades existentes en CLASP y seleccionar un subconjunto de ellas. 
+	- CLASP proporciona dos mapas de ruta de muestra (es decir, legado y nuevo comienzo) para ayudar a seleccionar las actividades aplicables.
+- **Vista implementación de actividades (Activity-Implementation view)**
+	- Esta vista contiene las 24 actividades CLASP relacionadas con la seguridad que se pueden integrar en un proceso de desarrollo de software. 
+	- La fase de actividades del SDLC traduce en software ejecutable cualquier subconjunto de las 24 actividades relacionadas con la seguridad evaluadas y aceptadas en la evaluación de actividades.
+- **Vista de vulnerabilidades (Vulnerability view)**
+	- CLASP (Comprehensive, Lightweight Application Security Process) identifica 104 tipos de problemas que subyacen a las vulnerabilidades de seguridad en el código fuente de las aplicaciones. Estos problemas están agrupados en 5 categorías de alto nivel.
+	- Un problema individual por sí solo no suele ser una vulnerabilidad de seguridad; es la combinación de varios problemas lo que crea condiciones de seguridad que conducen a vulnerabilidades. CLASP también incluye casos de uso de vulnerabilidad, que describen cómo los servicios de seguridad en la capa de aplicación son vulnerables a ataques. Estos casos de uso proporcionan ejemplos claros de cómo el código fuente que ignora aspectos de seguridad puede llevar a vulnerabilidades en servicios clave.
+#### Roles
+- Gerente
+- Arquitecto
+- Ingeniero de requisitos
+- Diseñador
+- Codificador
+- Tester 
+- Auditor de seguridad.
+
+![[Pasted image 20240927175755.png]]
+
+### Mejores Prácticas de CLASP
+Dentro de un proyecto de desarrollo de software, las mejores prácticas de **CLASP** son la base de todas las actividades de **desarrollo de software** relacionadas con la seguridad, ya sea planificación, diseño o implementación, incluido el uso de todas las herramientas y técnicas que respaldan **CLASP**, estas son las siete mejores prácticas de **CLASP**
+
+1. Instituir programas de concientización
+2. Realizar evaluaciones de aplicaciones
+3. Capturar requisitos de seguridad
+4. Implementar prácticas de desarrollo seguras
+5. Construir procedimientos de remediación de vulnerabilidades
+6. Definir y monitorear métricas
+7. Publicar pautas de seguridad operativa
+
+### 24 Actividades CLASP
+CLASP está diseñado para permitir una fácil integración de sus actividades relacionadas con la seguridad en los procesos de desarrollo de aplicaciones existentes.
+
+Cada actividad se divide en componentes de procesos discretos y se vincula a uno o más roles específicos del proyecto. De esta manera, proporciona una guía a los participantes del proyecto (por ejemplo, gerentes de proyecto, auditores de seguridad, desarrolladores, arquitectos, evaluadores y otros) que se adapta fácilmente a su forma de trabajar. 
+> Esto da como resultado mejoras incrementales en la seguridad que son fácilmente alcanzables, repetibles y medibles.
+
+![[Pasted image 20240927185237.png]]
+![[Pasted image 20240927185245.png]]
+![[Pasted image 20240927185253.png]]
+![[Pasted image 20240927185305.png]]
+
+### SSDF (Secure Software Development Framework)
+El marco de desarrollo de software seguro (SSDF) es un conjunto de prácticas de desarrollo de software fundamentales, sólidas y seguras basadas en documentos establecidos de prácticas de desarrollo de software seguro de organizaciones como BSA , OWASP y SAFECode.
+
+![[Pasted image 20240927191258.png]]
+
+#### Las prácticas clave en el SSDF incluyen:
+- Definir criterios para las comprobaciones de seguridad del software.
+- Proteja todas las formas de código del acceso no autorizado y la manipulación salvaguardando los entornos de desarrollo, compilación, distribución y actualización y siguiendo el principio de privilegios mínimos
+- Proporcionar un mecanismo para verificar la integridad de la versión del software mediante la firma digital del código a lo largo del ciclo de vida del software.
+- Diseñar software para cumplir con los requisitos de seguridad y mitigar los riesgos de seguridad
+- Verifique que el software de terceros cumpla con los requisitos de seguridad
+
+#### Las prácticas clave en el SSDF incluyen
+
+- Configurar los procesos de compilación y construcción para mejorar la seguridad ejecutable
+- Revisar y/o analizar código legible por humanos para identificar vulnerabilidades y verificar el cumplimiento de los requisitos de seguridad
+- Pruebe el código ejecutable para identificar vulnerabilidades y verificar el cumplimiento de los requisitos de seguridad
+
+#### Valor SSDF
+Seguir las prácticas de SSDF debería ayudar a los productores de software a reducir la cantidad de vulnerabilidades en el software lanzado, mitigar el impacto potencial de la explotación de vulnerabilidades no detectadas o no abordadas y abordar las causas fundamentales de las vulnerabilidades para evitar futuras recurrencias. 
+
+Además, debido a que SSDF proporciona un vocabulario común para el desarrollo de software seguro, los consumidores de software pueden usarlo para fomentar las comunicaciones con los proveedores en los procesos de adquisición y otras actividades de gestión.
 
 
+### Las prácticas SSDF se organizan en cuatro grupos:
+**Prepare la organización (PO):** Asegúrese de que las personas, los procesos y la tecnología de la organización estén preparados para realizar un desarrollo de software seguro a nivel de la organización y, en algunos casos, para cada proyecto individual.
 
+**Proteger el software (PS):** Proteja todos los componentes del software contra la manipulación y el acceso no autorizado.
+
+**Producir software bien protegido (PW):** Producir software bien protegido que tenga vulnerabilidades de seguridad mínimas en sus versiones.
+
+**Responda a las vulnerabilidades (RV):** Identifique las vulnerabilidades en las versiones de software y responda adecuadamente para abordar esas vulnerabilidades y evitar que ocurran vulnerabilidades similares en el futuro.
+
+### Cada práctica se define con los siguentes elementos:
+**Práctica**: una breve declaración de la práctica, junto con un identificador único y una explicación de qué es la práctica y por qué es beneficiosa.
+
+**Tarea**: Una acción individual (o acciones) necesarias para llevar a cabo una práctica.
+
+**Ejemplo de implementación:** un ejemplo de un tipo de herramienta, proceso u otro método que podría usarse para implementar esta práctica; no pretende implicar que se requiera ningún ejemplo o combinación de ejemplos o que solo los ejemplos indicados sean opciones factibles.
+
+**Referencia:** un documento de práctica de desarrollo seguro establecido y sus asignaciones a una tarea en particular.
+
+### Planes NIST
+**Infraestructura de desarrollo:** Prácticas y tareas agregadas para asegurar la infraestructura de desarrollo
+
+**Amenazas contra el desarrollo de software:** Prácticas y tareas actuales para determinar qué amenazas contra el desarrollo de software pueden no abordar adecuadamente, luego se crearon nuevas prácticas y tareas para llenar esos vacíos
+
+**Preparación para el uso seguro del software:** Prácticas y tareas ampliadas para enfatizar la importancia de preparar el software para una implementación, operación y mantenimiento seguros por parte de las organizaciones que adquieren el software.
+
+**Actualizaciones de referencia:** se actualizaron todas las referencias SSDF originales a la última versión, se eliminaron las referencias que sus fuentes retiraron y se agregaron más referencias SSDF para incluir software para tipos adicionales de tecnologías.
 
 # PPT3
 

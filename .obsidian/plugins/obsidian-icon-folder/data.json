@@ -260,5 +260,7 @@
   "ML/ET/Entrega 1": "CoFolder",
   "ML/ET/Entrega 1/Etapa 1.md": "CoFolder",
   "ML/Experiencia 2": "CoFolder",
-  "ML/Experiencia 2/Resumen.md": "LiFile"
+  "ML/Experiencia 2/Resumen.md": "LiFile",
+  "Gestion/Experiencia 2/ET2": "CoFolder",
+  "Gestion/Experiencia 2/ET2/Que tiene que tener.md": "LiFile"
 }
