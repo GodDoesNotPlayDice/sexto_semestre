@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gestion/Experiencia 2/Resumen clase 5.md",
+                "file": "Ingles/EA2 Inform/Tarea 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Gestion/Experiencia 2/Resumen clase 5.md",
+                "file": "Ingles/EA2 Inform/Tarea 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Gestion/Experiencia 2/Resumen clase 5.md",
+                "file": "Ingles/EA2 Inform/Tarea 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Gestion/Experiencia 2/Resumen clase 5.md"
+                "file": "Ingles/EA2 Inform/Tarea 1.md"
               }
             }
           }
@@ -161,8 +161,12 @@
   },
   "active": "6aedfcf4fda5f739",
   "lastOpenFiles": [
-    "Gestion/Experiencia 2/Resumen clase 4.md",
+    "Ingles/EA1/Listening and Reading/Listening Test.md",
+    "Ingles/EA2 Inform/Tarea 1.md",
+    "Ingles/EA2 Inform",
+    "Ingles/EA1/Listening and Reading/Reading.md",
     "Gestion/Experiencia 2/Resumen clase 5.md",
+    "Gestion/Experiencia 2/Resumen clase 4.md",
     "Gestion/Experiencia 2/Resumen.md",
     "Gestion/Experiencia 2/Resumen clase 3.md",
     "Gestion/Experiencia 2/ET2/Que tiene que tener.md",
@@ -179,9 +183,7 @@
     "Gestion/Experiencia 2/ET2",
     "ML/Imagenes/Pasted image 20240924100240.png",
     "ML/Experiencia 2/Resumen.md",
-    "Ingles/EA1/Listening and Reading/Reading.md",
     "ML/Experiencia 2",
-    "Ingles/EA1/Listening and Reading/Listening Test.md",
     "Ingles/Test-Nivel/Test.md",
     "Ingles/Tasks.md",
     "Untitled.canvas",
@@ -206,8 +208,6 @@
     "Etica/Exp1",
     "Negocios/Caso/Caso Semestral.md",
     "Negocios/Caso/Caso Diagrama.md",
-    "Negocios/Experiencia 1/Actividad 2/Actividad-Estrella-DW.md",
-    "Negocios/Caso",
     "Year/Semester/Plataformas/Untitled.canvas",
     "Networks/IPs/Untitled.canvas"
   ]
