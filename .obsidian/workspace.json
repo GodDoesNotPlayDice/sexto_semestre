@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gestion/Experiencia 2/ET2/Que tiene que tener.md",
+                "file": "Gestion/Experiencia 2/Resumen clase 5.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Gestion/Experiencia 2/ET2/Que tiene que tener.md",
+                "file": "Gestion/Experiencia 2/Resumen clase 5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Gestion/Experiencia 2/ET2/Que tiene que tener.md",
+                "file": "Gestion/Experiencia 2/Resumen clase 5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Gestion/Experiencia 2/ET2/Que tiene que tener.md"
+                "file": "Gestion/Experiencia 2/Resumen clase 5.md"
               }
             }
           }
@@ -153,16 +153,19 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "nested-daily-todos:Add incomplete todos to today's note": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "bpmn-plugin:New BPMN": false,
       "tldraw:Create new tldrawing": false
     }
   },
-  "active": "f40a5c963d9bea0e",
+  "active": "6aedfcf4fda5f739",
   "lastOpenFiles": [
-    "Gestion/Experiencia 2/Resumen.md",
     "Gestion/Experiencia 2/Resumen clase 4.md",
+    "Gestion/Experiencia 2/Resumen clase 5.md",
+    "Gestion/Experiencia 2/Resumen.md",
+    "Gestion/Experiencia 2/Resumen clase 3.md",
+    "Gestion/Experiencia 2/ET2/Que tiene que tener.md",
     "Seguridad/Experiencia 2/Resumen.md",
     "Seguridad/Imagenes/Pasted image 20240927191258.png",
     "Seguridad/Imagenes/Pasted image 20240927185305.png",
@@ -173,7 +176,6 @@
     "Seguridad/Imagenes/Pasted image 20240927173929.png",
     "Seguridad/Imagenes/Pasted image 20240927173727.png",
     "Seguridad/Imagenes/Pasted image 20240927112511.png",
-    "Gestion/Experiencia 2/ET2/Que tiene que tener.md",
     "Gestion/Experiencia 2/ET2",
     "ML/Imagenes/Pasted image 20240924100240.png",
     "ML/Experiencia 2/Resumen.md",
@@ -183,7 +185,6 @@
     "Ingles/Test-Nivel/Test.md",
     "Ingles/Tasks.md",
     "Untitled.canvas",
-    "Gestion/Experiencia 2/Resumen clase 3.md",
     "Gestion/Experiencia 2/Resumen clase 2.md",
     "Etica/Caso.md",
     "Etica/Resumen.md",
