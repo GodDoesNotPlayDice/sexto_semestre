@@ -297,3 +297,84 @@ Un paquete de trabajo se puede utilizar para agrupar las actividades donde el tr
 ## Salidas
 ![[Pasted image 20240923151449.png]]
 ![[Pasted image 20240923151517.png]]
+
+# Cronograma del proyecto
+El cronograma del proyecto es una herramienta fundamental en la gestión de proyectos que organiza, planifica y controla el tiempo necesario para completar las actividades de un proyecto. Según el **PMBOK** (6ta edición), el cronograma forma parte de la **gestión del cronograma**, que incluye los procesos para asegurar que el proyecto se complete a tiempo​.
+
+## Etapas
+
+1) **Planificar la gestión del cronograma**: Se establecen las políticas, procedimientos y documentación para planificar, desarrollar y controlar el cronograma del proyecto. Es en esta fase donde se define el método a utilizar, como la ruta crítica o la cadena crítica​
+	- Metodologías y herramientas de planificación a ser usadas. 
+	- Nivel de precisión en la estimación de la duración de las actividades. 
+	- Criterios para establecer tiempo por posibles contingencias 
+	- Unidades de medida de tiempo, esfuerzo y recursos. 
+	- Procesos para actualizar el estado de avance del proyecto. 
+	- Control de umbrales de desviación permitidos en la ejecución del proyecto. 
+	- Reglas de medición de rendimiento del proyecto (ej. Valor ganado). 
+	- Formato y frecuencia de reportes. 
+	- Descripción de procesos de gestión del cronograma.
+- **Diagramas de barras (o Carta Gantt)** 
+- **Diagramas de hitos** 
+- **Diagramas de red del cronograma del proyecto**
+- **DIAGRAMAS DE RED**: Es el típico diagrama de red de relaciones lógicas entre las actividades (nodos) al que se incorpora la línea de tiempo.
+![[Pasted image 20241008182633.png]]
+
+
+2) **Definir las actividades**: Consiste en identificar y documentar las actividades específicas necesarias para completar los entregables del proyecto. Se utiliza la **EDT** (Estructura de Desglose del Trabajo) para descomponer el trabajo en actividades manejables
+	- Cada actividad e hito se conecta con al menos un predecesor y un sucesor, excepto la primera y la última.
+	- **Planificar la gestion del cronograma metodo de diagramacion por precedencia**
+		- Crear un diagrama de red del cronograma
+		- Las actividades se representan por nodos enlazados por una o mas conexiones lógicas.
+		- Muestra la secuencia en que las actividades deben ser ejecutadas.
+		- Incluye cuatro tipos de dependencias o relaciones lógicas.
+			- **FINAL A INICIO (FI)**. La actividad sucesora (B) no puede iniciar hasta que la actividad predecesora (A) haya finalizado. 
+			- **FINAL A FINAL (FF)**. La actividad sucesora (B) no puede terminar hasta que la actividad predecesora (A) haya finalizado. 
+			- **INICIO A INICIO (II).** La actividad sucesora (B) no puede iniciar hasta que la actividad predecesora (A) haya iniciado 
+			- **INICIO A FINAL (IF)**. La actividad sucesora (B) no puede terminar hasta que la actividad predecesora (A) haya iniciado.
+		- **Dependencias obligatorias:** LÓGICA DURA, aquéllas requeridas por contrato, o inherentes a la naturaleza del trabajo.
+		- **Dependencias discrecionales:** LÓGICA BLANDA, son secuencias específicas determinadas por el equipo del proyecto con base en las mejores prácticas dentro de un área de aplicación determinada
+		- **Dependencias externas:** implican una relación entre las actividades del proyecto y aquéllas que no pertenecen al proyecto. Normalmente están fuera del control del equipo del proyecto.
+		- **Dependencias internas:** implican una relación de dependencia entre actividades del proyecto, las cuales están bajo el control del equipo de proyecto
+			- Un adelanto es el tiempo en que una actividad sucesora (B) puede avanzar con respecto a una actividad predecesora (A).
+			- Un retraso es el tiempo en que una actividad sucesora (B) puede retrasarse con respecto a una actividad predecesora (A).
+![[Pasted image 20241008183605.png]]
+3) **Secuenciar las actividades**: Aquí se organizan las actividades en el orden lógico en que deben ser ejecutadas, identificando las dependencias entre ellas, ya sean precedencias o retardos
+	- **ES UN PROCESO GRADUAL:** A medida que evoluciona la ingeniería y diseño del proyecto, los datos son más detallados y precisos, lo cual mejora la exactitud de las estimaciones.
+	- **ES UN PROCESO ITERATIVO:** se debe evaluar alternativas considerando niveles de recursos, competencias y productividad y los costos asociados.
+4) **Estimar la duración de las actividades**: En esta etapa se estima el tiempo necesario para completar cada actividad basándose en los recursos asignados y las condiciones del proyecto. Aquí se pueden aplicar reservas de contingencia para manejar incertidumbres
+	- **JUICIO DE EXPERTOS**: Guiado por la información histórica, puede proporcionar información sobre el estimado de la duración o las duraciones máximas recomendadas, procedentes de proyectos similares anteriores.
+		- Puede utilizarse para determinar si es conveniente combinar métodos de estimación y cómo conciliar las diferencias entre ellos.
+	- **ESTIMACIÓN ANÁLOGA**: 
+		- Utiliza información histórica de proyectos o actividades similares. 
+		- Entrega un valor bruto, que se ajusta en función de diferencias conocidas en cuanto a la complejidad del proyecto. 
+		- Se emplea cuando no existe información detallada del proyecto, en las fases iniciales del proyecto. 
+		- Utiliza la información histórica y el juicio de expertos. 
+		- Es menos costosa y requiere menos tiempo que otras técnicas, pero es menos exacta. 
+		- Puede aplicarse a todo un proyecto o a partes del mismo, y puede utilizarse en conjunto con otros métodos de estimación.
+	- **ESTIMACIÓN PARAMÉTRICA**: 
+		- Utilización de algoritmos basados en datos históricos y parámetros del proyecto.
+		- La duración de la actividad puede determinarse cuantitativamente multiplicando la cantidad de trabajo por realizar por la cantidad de horas de trabajo por unidad de trabajo
+		- **Duración vs Esfuerzo**: 
+			- **DURACIÓN**, intervalo de tiempo necesario para realizar una actividad, desde que empieza hasta que termina.
+			- **EL ESFUERZO** mide el total de tiempo trabajado por el total de los recursos asignados, medidos en horashombre (días-hombre, mes…).
+			- **LOS COSTOS DE PROYECTOS DE SOFTWARE** son principalmente costos de recursos humanos, 1 persona trabajando 4 meses = 4 personas trabajando 1 mes = 704 hh. Asumiendo 8 hrs./día, 22 días/mes.
+5) **Desarrollar el cronograma**: Integrando todas las actividades, secuencias, duraciones y recursos estimados, se crea el cronograma del proyecto. Este proceso es iterativo, y los ajustes necesarios se hacen en función del avance y las restricciones detectadas
+	- El modelo de programación incluye fechas de inicio y término para cada actividad.
+	- Este proceso se realiza durante toda la vida del proyecto, inicialmente se definen a nivel de detalle las actividades más cercanas, dejando estimados gruesos para fases, entregables y paquetes más lejanos.
+![[Pasted image 20241008190702.png]]
+
+6) **Controlar el cronograma**: Durante la ejecución del proyecto, se monitorea el avance del cronograma en relación con la línea base para identificar y gestionar desviaciones, aplicando el control integrado de cambios si es necesario​.
+	- **Método de la ruta critica** 
+		- Estima la duración mínima del proyecto y determina la flexibilidad de las diferentes rutas inicio-fin de la red del cronograma.
+		- Calcula las fechas de inicio y fin tempranas y tardías de las actividades, sin considerar las limitaciones de recursos.
+		- La ruta crítica es la secuencia de actividades que representa el camino mas largo a través del proyecto y determina la duración mas corta posible del proyecto.
+		- Puede ser necesario realizar ajustes a las duraciones de las actividades, a sus relaciones lógicas, a los adelantos y a los retrasos, o a otras restricciones del cronograma para lograr caminos de red con una holgura total igual a cero o positiva.
+		- Una vez que se ha calculado la holgura total de un camino de red, entonces puede determinarse la holgura libre, que es la cantidad de tiempo que una actividad puede retrasarse dentro de un camino de red, sin demorar la fecha de inicio temprana de cualquier actividad sucesora inmediata dentro de dicho camino de red.
+
+![[Pasted image 20241008180659.png]]
+
+## Gestión del cronograma
+**ES EL CONJUNTO DE PROCESOS** que permite Asegurar que el proyecto se desarrollará y finalizará oportunamente para completar el proyecto con éxito.
+
+Sin una adecuada **GESTIÓN DEL CRONOGRAMA**, el riesgo de no cumplir los plazos y presupuestos se incrementa significativamente.
+
