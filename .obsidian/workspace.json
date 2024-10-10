@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gestion/Experiencia 2/Resumen.md",
+                "file": "Ingles/EA2 Inform/Inform.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Gestion/Experiencia 2/Resumen.md",
+                "file": "Ingles/EA2 Inform/Inform.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Gestion/Experiencia 2/Resumen.md",
+                "file": "Ingles/EA2 Inform/Inform.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Gestion/Experiencia 2/Resumen.md"
+                "file": "Ingles/EA2 Inform/Inform.md"
               }
             }
           }
@@ -161,18 +161,18 @@
   },
   "active": "6aedfcf4fda5f739",
   "lastOpenFiles": [
-    "Gestion/Experiencia 2/Imagenes/Pasted image 20241008190702.png",
     "Gestion/Experiencia 2/Resumen.md",
+    "Ingles/EA2 Inform/Inform.md",
+    "Gestion/Experiencia 2/Imagenes/Pasted image 20241008190702.png",
     "Gestion/Experiencia 2/Imagenes/Pasted image 20241008183605.png",
     "Gestion/Experiencia 2/Imagenes/Pasted image 20241008182633.png",
-    "Gestion/Experiencia 2/Resumen clase 4.md",
-    "Gestion/Experiencia 2/Resumen clase 5.md",
-    "Pasted image 20241008180657.png",
     "Gestion/Experiencia 2/Imagenes/Pasted image 20241008180659.png",
     "Ingles/EA2 Inform/Tarea 1.md",
     "Ingles/EA1/Listening and Reading/Listening Test.md",
     "Ingles/EA2 Inform",
     "Ingles/EA1/Listening and Reading/Reading.md",
+    "Gestion/Experiencia 2/Resumen clase 5.md",
+    "Gestion/Experiencia 2/Resumen clase 4.md",
     "Gestion/Experiencia 2/Resumen clase 3.md",
     "Gestion/Experiencia 2/ET2/Que tiene que tener.md",
     "Seguridad/Experiencia 2/Resumen.md",
@@ -181,6 +181,7 @@
     "Seguridad/Imagenes/Pasted image 20240927185253.png",
     "Seguridad/Imagenes/Pasted image 20240927185245.png",
     "Seguridad/Imagenes/Pasted image 20240927185237.png",
+    "Seguridad/Imagenes/Pasted image 20240927175755.png",
     "Gestion/Experiencia 2/ET2",
     "ML/Experiencia 2/Resumen.md",
     "ML/Experiencia 2",
