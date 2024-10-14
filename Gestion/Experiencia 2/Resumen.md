@@ -378,3 +378,23 @@ El cronograma del proyecto es una herramienta fundamental en la gestión de proy
 
 Sin una adecuada **GESTIÓN DEL CRONOGRAMA**, el riesgo de no cumplir los plazos y presupuestos se incrementa significativamente.
 
+
+
+# Plan de gestión de costos y presupuestos
+
+**La gestión de costos**: es el proceso de calcular, asignar y controlar los costes en un proyecto. Permite a las empresas predecir los gastos venideros para reducir las posibilidades de que se excedan del presupuesto.
+
+**Los costos**: previstos se calculan durante la fase de planificación de un proyecto y deben aprobarse antes de que comience el trabajo. A medida que se ejecuta el plan de proyecto, se documentan los gastos y se realiza un seguimiento de los mismos para que todo se mantenga dentro del plan de gestión de costos.
+
+**La gestión de costos de proyecto**: es el área de conocimiento encargada de ocuparse de los costos de los recursos necesarios para completar las actividades del proyecto y se compone de los siguientes procesos: Planificar la Gestión de Costos, Estimar los Costos, Determinar el Presupuesto y Controlar los Costos.
+- El **proceso de Planificar la Gestión de Costos**, es un esfuerzo que tiene lugar en las etapas iniciales de la planificación del proyecto y establece el marco de referencia para cada uno de los procesos de la gestión de costos.
+- Debemos considerar los costos durante todo el ciclo de vida, en cualquier momento del Proyecto se puede incurrir en costes.
+
+Una vez que tenemos los costos estimados de cada actividad, es momento de pasar al proceso de **DETERMINAR EL PRESUPUESTO**
+- Este proceso consiste en sumar los costos estimados de las actividades individuales o paquetes de trabajo de cara a establecer una línea base de costos autorizada. El beneficio clave de este proceso es que determina **LA LÍNEA BASE DE COSTOS** con respecto a la cual se puede monitorear y controlar el desempeño del proyecto.
+
+Las salidas de este proceso son, **LA LÍNEA BASE DE COSTOS, los REQUISITOS DE FINANCIAMIENTO DEL PROYECTO** y actualizaciones a distintos documentos del proyecto.
+
+El último proceso de esta área de conocimiento es el **CONTROL DE LOS COSTOS.**
+
+Este proceso da seguimiento del estado del proyecto para actualizar sus costos y gestionar cambios de la línea base de costo. El beneficio clave de este proceso es que **PROPORCIONA LOS MEDIOS PARA DETECTAR DESVIACIONES CON RESPECTO AL PLAN** y de este modo, tomar acciones correctivas y minimizar el riesgo

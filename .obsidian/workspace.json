@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ingles/EA2 Inform/Inform.md",
+                "file": "Gestion/Experiencia 2/Resumen.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ingles/EA2 Inform/Inform.md",
+                "file": "Gestion/Experiencia 2/Resumen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ingles/EA2 Inform/Inform.md",
+                "file": "Gestion/Experiencia 2/Resumen.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ingles/EA2 Inform/Inform.md"
+                "file": "Gestion/Experiencia 2/Resumen.md"
               }
             }
           }
@@ -161,6 +161,10 @@
   },
   "active": "6aedfcf4fda5f739",
   "lastOpenFiles": [
+    "Gestion/Experiencia 2/Resumen clase 6.md",
+    "Gestion/Experiencia 2/Imagenes/Pasted image 20241014145951.png",
+    "Gestion/Experiencia 2/Imagenes/Pasted image 20241014152806.png",
+    "Pasted image 20241014152800.png",
     "Gestion/Experiencia 2/Resumen.md",
     "Ingles/EA2 Inform/Inform.md",
     "Gestion/Experiencia 2/Imagenes/Pasted image 20241008190702.png",
@@ -179,9 +183,6 @@
     "Seguridad/Imagenes/Pasted image 20240927191258.png",
     "Seguridad/Imagenes/Pasted image 20240927185305.png",
     "Seguridad/Imagenes/Pasted image 20240927185253.png",
-    "Seguridad/Imagenes/Pasted image 20240927185245.png",
-    "Seguridad/Imagenes/Pasted image 20240927185237.png",
-    "Seguridad/Imagenes/Pasted image 20240927175755.png",
     "Gestion/Experiencia 2/ET2",
     "ML/Experiencia 2/Resumen.md",
     "ML/Experiencia 2",
@@ -205,9 +206,7 @@
     "Seguridad/Experiencia 1/Resumen.md",
     "Seguridad/Experiencia 2/Drawing 2024-09-09 20.09.27.excalidraw.md",
     "Seguridad/Experiencia 2",
-    "Etica/Exp1/Resumen.md",
     "Etica/Exp1",
-    "Negocios/Caso/Caso Semestral.md",
     "Year/Semester/Plataformas/Untitled.canvas",
     "Networks/IPs/Untitled.canvas"
   ]
