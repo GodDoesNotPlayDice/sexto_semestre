@@ -475,3 +475,127 @@ Adoptar acciones correctivas y preventivas basadas en auditorías y revisiones i
 - Las contraseñas creadas por usuarios no deben ser reutilizadas.
 - Almacenamiento de contraseñas.
 - Bloqueo estación de trabajo
+
+
+# PPT 5
+
+## Vulnerabilidad
+Ya este punto se sabe que es una vulnerabilidad, lo importante aquí es cuales son las mas concurrentes y donde verlas
+
+**MITRE Top 25**
+Contiene los mayores errores de programación
+https://cwe.mitre.org/
+
+**OWASP Top 10**
+Vulnerabilidades de seguridad más críticas en aplicaciones web.
+https://owasp.org/Top10/
+
+**SANS Top 20**
+Lista de vulnerabilidades que requieren solución inmediata
+https://www.cm-alliance.com/consultancy/compliance-gap-analysis/sans-top-20-controls/
+
+Un detalle es que la vulnerabilidades hasta el dia de hoy no cambian mucho sino que son las mismas o a veces se agrega una nueva o dos, pero generalmente son las mismas en diferente orden.
+
+![[Pasted image 20241015111517.png]]
+
+Paginas para encontrar vulnerabilidades.
+https://cve.mitre.org/
+https://nvd.nist.gov/vuln/search
+https://www.certsi.es/alerta-temprana/vulnerabilidades
+
+
+### CVE
+Significa Common Vulnerabilities and Exposures, es un diccionario de vulnerabilidades públicas y exposiciones de seguridad.
+
+**CVE-YYYY-NNNN** Mínimo de 4 dígitos y sin máximo, proporciona capacidad adicional cada año cuando sea necesario
+
+### CVSS
+Common, Vulnerability, Scoring, System, Es un sistema que pondera la severidad las vulnerabilidades a través de fórmulas
+
+#### Clasificación de vulnerabilidades: 
+Proceso en el cual se les asigna una puntuación a cada vulnerabilidad (ranking), existen diferentes criterios para realizar esta clasificación.
+
+**Clasificación CVE Common Vulnerability Scoring (CVSS):** utiliza varios parámetros para realizar la calificación de puntaje, entre ellos:
+
+- Cómo afecta la vulnerabilidad a los atributos de la información (CIA)
+- La facilidad de explotación o complejidad de acceso
+- Si se requiere o no autenticación para explotar la vulnerabilidad
+- Los daños específicos que podría causar una vez explotada, tales como DoS, control remoto, ejecución de comandos, etc.
+- Si permite o no tomar control del objetivo
+
+| Rating   | CVSS Score  |
+|----------|-------------|
+| None     | 0.0         |
+| Low      | 0.1 - 3.9   |
+| Medium   | 4.0 - 6.9   |
+| High     | 7.0 - 8.9   |
+| Critical | 9.0 - 10.0  |
+
+#### Clasificación de vulnerabilidades según Nessus: 
+En este caso se utiliza un código de colores para la clasificación de las vulnerabilidades en 5 niveles.
+
+| Severity  | Description                                                   | OS       | Count |
+|-----------|----------------------------------------------------------------|----------|-------|
+| critical  | MS08-067: Microsoft Windows Server Service Crafted RPC        | Windows  | 1     |
+| critical  | MS09-001: Microsoft Windows SMB Vulnerabilities Remote Code   | Windows  | 1     |
+| high      | MS02-045: Microsoft Windows SMB Protocol                      | Windows  | 1     |
+| medium    | MS06-035: Vulnerability in Server Service Could Allow Remote… | Windows  | 1     |
+| medium    | Microsoft Windows SMB NULL Session Authentication             | Windows  | 1     |
+| medium    | MS05-007: Vulnerability in Windows Could Allow Information D… | Windows  | 1     |
+| medium    | SMB Signing Disabled                                          | Misc.    | 1     |
+| low       | Multiple Ethernet Driver Frame Padding Information Disclosur… | Misc.    | 1     |
+
+#### Clasificación de vulnerabilidades según Microsoft: 
+Existe un sitio donde se publican las vulnerabilidades reportadas:
+- También se utiliza como criterio de clasificación los sistemas que están afectados por la vulnerabilidad.
+- https://docs.microsoft.com/en-us/security-updates/
+
+## Google Hacking
+Una de las formas más sencillas de encontrar sitios vulnerables se conoce como Google Hacking o Dork. 
+- Un dork es una búsqueda especifica que encuentra sitios web que cumplen los parámetros proporcionados por Google.
+
+El Google Hacking se le atribuye al autor Johnny Long, el cual presentó el concepto en un evento de hackers en Las Vegas hace unos años.
+
+El uso de términos especializados para buscadores se puede utilizar para otros buscadores distintos a Google, tal y como son Bing u otros, entre otros. Mostraremos Google por ser el buscador más importante y el que más información indexa.
+
+
+### Operadores Booleanos en un Dork
+Es el uso de operadores y símbolos para realizar búsquedas combinadas. Por ejemplo:
+
+```
+“ ”: Sirve para buscar una expresión literal, si usas la expresión “empresas de drones”, te mostrará los términos y búsquedas relacionados con dichos términos.
+–: Para excluir páginas que incluyan cierto término o palabra. En este caso, lo único que debes hacer es agregar el signo – justo antes de la palabra que quieres excluir para que no se generen búsquedas que contengan dicho término.
+OR: Busca páginas que contengan un término y otro, buscando los dos términos al tiempo. Por ejemplo: drones OR robots. Así, te buscará elementos que contengan las dos palabras.
++: Permite realizar una búsqueda que incluya el elemento que vaya luego del signo. Por ejemplo, si buscas +cámara drones, buscará enlaces que contengan cámaras de drones.
+*: Permite remplazar palabras o y buscar complementos
+```
+
+## ¿Qué es hacking y hacker?
+
+### ¿Qué es hacking?
+Explotar las vulnerabilidades del sistema y poner en peligro los controles de seguridad para obtener acceso no autorizado o inapropiado a los recursos del sistema.
+
+#### Principales motivos
+- Robo de información y/o servicios críticos.
+- Reconocimiento de los compañeros.
+- Emoción y desafío intelectual.
+- Ganancia financiera.
+- Prestigio y poder.
+- Venganza.
+- Curiosidad y experimento.
+
+### ¿Cómo es un hacker?
+1) Personas con excelentes habilidades informáticas.
+2) Capacidad de crear y explorar el software y hardware de un equipo de computo.
+3) Con conocimientos para descubrir vulnerabilidades en un sistema objetivo.
+![[Pasted image 20241015113526.png]]
+
+#### Tipos de hackers
+1. **Black Hats**
+	- Personas con altas habilidades técnicas usadas para actividades maliciosas o destructivas.
+2. **White Hats** 
+	- Personas con habilidades de hacking usadas para propósitos defensivos 
+3. **Gray Hats**
+	- Personas que trabajan en acciones defensivas y ofensivas varias veces.
+
+
