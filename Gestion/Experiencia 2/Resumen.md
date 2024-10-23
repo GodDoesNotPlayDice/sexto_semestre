@@ -1,4 +1,4 @@
-
+ca
 # Elaborar un Plan para la Direccion del proyecto.
 Que es la [[Gestion/Experiencia 1/Resumen#Dirección de Proyecto|Direccion de Proyecto]] , ahora porque es importante tener un plan para la dirección del proyecto.
 
@@ -398,3 +398,118 @@ Las salidas de este proceso son, **LA LÍNEA BASE DE COSTOS, los REQUISITOS DE F
 El último proceso de esta área de conocimiento es el **CONTROL DE LOS COSTOS.**
 
 Este proceso da seguimiento del estado del proyecto para actualizar sus costos y gestionar cambios de la línea base de costo. El beneficio clave de este proceso es que **PROPORCIONA LOS MEDIOS PARA DETECTAR DESVIACIONES CON RESPECTO AL PLAN** y de este modo, tomar acciones correctivas y minimizar el riesgo
+
+
+# Plan de gestión de recursos 
+
+**LA GESTIÓN DE RECURSOS**: incluye los procesos para **identificar, adquirir y gestionar** los recursos necesarios para la finalización con éxito del proyecto.
+- El objetivo clave de esta área de conocimiento, la Gestión de los Recursos, **ES GARANTIZAR QUE LOS RECURSOS ADECUADOS ESTARÁN DISPONIBLES** para el director del proyecto y el equipo del proyecto en el momento y lugar oportunos.
+
+![[Pasted image 20241023101524.png]]
+
+
+## Gestión de recursos humanos
+Incluye los procesos que **organizan, gestionan y conducen el equipo** del Proyecto. Éste está formado por aquellas personas a las que se le han asignado roles y responsabilidades para completar el Proyecto.
+
+Aunque cada miembro del equipo debe tener asignado su rol y responsabilidad dentro del Proyecto, es crucial la participación de todos los miembros en la fase de planificación y en la toma de decisiones.
+
+Con ello conseguimos que aporten su experiencia profesional y se fortalezca su compromiso con el Proyecto.
+
+
+El equipo de dirección del Proyecto -> pertenece al equipo del Proyecto
+- Debe ser el responsable de las actividades de liderazgo y dirección del Proyecto.
+- Influenciar en el equipo del Proyecto. 
+	- Es decir, prestar especial atención a aquellos aspectos relacionados con los rrhh que puedan impactar en el proyecto. Así como influir sobre ellos en la medida de lo posible. Podríamos hablar por ejemplo, de la ubicación geográfica de los miembros del equipo, las necesidades de comunicación, las diferencias culturales, etc.
+- Mantener un comportamiento ético y profesional. Éste debe ser mantenido por todos los miembros del equipo, siendo responsabilidad del equipo de dirección que así sea
+
+## Gestión De Los Recursos Humanos De Un Proyecto Procesos De La Gestión De Recursos
+
+
+**Planificar la Gestión de los Recursos Humanos**: Identificar y documentar los roles y responsabilidades dentro del proyecto. Así como las habilidades requeridas y las relaciones de comunicación. Durante este proceso se crea el plan para la dirección del personal.
+
+**Adquirir el equipo del Proyecto**: Confirmar los recursos humanos disponibles y formar el equipo necesario para completar las asignaciones del proyecto.
+
+**Desarrollar el equipo del Proyecto**: Mejorar las competencias, la interacción de los miembros del equipo y el ambiente general del equipo. Para lograr un mejor desempeño del Proyecto.
+
+**Dirigir el equipo del Proyecto**: Dar seguimiento al desempeño de los miembros del equipo, proporcionar retroalimentación, resolver problemas y gestionar cambios a fin de optimizar el desempeño del proyecto.
+
+## Gestión De Los Recursos Físicos De Un Proyecto
+Hablamos de la asignación y el uso de los recursos físicos, que serían los materiales, equipos y suministros por ejemplo que serán necesarios para completar el proyecto con éxito de forma eficiente y efectiva. Es útil tener datos sobre la demanda de recursos (a corto plazo) y las configuraciones de recursos que serán requeridas para cumplir con esas demandas y el suministro de recursos.
+
+Los fallos de gestión y control de recursos de forma eficiente es una fuente de riesgo
+- **ejemplo**: Fallos en tiempo de equipamientos críticos para la seguridad o infraestructura pueden conllevar retrasos en la fabricación del producto final.
+
+Como clave de esta área de conocimientos debes comprender que los actores interesados tienen diferentes nivel de poder, influencia y autoridad al participar en un proyecto y que, además, puede variar a lo largo del ciclo de vida del proyecto. Cada actor interesado tendrá una posición de poder y actitud ante el riesgo.
+
+
+
+## Planificar La Gestión De Recursos
+**EN LA PLANIFICACIÓN DE LA GESTIÓN DE RECURSOS** definiremos como estimar, adquirir, gestionar y usar los recursos físicos y humanos para lograr el éxito del proyecto. En cuanto a la planificación de recursos es casi siempre necesaria a lo largo del ciclo de vida del proyecto.
+
+También tenemos que tener en cuenta que a medida que se incorporan miembros adicionales al equipo, su niveles de experiencia o la falta de experiencia puede incrementar o disminuir los riesgo del proyecto, y esto a su vez va a crear la necesidad de planificación adicional de los riesgos.
+
+### Estimar Recursos De Actividades
+Estimar recursos de actividades estimación de recursos del equipo y tipos y cantidades de materiales, equipamientos y bienes necesarios para realizar el trabajo del proyecto.
+
+### Adquirir Recursos
+Adquirir Recursos se refiere a la obtención de los miembros del equipo, instalaciones, equipamiento, materiales, suministros y otros recursos necesarios para completar el trabajo del proyecto.
+
+### Desarrollar El Equipo Del Proyecto
+Mejorar competencias, interacciones entre los miembros del equipo, y el entorno global del equipo para mejorar el desempeño del proyecto.
+
+### Dirigir El Equipo Del Proyecto
+Seguimiento del desempeño de los miembros del equipo, proporcionar retroalimentación, resolver incidencias y gestionar cambios del equipo para optimizar el desempeño del proyecto.
+
+### Controlar Los Recursos
+Garantizar que los recursos físicos asignados y distribuidos en el proyecto están disponibles como se planificó, así como la monitorización del uso de recursos planificado contra el real y llevar a cabo acciones correctivas si es necesario.
+
+
+
+# Plan De Gestión De Las Comunicaciones
+
+**La Gestión De Las Comunicaciones**: en Dirección de Proyectos se presenta en los grupos de procesos de planificación, ejecución, monitoreo y control. Sus actividades se caracterizan por sus muchas dimensiones.
+
+![[Pasted image 20241023103951.png]]
+
+La Gestión de las Comunicaciones del Proyecto tiene lugar en los grupos de procesos de planificación, ejecución, monitoreo y control. Para este área de conocimiento resulta clave:
+
+![[Pasted image 20241023104227.png]]
+
+
+**Planificar La Gestión De Las Comunicaciones**: Se trata del proceso de desarrollar un enfoque y un plan apropiados para las actividades de comunicación del proyecto basados en las necesidades de información de cada interesado o grupo, en los activos de la organización disponibles y en las necesidades del proyecto.
+
+
+**Gestionar Las Comunicaciones**: Es el proceso de garantizar que la recopilación, creación, distribución, almacenamiento, recuperación, gestión, monitoreo y disposición final de la información del proyecto sean oportunos y adecuados.
+
+**Monitorear Las Comunicaciones**: Es el proceso de asegurar que se satisfagan las necesidades de información del proyecto y de sus interesados.
+
+
+### Las actividades de comunicación tienen muchas dimensiones que incluyen, entre otras:
+- **Interna**: 	Se centra en los interesados dentro del proyecto y dentro de la organización.
+- **Externa**: 	Se centra en los interesados externos, tales como clientes, proveedores, otros proyectos, organizaciones, el gobierno, el público y los defensores ambientales.
+
+### Formal
+Informes, reuniones formales (periódicas y ad hoc), agendas y actas de reunión, sesiones informativas para los interesados y presentaciones.
+
+### Informal
+Actividades de comunicación generales mediante correo electrónico, medios sociales, sitios web y discusiones informales ad hoc
+
+
+### Enfoque jerárquico
+La posición del interesado o grupo con respecto al equipo del proyecto afectará el formato y el contenido del mensaje, de las siguientes:
+
+**Ascendente:** Interesados de la alta dirección.
+**Descendente:** El equipo y demás personas que contribuirán al trabajo del proyecto.
+**Horizontal**: Pares del equipo o director del proyecto.
+
+### Oficial
+Informes anuales, informes para reguladores u organismos de gobierno.
+
+### No oficial
+Comunicaciones que se centran en establecer y mantener el perfil y el reconocimiento del proyecto y en construir relaciones fuertes entre el equipo del proyecto y sus interesados utilizando medios flexibles y a menudo informales.
+
+### Escrita y oral
+Verbal (palabras e inflexiones de voz) y no verbal (acciones y lenguaje corporal), medios sociales y sitios web, comunicados en los medios.
+
+### Una comunicación eficaz
+Crea un puente entre los diferentes interesados involucrados en un proyecto, conectando diferentes entornos culturales y organizacionales, diferentes niveles de experiencia, así como, perspectivas e intereses diversos en la ejecución o resultado del proyecto.

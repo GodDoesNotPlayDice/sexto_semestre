@@ -184,7 +184,6 @@
   "Gestion": "CoFolder",
   "Emprendimiento": "CoFolder",
   "Gestion/Tasks.md": "FiFile",
-  "Emprendimiento/Tasks.md": "FiFile",
   "ML/Tasks.md": "FiFile",
   "Ingles/Tasks.md": "FiFile",
   "Negocios/Tasks.md": "FiFile",
@@ -267,5 +266,6 @@
   "Gestion/Experiencia 2/Resumen clase 5.md": "LiFile",
   "Gestion/Experiencia 2/Resumen.md": "FiFile",
   "Gestion/Experiencia 2/ET2/Que tiene que tener.md": "LiFile",
-  "Gestion/Experiencia 2/Resumen clase 6.md": "LiFile"
+  "Gestion/Experiencia 2/Resumen clase 6.md": "LiFile",
+  "Emprendimiento/Speech.md": "FiFile"
 }

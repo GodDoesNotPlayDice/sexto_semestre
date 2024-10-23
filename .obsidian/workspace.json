@@ -13,10 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/Experiencia 2/Resumen.md",
+                "file": "Gestion/Experiencia 2/Resumen.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Resumen"
             }
           }
         ]
@@ -39,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -54,7 +58,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,7 +68,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           },
           {
@@ -70,7 +78,9 @@
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
         ]
@@ -93,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/Experiencia 2/Resumen.md",
+                "file": "Gestion/Experiencia 2/Resumen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +111,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Resumen"
             }
           },
           {
@@ -110,10 +122,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/Experiencia 2/Resumen.md",
+                "file": "Gestion/Experiencia 2/Resumen.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Resumen"
             }
           },
           {
@@ -124,7 +138,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -133,8 +149,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Experiencia 2/Resumen.md"
-              }
+                "file": "Gestion/Experiencia 2/Resumen.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Resumen"
             }
           }
         ],
@@ -161,11 +179,15 @@
   },
   "active": "6aedfcf4fda5f739",
   "lastOpenFiles": [
+    "Emprendimiento/Speech.md",
+    "Gestion/Experiencia 2/Imagenes/Pasted image 20241023103951.png",
+    "Gestion/Experiencia 2/Resumen.md",
+    "Gestion/Experiencia 2/Imagenes/Pasted image 20241023104227.png",
+    "Gestion/Experiencia 2/Imagenes/Pasted image 20241023101524.png",
+    "ML/Experiencia 2/Resumen.md",
     "Seguridad/Experiencia 2/Resumen.md",
     "Seguridad/Imagenes/Pasted image 20241015113526.png",
     "Seguridad/Imagenes/Pasted image 20241015111517.png",
-    "ML/Experiencia 2/Resumen.md",
-    "Gestion/Experiencia 2/Resumen.md",
     "Gestion/Experiencia 2/Resumen clase 6.md",
     "Gestion/Experiencia 2/Imagenes/Pasted image 20241014145951.png",
     "Gestion/Experiencia 2/Imagenes/Pasted image 20241014152806.png",
@@ -173,8 +195,6 @@
     "Ingles/EA2 Inform/Inform.md",
     "Gestion/Experiencia 2/Imagenes/Pasted image 20241008190702.png",
     "Gestion/Experiencia 2/Imagenes/Pasted image 20241008183605.png",
-    "Gestion/Experiencia 2/Imagenes/Pasted image 20241008182633.png",
-    "Gestion/Experiencia 2/Imagenes/Pasted image 20241008180659.png",
     "Ingles/EA2 Inform/Tarea 1.md",
     "Ingles/EA1/Listening and Reading/Listening Test.md",
     "Ingles/EA2 Inform",
@@ -183,7 +203,6 @@
     "Gestion/Experiencia 2/Resumen clase 4.md",
     "Gestion/Experiencia 2/Resumen clase 3.md",
     "Gestion/Experiencia 2/ET2/Que tiene que tener.md",
-    "Seguridad/Imagenes/Pasted image 20240927191258.png",
     "Gestion/Experiencia 2/ET2",
     "ML/Experiencia 2",
     "Ingles/Test-Nivel/Test.md",
@@ -204,7 +223,6 @@
     "ML/Experiencia 1/Resumen.md",
     "Negocios/Experiencia 2",
     "Seguridad/Experiencia 1/Resumen.md",
-    "Seguridad/Experiencia 2/Drawing 2024-09-09 20.09.27.excalidraw.md",
     "Seguridad/Experiencia 2",
     "Etica/Exp1",
     "Year/Semester/Plataformas/Untitled.canvas",
