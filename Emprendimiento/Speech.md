@@ -1,0 +1,3 @@
+
+# Hook
+Sabían que el 70% de los adultos mayores sufren de caídas en casa y no existe una forma  efectiva que en que ellos puedan dar aviso a sus familiares más cercanos, ya sea porque esté adulto mayor se desmayó por culpa del golpe de la caída,  y pueden utilizar un teléfono celular correctamente para comunicar a una persona de emergencia, Imagina una tecnología que cuida de ellos, incluso cuando no estás cerca.
