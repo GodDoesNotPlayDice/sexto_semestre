@@ -1,4 +1,4 @@
-ca
+
 # Elaborar un Plan para la Direccion del proyecto.
 Que es la [[Gestion/Experiencia 1/Resumen#Dirección de Proyecto|Direccion de Proyecto]] , ahora porque es importante tener un plan para la dirección del proyecto.
 
