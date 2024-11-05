@@ -113,3 +113,5 @@ El modelo ajusta sus pesos durante el entrenamiento usando **algoritmos de optim
 - **Facilidad de uso**: La regresión logística es uno de los algoritmos más simples de implementar, especialmente para problemas de clasificación binaria.
 - **Interpretabilidad**: Es fácil de interpretar y entender cómo las variables afectan el resultado.
 - **Versatilidad**: Aunque es un modelo lineal, es aplicable a muchos tipos de problemas, tanto en áreas científicas como de negocios.
+
+
