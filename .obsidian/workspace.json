@@ -13,26 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gestion/Experiencia 2/Resumen clase 7.md",
+                "file": "Etica/Preguntas/Preguntas del lunes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Resumen clase 7"
-            }
-          },
-          {
-            "id": "c7b5c2b130ed180f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Gestion/Experiencia 2/Resumen.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Resumen"
+              "title": "Preguntas del lunes"
             }
           }
         ]
@@ -193,13 +179,10 @@
   },
   "active": "5d1072c5d0e6db91",
   "lastOpenFiles": [
-    "Gestion/Experiencia 2/Resumen clase 5.md",
-    "Gestion/Experiencia 2/Resumen clase 7.md",
-    "Gestion/Experiencia 2/Resumen.md",
-    "Gestion/Experiencia 2/Resumen clase 6.md",
-    "Gestion/Experiencia 3/Untitled.md",
     "Seguridad/Experiencia 4/Resumen.md",
-    "Gestion/Experiencia 3",
+    "Etica/Preguntas/Preguntas del lunes.md",
+    "Etica/Preguntas/Untitled",
+    "Etica/Preguntas",
     "Seguridad/Experiencia 2/Resumen.md",
     "Seguridad/Experiencia 4/Images",
     "Seguridad/Experiencia 4",
@@ -225,14 +208,16 @@
     "Seguridad/Experiencia 3/Prueba thiare/Images/Pasted image 20241103175659.png",
     "Seguridad/Experiencia 3/Prueba thiare/Vulns.md",
     "Seguridad/Experiencia 3/Prueba thiare/Images",
-    "Seguridad/Experiencia 3/Prueba thiare",
     "Gestion/Experiencia 2/Presentacion/Presentación.md",
     "ML/Experiencia 2/Resumen.md",
+    "Gestion/Experiencia 2/Resumen.md",
     "Emprendimiento/Speech.md",
+    "Gestion/Experiencia 2/Resumen clase 6.md",
     "Ingles/EA2 Inform/Inform.md",
     "Ingles/EA2 Inform/Tarea 1.md",
     "Ingles/EA1/Listening and Reading/Listening Test.md",
     "Ingles/EA1/Listening and Reading/Reading.md",
+    "Gestion/Experiencia 2/Resumen clase 5.md",
     "Gestion/Experiencia 2/Resumen clase 4.md",
     "Gestion/Experiencia 2/Resumen clase 3.md",
     "Gestion/Experiencia 2/ET2/Que tiene que tener.md",
@@ -240,6 +225,7 @@
     "Ingles/Tasks.md",
     "Untitled.canvas",
     "Gestion/Experiencia 2/Resumen clase 2.md",
+    "Etica/Caso.md",
     "Year/Semester/Plataformas/Untitled.canvas",
     "Networks/IPs/Untitled.canvas"
   ]
