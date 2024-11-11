@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Seguridad/Experiencia 4/Resumen.md",
+                "file": "Etica/Preguntas/Preguntas del lunes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Resumen"
+              "title": "Preguntas del lunes"
             }
           }
         ]
@@ -179,8 +179,11 @@
   },
   "active": "5d1072c5d0e6db91",
   "lastOpenFiles": [
-    "Seguridad/Experiencia 2/Resumen.md",
     "Seguridad/Experiencia 4/Resumen.md",
+    "Etica/Preguntas/Preguntas del lunes.md",
+    "Etica/Preguntas/Untitled",
+    "Etica/Preguntas",
+    "Seguridad/Experiencia 2/Resumen.md",
     "Seguridad/Experiencia 4/Images",
     "Seguridad/Experiencia 4",
     "Seguridad/Experiencia 1/Resumen.md",
@@ -205,9 +208,7 @@
     "Seguridad/Experiencia 3/Prueba thiare/Images/Pasted image 20241103175659.png",
     "Seguridad/Experiencia 3/Prueba thiare/Vulns.md",
     "Seguridad/Experiencia 3/Prueba thiare/Images",
-    "Seguridad/Experiencia 3/Prueba thiare",
     "Gestion/Experiencia 2/Presentacion/Presentación.md",
-    "Gestion/Experiencia 2/Presentacion",
     "ML/Experiencia 2/Resumen.md",
     "Gestion/Experiencia 2/Resumen.md",
     "Emprendimiento/Speech.md",
@@ -225,7 +226,6 @@
     "Untitled.canvas",
     "Gestion/Experiencia 2/Resumen clase 2.md",
     "Etica/Caso.md",
-    "Etica/Resumen.md",
     "Year/Semester/Plataformas/Untitled.canvas",
     "Networks/IPs/Untitled.canvas"
   ]

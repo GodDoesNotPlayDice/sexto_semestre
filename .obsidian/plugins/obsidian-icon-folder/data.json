@@ -281,5 +281,7 @@
   "Seguridad/Experiencia 3/Prueba thiare/Vulns.md": "LiFile",
   "Seguridad/Experiencia 4": "CoFolder",
   "Seguridad/Experiencia 4/Images": "LiImage",
-  "Seguridad/Experiencia 4/Resumen.md": "LiFile"
+  "Seguridad/Experiencia 4/Resumen.md": "LiFile",
+  "Etica/Preguntas": "CoFolder",
+  "Etica/Preguntas/Preguntas del lunes.md": "LiFile"
 }
