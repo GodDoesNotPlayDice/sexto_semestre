@@ -1,43 +1,11 @@
-Write al least fie examples using homophone in the same sentence.
-- I **saw** a **saw** in the garage.
-- I **knew** you were **new** to the company.
-- I **ate** a **eight** course meal.
-- The **plane** was **plain** white.
-- The **flower** was **flour**.
-- The **sun** was **son**.
-- The **knight** was **night**.
-- The **maid** was **made**.
+## Introducción
 
-Predict questions
-What (this is use when is realted to things)
-When (this is use when is realted to time)
-Where (this is use when is realted to place)
-Who (this is use when is realted to people),
-Wich (this is use when is realted to things)
-Why (this is use when is realted to reasons)
-How (this is use when is realted to the way)
+Hello, my name is Vicente, and today I want to share with you a new platform called Jobs Hub that will change the way we search for software jobs.
+## Body
 
+Right now, if you’re looking for a job, you probably face a big problem: you have to visit many different websites, manage multiple accounts, and try to remember which jobs you’ve already applied for. This process is exhausting, confusing, and takes a lot of time.
 
-### Listening - Answers
-1) A X (C)
-2) B (check)
-3) B (check)
-4) C (check)
-5) B (check)
-6) C (check)
-7) A (check)
-8) A X (B)
-9) A (check)
-10) C (check)
-11) A (check)
-12) A X (B)
+**Jobs Hub** solves this problem by offering a **centralized platform** that lets you access multiple job boards from one account. With just one login, you can search, apply, and track all your job applications from a single dashboard.
 
-### Listening - Answers 2
-1) C (check)
-2) B / C (check)
-3) C 
-4) A
-5) B
-6) C
-7) B
-8) B  X (C)
+Also, our platform is specially designed for **tech jobs**, using smart filters, web scraping, and public APIs to show only the most up-to-date and relevant job listings. What makes us different is our focus on **efficiency and simplicity**. We use **agile methods, domain-driven design, and SOLID principles** to build a strong and flexible system. This means we don’t just centralize access; we also provide a smooth and easy experience that saves you time.
+
