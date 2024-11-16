@@ -185,7 +185,6 @@
   "Emprendimiento": "CoFolder",
   "Gestion/Tasks.md": "FiFile",
   "ML/Tasks.md": "FiFile",
-  "Ingles/Tasks.md": "FiFile",
   "Negocios/Tasks.md": "FiFile",
   "Seguridad/Tasks.md": "FiFile",
   "ML/Imagenes": "FiImage",
@@ -283,5 +282,8 @@
   "Seguridad/Experiencia 4/Images": "LiImage",
   "Seguridad/Experiencia 4/Resumen.md": "LiFile",
   "Etica/Preguntas": "CoFolder",
-  "Etica/Preguntas/Preguntas del lunes.md": "LiFile"
+  "Etica/Preguntas/Preguntas del lunes.md": "LiFile",
+  "Gestion/Experiencia 2/Resumen clase 7.md": "LiFile",
+  "Gestion/Experiencia 2/Resumen clase 8.md": "LiFile",
+  "Ingles/EA3 Talking/SpitchIngles.md": "FiFile"
 }
