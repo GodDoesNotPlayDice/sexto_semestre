@@ -1,34 +1,30 @@
-## Introducción -> Dp1
+### Introducción -> Dp1
 
 Hello  everyone, today I want to share with you a new platform called **Jobs Hub** that will change the way we search for software jobs,  my name is Vicente and I'm compute science student, and let me talk more about this amazing project.
-## Body -> Dp2
-
-Right now, if you’re looking for a job, you probably face a big problem:
-- you have to visit many different websites
-- manage multiple accounts,
-- and try to remember which jobs you’ve already applied for. 
-
+### Body -> Dp2
+In this projected we decided attack three problems because if you’re looking for a job, you probably face one of them.
+1) You have to visit many different websites for search you ideal job.
+2) Manage multiple accounts each of websites
+3) And try to remember which jobs you’ve already applied and what website you have been or what account you used for. 
+So , theses problems are related 
 ### Dp3
-This process is exhausting, confusing, and takes a lot of time, so
+Jobs hub have the solution for these problems by offering a **centralized platform** that lets you access.
 
-**Jobs Hub** solves this problem by offering a **centralized platform** that lets you access.
+Multiple job boards from one account. With just one login, you can search, apply, and track all your job applications from a single dashboard.
 
-multiple job boards from one account. With just one login, you can search, apply, and track all your job applications from a single dashboard.
+### Dp4 y Dp5
+But what makes our platform special?, we are special because we are focus on **efficiency and simplicity**, so, our users can search jobs **easy** and **simple.** Plus our platform provide
 
-### Dp4
-Just look, a lot of websites where you can find and apply jobs, it's terrible right?, What makes us different is our focus on **efficiency and simplicity** and the last our platform is unique in Chile.
-
-### Dp5
-Our platform is specially designed for **tech jobs**, using smart filters, web scraping, and public APIs to show only the most up-to-date and relevant job listings. 
+design for **tech jobs**, using smart filters, web scraping, and public APIs to show only the most up-to-date and relevant job listings. 
 
 ### Dp6
-We use **agile methods, domain-driven design, and SOLID principles** to build a strong and flexible system. This means we don’t just centralize access; we also provide a smooth and easy experience that saves you time.
-
-
+Let me present a view about how we want to show jubs hub, there are jobs en in the center with the filtters above of them, the users options over there with jobs saves and applys answers. 
 
 ## Conclusión
 
-**So, what’s our goal?** We want to help you find the job you want faster and easier. Imagine managing your entire job search in one place, without wasting time on different platforms.
+**So, what’s our goal?**, We want to help you find the job.
+Today we always want go faster and easier but over all **secure**.
 
 I invite you to learn more about Jobs Hub and see how we can make your next job search simpler.
 
+Thanks you.
