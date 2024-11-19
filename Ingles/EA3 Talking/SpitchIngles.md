@@ -1,6 +1,6 @@
 ### Introducción -> Dp1
 
-Hello  everyone, today I want to share with you a new platform called **Jobs Hub** that will change the way we search for software jobs,  my name is Vicente and I'm compute science student, and let me talk more about this amazing project.
+ **Jobs Hub** is a platform that will change the way we search for software jobs,  my name is Vicente and I'm compute science student, and let me talk more about this amazing project.
 ### Body -> Dp2
 In this projected we decided attack three problems because if you’re looking for a job, you probably face one of them.
 1) You have to visit many different websites for search you ideal job.
@@ -17,8 +17,8 @@ But what makes our platform special?, we are special because we are focus on **e
 
 design for **tech jobs**, using smart filters, web scraping, and public APIs to show only the most up-to-date and relevant job listings. 
 
-### Dp6
-Let me present a view about how we want to show jubs hub, there are jobs en in the center with the filtters above of them, the users options over there with jobs saves and applys answers. 
+### Dp6 (pausa 1s)
+This is a view of how we want to show jubs hub, there are jobs en in the center with the filtters above of them, the users options over there with jobs saves and applys answers. 
 
 ## Conclusión
 
