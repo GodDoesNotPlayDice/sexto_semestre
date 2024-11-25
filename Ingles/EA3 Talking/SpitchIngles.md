@@ -13,7 +13,7 @@ Jobs hub have the solution for these problems by offering a **centralized platfo
 Multiple job boards from one account. With just one login, you can search, apply, and track all your job applications from a single dashboard.
 
 ### Dp4 y Dp5
-But what makes our platform special?, we are special because we are focus on **efficiency and simplicity**, so, our users can search jobs **easy** and **simple.** Plus our platform provide
+But what makes our platform special?, we are special because we are focus on **efficiency and simplicity**, so, the users can search jobs easy and faster than other websites. **Plus our platform provide
 
 design for **tech jobs**, using smart filters, web scraping, and public APIs to show only the most up-to-date and relevant job listings. 
 
@@ -22,9 +22,8 @@ This is a view of how we want to show jubs hub, there are jobs en in the center 
 
 ### Dp7
 
-**So, what’s our goal?**, We want to help you find the job.
-Today we always want go faster and easier but over all **secure**.
+**So, what’s our goal?**, We want to help you in your time and find a job.
 
-I invite you to learn more about Jobs Hub and see how we can make your next job search simpler.
+I invite you to learn more about Jobs Hub and **see how we** can make your next job search simpler.
 
 Thanks you.
